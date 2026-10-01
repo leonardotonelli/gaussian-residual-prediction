@@ -1,10 +1,10 @@
 {
-  "description": "Independent clean release of the available research implementation. Retained scientific components, removed unrelated experiments, and adapted paths/entry points. This is not certified as the unavailable byte-exact original executed snapshot.",
+  "description": "Independent clean release of the available research implementation. Scientific components are retained, unrelated experiments removed, and imports/paths adapted to the flat src package. Original private source mappings are historical provenance, not operational paths. This is not certified as the unavailable byte-exact original executed snapshot.",
   "research_git_revision": "50a77e1139be2bd75ff0cac4b9ee237eb1cd79e5",
   "files": [
     {
       "release": ".github/workflows/ci.yml",
-      "release_sha256": "418816f0d0cd96d58f1cc2e8b0007ca5c7677996353caa557234d73b28ce6ef8",
+      "release_sha256": "81c1084aba5064a23d22d8879779dabc92b8cf58d97628cd0e0ae13992e59206",
       "kind": "release-added"
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "release": "README.md",
-      "release_sha256": "13bc10697dbd88c5d7cec4141d732b5861112040829f25c2ec6c2b8ed45f3c4a",
+      "release_sha256": "6287dd6909e02f3363d234e4b78dfa487eeb91bbb10f1a7beef0652387e7ddb3",
       "kind": "release-added"
     },
     {
@@ -91,21 +91,6 @@
       "kind": "copied"
     },
     {
-      "release": "docs/DATA.md",
-      "release_sha256": "a891249a41f22d3ae5fc5670170c58a155e42843bc576873988cb1028fa2410d",
-      "kind": "release-added"
-    },
-    {
-      "release": "docs/REPRODUCING.md",
-      "release_sha256": "44a633e7f2aa6377cb36e52aaab95e864e959e4cd91c413fdb7479227a57cff5",
-      "kind": "release-added"
-    },
-    {
-      "release": "docs/VERIFICATION.md",
-      "release_sha256": "527c6145025280d167abdedec46ac2c5df53917f074ee8dd54fb2c1685178f7e",
-      "kind": "release-added"
-    },
-    {
       "release": "notebooks/assets/mpi3d_one_to_many_scenarios.png",
       "release_sha256": "369daefa3765d313f63a4c62411fc6107231a5a4a57f5861310398e228dfed49",
       "source": "notebooks/assets/mpi3d_one_to_many_scenarios.png",
@@ -135,7 +120,7 @@
     },
     {
       "release": "paper/data/manifest.json",
-      "release_sha256": "2ba6f8aefadabc43523018fddf9b986e00483fad1f98b33d8d34c9ab19be7052",
+      "release_sha256": "b479c49b8873efa2d6f6983c749e0d93ecbb35b91a04ece73c734a408ce9f559",
       "source": "paper/four_model_preprint_v5/data/manifest.json",
       "source_sha256": "6493687ef4b20756a6ed0989c4bb33002e6e6a307a0d766242970ff448622dae",
       "kind": "adapted"
@@ -457,14 +442,14 @@
     },
     {
       "release": "paper/scripts/build_assets.py",
-      "release_sha256": "cef3e4f57b901763263edc1848cb8fcefb6e34fafd00cc1839e43e0b6d6a8959",
+      "release_sha256": "23fb8c3972424df4492623d3fef027c41399076df228e21d1905ee6e7048c0d1",
       "source": "paper/four_model_preprint_v5/scripts/build_assets.py",
       "source_sha256": "734cadc3e633a1655622cc1c9ec389cc654abf6fb5f25a5def852b347a78a931",
       "kind": "adapted"
     },
     {
       "release": "paper/scripts/recount_flops.py",
-      "release_sha256": "3f2ca00cd5101870e3cc4cb68bbd76471ae7048f48212fd3ce322c7af58eb58f",
+      "release_sha256": "6102133cbb41353121b6fb69015c64d4d232d425197abdc0b25cbbbec3f17d02",
       "source": "paper/four_model_preprint_v5/scripts/recount_flops.py",
       "source_sha256": "1551062c0ed0ca2ae3acc2dd01323fdfe82dab5111f91bba452e2838bfa2b6b3",
       "kind": "adapted"
@@ -660,7 +645,7 @@
     },
     {
       "release": "pyproject.toml",
-      "release_sha256": "df520009765f05721d7e50aff1e292fbc07bc55fe69fae08d895fce7444fbcc0",
+      "release_sha256": "e31ab11809b768ffbe3b20920056919e11a6a5ed9e318e9a5165965f03c81043",
       "kind": "release-added"
     },
     {
@@ -773,33 +758,33 @@
     },
     {
       "release": "scripts/benchmark_role_training_cost.py",
-      "release_sha256": "2f8bc947351dabc7588615176ec6bcd48a909e844d06652b9ce39ae3f0d529bc",
+      "release_sha256": "70dfc7b1be8e26933f8137245e02ec49d6e4017c51b631058e895d6725b7c1e4",
       "source": "scripts/benchmark_role_training_cost.py",
       "source_sha256": "2f8bc947351dabc7588615176ec6bcd48a909e844d06652b9ce39ae3f0d529bc",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "scripts/evaluate_five_seed_moving_mnist.py",
-      "release_sha256": "768b1d735dbb8b93e01a0e7edc69c81b99aa7448b974751fb27075c67e1c59a3",
+      "release_sha256": "e7e2c92461c6ec4e6b8984e56264b368f1bd43c908f371e0dd43b1927126024a",
       "source": "scripts/evaluate_five_seed_moving_mnist.py",
       "source_sha256": "768b1d735dbb8b93e01a0e7edc69c81b99aa7448b974751fb27075c67e1c59a3",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "scripts/evaluate_five_seed_mpi3d.py",
-      "release_sha256": "6df788fa02fad14a1a812be5e68b9b779216b11a4ab0ae059bdb35f620be6e2e",
+      "release_sha256": "75f359ec36bc3d453756d912519e2c492eaaace7ccf185a1287ab3bde7b9d8dd",
       "source": "scripts/evaluate_five_seed_mpi3d.py",
       "source_sha256": "6df788fa02fad14a1a812be5e68b9b779216b11a4ab0ae059bdb35f620be6e2e",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "scripts/evaluate_mpi3d_byol.py",
-      "release_sha256": "606a4a12512cd7d6559773871a3c1e3233aa4e6a8b0f01784ab790ad069d313a",
+      "release_sha256": "bc437c166fbb6c9dc6a212b61c052ffe50bcdcc36eef3ec77922b3c2cd030032",
       "kind": "release-added"
     },
     {
       "release": "scripts/prepare_moving_mnist.py",
-      "release_sha256": "cd8a782168c3a69e490245ec8ece89b7957cf19c99fc1f5134c286a881fbc77a",
+      "release_sha256": "a65d0654da347a9d58c5ae6b3f7c3acae1f5c24b3d7b096b4f82678ef420af97",
       "source": "scripts/prepare_moving_mnist.py",
       "source_sha256": "2a5fc2ca757dbf4541cd2a1173de22cc771fcfda9e0f4c8d183c29209bb7319d",
       "kind": "adapted"
@@ -811,282 +796,282 @@
     },
     {
       "release": "scripts/reproduce_results.py",
-      "release_sha256": "492232ed7481d96e87dbc3067d9e7dbc947edc7caf306d6374ca583c1b067e0f",
+      "release_sha256": "8c87ceb247c0559732984928b9e5e32625ef9c594ed86518863708d38636579c",
       "kind": "release-added"
     },
     {
       "release": "scripts/run_preprint.py",
-      "release_sha256": "b26fbf0e8ee6f1a285b01be7be155866524fd990ea9f42985364ce30c84c11cc",
+      "release_sha256": "f53c180b0c129c54b3dab17b2eb5ef0f21c1d5c4633ee9abbad991529364444f",
       "kind": "release-added"
     },
     {
       "release": "scripts/summarize_five_seed_campaign.py",
-      "release_sha256": "7596b8ab581fc8a82071e074d90722169211bb64c238528f0e06d7468bc01c30",
+      "release_sha256": "7fc5535c7e30cc383d72c07d440b0f8f0ca56d623f4c54800f0794d41e5289c4",
       "source": "scripts/summarize_five_seed_campaign.py",
       "source_sha256": "7596b8ab581fc8a82071e074d90722169211bb64c238528f0e06d7468bc01c30",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "scripts/train_moving_mnist_full.py",
-      "release_sha256": "50587594c6ad3a27e3d954aed9849911f40fda323a1a92a52805f9d6b10efc6f",
+      "release_sha256": "e384abad2acafbb813e1f3322de09f6496ac5a20a2d55d5f2b2b34dd83632fa0",
       "source": "scripts/train_moving_mnist_full.py",
       "source_sha256": "42f288243b66688ff10b3878a50af2995e64b3ddaac36b1267acb3ddd6550456",
       "kind": "adapted"
     },
     {
       "release": "scripts/train_mpi3d_byol.py",
-      "release_sha256": "b13df926f036484ec6fa0220b033c9b329c125e25f6fd0dd86445086cce310ed",
+      "release_sha256": "2d45da07b41613c9c809533b3bdf450c152d6a02c9ad416811aa8d0f78aba0da",
       "source": "scripts/train_mpi3d_byol.py",
       "source_sha256": "380a41e9ecae085d0f78348f43933d7db130a763ef23353a6e8e20e059e800fc",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/__init__.py",
+      "release": "src/__init__.py",
       "release_sha256": "bb2a1233f67a51e2266764f925a3fa0542e8d26aa4ed10aece50ac51e207f705",
       "source": "src/iwm_replication/__init__.py",
       "source_sha256": "ff0475bf387298edef1b254a5dba2ce8e8846261302578ae4daf74cb800a7fb8",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/adassl_controls.py",
+      "release": "src/adassl_controls.py",
       "release_sha256": "7e40c2e9679fbf69c0858311f14c3090ef79fc14849583f717f078ca740186bf",
       "source": "src/iwm_replication/adassl_controls.py",
       "source_sha256": "eb9cbe5f7b56a83ea59c0b7ffa7ce3199685df5e9b4cfa9e4e63bdc4f7678092",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/anti_collapse.py",
+      "release": "src/anti_collapse.py",
       "release_sha256": "932668b30b65bb88bb67f7d7b6bd8141daafdea6bd3a9453c496c332a2592b0f",
       "source": "src/iwm_replication/anti_collapse.py",
       "source_sha256": "1e375165ebb4f652558f11203e0a889f4b878b5a92db5a4e80db168605d9e65b",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/builders.py",
+      "release": "src/builders.py",
       "release_sha256": "e98189cf633b9df015a910926bdad0feecb7846629e59e0b7d26922b3101ab01",
       "source": "src/iwm_replication/builders.py",
       "source_sha256": "2e064ceb5482c91ce14976f3bdf9c6854ce71de4ab8417ed92a55d513ab49704",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/campaign_evaluation.py",
+      "release": "src/campaign_evaluation.py",
       "release_sha256": "9ba68662e6c7c98b4b142eb88d5c8694e00033ee66a5932600858ca9ab748e90",
       "source": "src/iwm_replication/campaign_evaluation.py",
       "source_sha256": "9ba68662e6c7c98b4b142eb88d5c8694e00033ee66a5932600858ca9ab748e90",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/campaign_moving_mnist_evaluation.py",
-      "release_sha256": "8c18b04f3a42bf888d2ff92b95dc81aa969a2bcbe4daaf13c510b4b1f111e0cd",
+      "release": "src/campaign_moving_mnist_evaluation.py",
+      "release_sha256": "afdaf7118ada9dec3c6060300e0222cded97d2ee6afde246ac57db7738ca2a2c",
       "source": "src/iwm_replication/campaign_moving_mnist_evaluation.py",
       "source_sha256": "8c18b04f3a42bf888d2ff92b95dc81aa969a2bcbe4daaf13c510b4b1f111e0cd",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/campaign_mpi3d_evaluation.py",
-      "release_sha256": "ccb347abf6b3106ce43c644d2663367f6208946252685ca5dd3909054f9ea3fb",
+      "release": "src/campaign_mpi3d_evaluation.py",
+      "release_sha256": "d9394451feabe093c70a341ff4be28028aa6f4b9e6c5333c2869d1015b66b53c",
       "source": "src/iwm_replication/campaign_mpi3d_evaluation.py",
       "source_sha256": "ccb347abf6b3106ce43c644d2663367f6208946252685ca5dd3909054f9ea3fb",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/data.py",
+      "release": "src/data.py",
       "release_sha256": "fc5ebd361c2ce68fab58d78a7e51c9b1d29925d1ab95d3f361ee60ccb34c662d",
       "source": "src/iwm_replication/data.py",
       "source_sha256": "042012878c1cc43c22fdfb60610e8f74b25a1ee973db91ce64b54f32471c5c0e",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/data_source.py",
+      "release": "src/data_source.py",
       "release_sha256": "8b51e0d756a15d377f7df242e20d8c42fbfa2bdffee0012642fd6299baa636be",
       "source": "src/iwm_replication/data_source.py",
       "source_sha256": "8b51e0d756a15d377f7df242e20d8c42fbfa2bdffee0012642fd6299baa636be",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/distributed.py",
+      "release": "src/distributed.py",
       "release_sha256": "2021d5ebcea0430e5d3fd2614de52b83f64a2b868ed8044a7190cc5e7f57c4ab",
       "source": "src/iwm_replication/distributed.py",
       "source_sha256": "2021d5ebcea0430e5d3fd2614de52b83f64a2b868ed8044a7190cc5e7f57c4ab",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/five_seed_analysis.py",
+      "release": "src/five_seed_analysis.py",
       "release_sha256": "278d1d16ebd4e82854b7c7c447b34a0bd97bca041392e6553c9575d2c5b61833",
       "source": "src/iwm_replication/five_seed_analysis.py",
       "source_sha256": "278d1d16ebd4e82854b7c7c447b34a0bd97bca041392e6553c9575d2c5b61833",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/five_seed_campaign.py",
-      "release_sha256": "7bdab3f1726dc65deb4d9d9cbdef410139d4b80592c30a2ea817708cb0e3c5f4",
+      "release": "src/five_seed_campaign.py",
+      "release_sha256": "3c20befe8edc00f711c2a701b0700ad803862516106a854ceb33e1627250c639",
       "source": "src/iwm_replication/five_seed_campaign.py",
       "source_sha256": "7bdab3f1726dc65deb4d9d9cbdef410139d4b80592c30a2ea817708cb0e3c5f4",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/lewm_adassl.py",
+      "release": "src/lewm_adassl.py",
       "release_sha256": "534b89bae7c2a5b5e9841845f41194e19eec589f0bd1a963efd37fd1226723e0",
       "source": "src/iwm_replication/lewm_adassl.py",
       "source_sha256": "8153ef764cdcedf49b69680885bc7f3db0a004e73e74e3aa6b2149d370368c9e",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/models.py",
+      "release": "src/models.py",
       "release_sha256": "c07a7da85ef15d961f8f3dc716b87fc7c3f3778e945af1f80a51d360c899407c",
       "source": "src/iwm_replication/models.py",
       "source_sha256": "8adaadd16f4c93632e478343abdf9dfaa5b0027cb87e346fa615c74e74cb8d33",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/moving_mnist.py",
+      "release": "src/moving_mnist.py",
       "release_sha256": "4b17310a9f57768c4ed1f0e9e4f168f7d9280975d9b40121bc1974ac51d595cc",
       "source": "src/iwm_replication/moving_mnist.py",
       "source_sha256": "4b17310a9f57768c4ed1f0e9e4f168f7d9280975d9b40121bc1974ac51d595cc",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_campaign.py",
+      "release": "src/moving_mnist_campaign.py",
       "release_sha256": "e03cac783d5ea6f5efb23611fea8d6503b4579c379068daee23dfd4a77515c5a",
       "source": "src/iwm_replication/moving_mnist_campaign.py",
       "source_sha256": "e03cac783d5ea6f5efb23611fea8d6503b4579c379068daee23dfd4a77515c5a",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_checkpoint_policy.py",
+      "release": "src/moving_mnist_checkpoint_policy.py",
       "release_sha256": "9b643de4b5de169e41b0729ad7251495a7c32bc07061ca5ffb58557d9cf71468",
       "source": "src/iwm_replication/moving_mnist_checkpoint_policy.py",
       "source_sha256": "9b643de4b5de169e41b0729ad7251495a7c32bc07061ca5ffb58557d9cf71468",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_data.py",
+      "release": "src/moving_mnist_data.py",
       "release_sha256": "9fb60cf06647e21c0592fd56f9564b635f99f282c2c285d0d0b31d89c25f51ab",
       "source": "src/iwm_replication/moving_mnist_data.py",
       "source_sha256": "c870d332cd2b37e520468ff5733ca6aff48411315adb64d024f436d980dd6206",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_evaluation.py",
+      "release": "src/moving_mnist_evaluation.py",
       "release_sha256": "742bf58b0e16bf38ab8fb8d8b90212f5b2b7681598c8d58c365bea5cfbefa8b1",
       "source": "src/iwm_replication/moving_mnist_evaluation.py",
       "source_sha256": "742bf58b0e16bf38ab8fb8d8b90212f5b2b7681598c8d58c365bea5cfbefa8b1",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_full_training.py",
+      "release": "src/moving_mnist_full_training.py",
       "release_sha256": "8937386ba9683f65395c52c36603aef19a26ed967c3ede26a6de22c963eea091",
       "source": "src/iwm_replication/moving_mnist_full_training.py",
       "source_sha256": "8937386ba9683f65395c52c36603aef19a26ed967c3ede26a6de22c963eea091",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_metrics.py",
+      "release": "src/moving_mnist_metrics.py",
       "release_sha256": "3f808ee8de2a875414cfde38d50c58df14e5abb5346641adba257811d036f186",
       "source": "src/iwm_replication/moving_mnist_metrics.py",
       "source_sha256": "3f808ee8de2a875414cfde38d50c58df14e5abb5346641adba257811d036f186",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_models.py",
+      "release": "src/moving_mnist_models.py",
       "release_sha256": "c25074ccef925419ddd1f42ede4b939337517929a81229ac99ab6118841b5160",
       "source": "src/iwm_replication/moving_mnist_models.py",
       "source_sha256": "c25074ccef925419ddd1f42ede4b939337517929a81229ac99ab6118841b5160",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_shared.py",
+      "release": "src/moving_mnist_shared.py",
       "release_sha256": "fe45e8218261528746e3c7162255fe5526ea42ab529924de64975cdcdbf27108",
       "source": "src/iwm_replication/moving_mnist_shared.py",
       "source_sha256": "fe45e8218261528746e3c7162255fe5526ea42ab529924de64975cdcdbf27108",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_shared_variational.py",
+      "release": "src/moving_mnist_shared_variational.py",
       "release_sha256": "14837938a81f1ae01a39937a567accf1929dadfc00300a92e0699c231d948514",
       "source": "src/iwm_replication/moving_mnist_shared_variational.py",
       "source_sha256": "14837938a81f1ae01a39937a567accf1929dadfc00300a92e0699c231d948514",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_stream.py",
+      "release": "src/moving_mnist_stream.py",
       "release_sha256": "ff9654e00da136217bd911e326f5dd0cbac181d9f87da6f088fb8cc50be752a2",
       "source": "src/iwm_replication/moving_mnist_stream.py",
       "source_sha256": "ff9654e00da136217bd911e326f5dd0cbac181d9f87da6f088fb8cc50be752a2",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/moving_mnist_training.py",
+      "release": "src/moving_mnist_training.py",
       "release_sha256": "5571556ab98dd6a36e2350f0c569723076a47377da87d0d44ec6b92838937da9",
       "source": "src/iwm_replication/moving_mnist_training.py",
       "source_sha256": "bce0b905bb32c232b11cdead57a9c1f710704755f9b4b377a842366541d5d7a8",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/mpi3d_byol.py",
-      "release_sha256": "909e133660abaab9ec8a4ebbf17a13d8eb5e05f5cd75d5dc11e1287a623cebf1",
+      "release": "src/mpi3d_byol.py",
+      "release_sha256": "7c6450f09f4c9087e8299cf3499c90094e02a86691cf6e5aa0fd4b34a32daed1",
       "source": "src/iwm_replication/mpi3d_byol.py",
       "source_sha256": "16e78d71c493f80e778320e0bdb40e6e4973c4df2012dd668d1f1170b25b215f",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/mpi3d_byol_evaluation.py",
+      "release": "src/mpi3d_byol_evaluation.py",
       "release_sha256": "cab4735360d9a46bcff824f36fa0e43bb8c675349aa3a2f8d208f3145057863c",
       "source": "src/iwm_replication/mpi3d_byol_evaluation.py",
       "source_sha256": "ad220e8f659749240e4a0b40bbc7ecff2d626152f3fcdb6c955b6439f0ce442c",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/mpi3d_data.py",
+      "release": "src/mpi3d_data.py",
       "release_sha256": "736fa2c139f79acb9b18c415f5e56bfc2479b27ebbada0208a0223e06d0da0a0",
       "source": "src/iwm_replication/mpi3d_data.py",
       "source_sha256": "736fa2c139f79acb9b18c415f5e56bfc2479b27ebbada0208a0223e06d0da0a0",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/mpi3d_pilot_inspection.py",
+      "release": "src/mpi3d_pilot_inspection.py",
       "release_sha256": "cebe7e4d8adbf199b84ed6625a61ae61917d602d0499b641cd428b4e2644f710",
       "source": "src/iwm_replication/mpi3d_pilot_inspection.py",
       "source_sha256": "8b6d407a20950c20ad0c75d681c0583437c49abfec6c4137021c572dacc5a998",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/mpi3d_probes.py",
+      "release": "src/mpi3d_probes.py",
       "release_sha256": "8fef41aedeb8a250c24cfb046029cac7a38fd2a92edf89463fe41194d563b711",
       "source": "src/iwm_replication/mpi3d_probes.py",
       "source_sha256": "4128be50ce54979631310151c1e8163d7a97c38b3e1ff788c45ea8243047cd88",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/mpi3d_smoke.py",
+      "release": "src/mpi3d_smoke.py",
       "release_sha256": "11007ec3558820663923d9c1efd9f9c095b7070e8a0cd11f8e5f66404f4fba63",
       "source": "src/iwm_replication/mpi3d_smoke.py",
       "source_sha256": "8f2aff7eaa6683f18f6faf5d579809ca81a2b9c388949860863bc0aa577b0d1f",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/optimization.py",
+      "release": "src/optimization.py",
       "release_sha256": "a6fdddf2d1a962472a0f6dfcd61d919360ea280af294f314be71572674faea47",
       "source": "src/iwm_replication/optimization.py",
       "source_sha256": "a6fdddf2d1a962472a0f6dfcd61d919360ea280af294f314be71572674faea47",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/paired_initialization.py",
+      "release": "src/paired_initialization.py",
       "release_sha256": "a5f81fb7a3e5a20a4c9ed8b0f2fb5b5417d0f365d2c1df9361592398073606b0",
       "source": "src/iwm_replication/paired_initialization.py",
       "source_sha256": "f22b8125926bfdcccbac704701a15f58cc6f8a7d0628e73ec66e002052923130",
       "kind": "adapted"
     },
     {
-      "release": "src/iwm_replication/seed_streams.py",
+      "release": "src/seed_streams.py",
       "release_sha256": "57fec08dd4a4403fa17860967c864d83ec9699409844049552f45b9904941caa",
       "source": "src/iwm_replication/seed_streams.py",
       "source_sha256": "57fec08dd4a4403fa17860967c864d83ec9699409844049552f45b9904941caa",
       "kind": "copied"
     },
     {
-      "release": "src/iwm_replication/utils.py",
+      "release": "src/utils.py",
       "release_sha256": "89e6787dc7044edab75a6894de6b28f48ef5a61cf7756133b2e21641385393aa",
       "source": "src/iwm_replication/utils.py",
       "source_sha256": "89e6787dc7044edab75a6894de6b28f48ef5a61cf7756133b2e21641385393aa",
@@ -1101,64 +1086,64 @@
     },
     {
       "release": "tests/test_campaign_dataset_evaluation.py",
-      "release_sha256": "231472583955f3c2d721173bd9b025c081b773b8d69b33fe17b6e45d7f236ea3",
+      "release_sha256": "746430bbe25fbfeee030c6761aebac3786a4f08add4083728cb076439fdaf9a9",
       "source": "tests/test_campaign_dataset_evaluation.py",
       "source_sha256": "231472583955f3c2d721173bd9b025c081b773b8d69b33fe17b6e45d7f236ea3",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "tests/test_campaign_evaluation.py",
-      "release_sha256": "33555dc2ce85e5e9fa97a3a9d14de0915653aa59e3ecd8bc3e23d9eedf2b1b0c",
+      "release_sha256": "97ce4f403d788a3a4a897600af5e618e6aebe9f42ecb3e59a310fe8101328fdb",
       "source": "tests/test_campaign_evaluation.py",
       "source_sha256": "33555dc2ce85e5e9fa97a3a9d14de0915653aa59e3ecd8bc3e23d9eedf2b1b0c",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "tests/test_campaign_final_guards.py",
-      "release_sha256": "256dc115173159fb58304df3979260598919288faf9f8b8f906dc149296dc6a8",
+      "release_sha256": "963999b5e42d42c2f77d6a52ed01f0aa411216e247e6484f99dfdcc0ca373bc4",
       "source": "tests/test_campaign_final_guards.py",
       "source_sha256": "256dc115173159fb58304df3979260598919288faf9f8b8f906dc149296dc6a8",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "tests/test_five_seed_analysis.py",
-      "release_sha256": "cb73217c570ae6b822ffaaa2ef2762b7bf4f160727af16c28bf8d5956a179e0c",
+      "release_sha256": "cd217b204df10d50591aaeeeed2e58cbcaa2992d7bf010cbf4973059a9ff1947",
       "source": "tests/test_five_seed_analysis.py",
       "source_sha256": "cb73217c570ae6b822ffaaa2ef2762b7bf4f160727af16c28bf8d5956a179e0c",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "tests/test_moving_mnist_campaign.py",
-      "release_sha256": "b9127ded289e368769d5cf194f3206e076f4cc546c0f83cf4144cd4916a1b52e",
+      "release_sha256": "fc400b878a38d8044a950a248d921a6dc3b0e824bfb04c7649499ee74e9fd03e",
       "source": "tests/test_moving_mnist_campaign.py",
       "source_sha256": "b9127ded289e368769d5cf194f3206e076f4cc546c0f83cf4144cd4916a1b52e",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "tests/test_moving_mnist_seed_streams.py",
-      "release_sha256": "2ecd595c68a413d617acec45db8ec7ba9583dd895cfaaf65cb08092a9d4a789e",
+      "release_sha256": "2c06137c8d630c32f47c3d311df42ca251e44f49c1da3c544759a69c8b92f6d4",
       "source": "tests/test_moving_mnist_seed_streams.py",
       "source_sha256": "6032325de9cf6233526ee10879c7edfe8a345f7d79790d3198d182959d62f6d4",
       "kind": "adapted"
     },
     {
       "release": "tests/test_mpi3d_matched_models.py",
-      "release_sha256": "7d2d2d495742b964a0e75bc0b92a757f42d614cc1a8b1b5e6a9cd6c375289028",
+      "release_sha256": "dfda4a8dc580e3e821407d4818903df8d13f2e1a7b6fa551b574a9f26c28cb78",
       "source": "tests/test_mpi3d_matched_models.py",
       "source_sha256": "7d2d2d495742b964a0e75bc0b92a757f42d614cc1a8b1b5e6a9cd6c375289028",
-      "kind": "copied"
+      "kind": "adapted"
     },
     {
       "release": "tests/test_release_entrypoints.py",
-      "release_sha256": "c6d990341336c47403b6e5991676a7abb49982f6273a1623f7326989eafb879e",
+      "release_sha256": "121a35ec7f2aac09c93c37fd625348eeba9bc993fa1d78fa3661bbfed3487027",
       "kind": "release-added"
     },
     {
       "release": "tests/test_seed_streams.py",
-      "release_sha256": "4dfb2b0c434f4835014921847c7a4a18100e041ccd03e3e2b4318fd31b9dcc65",
+      "release_sha256": "da2c254fe8bdd9dee6735f6f2ecbba05e8a5b1bfe775edd6c88b6140c0279df5",
       "source": "tests/test_seed_streams.py",
       "source_sha256": "4dfb2b0c434f4835014921847c7a4a18100e041ccd03e3e2b4318fd31b9dcc65",
-      "kind": "copied"
+      "kind": "adapted"
     }
   ]
 }

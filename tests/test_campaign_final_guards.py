@@ -7,10 +7,10 @@ import pytest
 import torch
 import yaml
 
-from iwm_replication import campaign_moving_mnist_evaluation as evaluation
-from iwm_replication.campaign_evaluation import query_regeneration_manifest, save_fitted
-from iwm_replication.moving_mnist import GeneratorConfig
-from iwm_replication.seed_streams import SeedContext, content_sha256
+from src import campaign_moving_mnist_evaluation as evaluation
+from src.campaign_evaluation import query_regeneration_manifest, save_fitted
+from src.moving_mnist import GeneratorConfig
+from src.seed_streams import SeedContext, content_sha256
 
 
 ROOT = Path(__file__).resolve().parents[1]

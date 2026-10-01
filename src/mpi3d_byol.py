@@ -29,7 +29,7 @@ def contract_hash(value):
 
 def provenance(cfg):
     # Include transitive data/scoring helpers, not just the directly imported files.
-    paths = (*sorted(Path("src/iwm_replication").glob("*.py")),
+    paths = (*sorted(Path("src").glob("*.py")),
              *SOURCE_FILES, *cfg["data"]["position_manifest_paths"].values())
     return {str(p): file_hash(p) for p in paths}
 

@@ -3,9 +3,9 @@ import argparse
 from pathlib import Path
 
 import torch
-from iwm_replication.campaign_evaluation import load_evaluation_config
+from src.campaign_evaluation import load_evaluation_config
 
-from iwm_replication.campaign_moving_mnist_evaluation import run
+from src.campaign_moving_mnist_evaluation import run
 
 
 def main():

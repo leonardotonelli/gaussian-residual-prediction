@@ -11,8 +11,8 @@ import yaml
 
 import prepare_mpi3d
 import run_preprint
-from iwm_replication.mpi3d_byol import resolve_matched_config
-from iwm_replication.seed_streams import SeedContext
+from src.mpi3d_byol import resolve_matched_config
+from src.seed_streams import SeedContext
 
 
 @pytest.mark.parametrize("dataset", ["moving_mnist", "mpi3d"])

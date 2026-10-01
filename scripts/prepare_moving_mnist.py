@@ -3,7 +3,7 @@
 import argparse
 from pathlib import Path
 
-from iwm_replication.moving_mnist_data import identity_manifest, prepare_mnist, write_once_json
+from src.moving_mnist_data import identity_manifest, prepare_mnist, write_once_json
 
 
 def main() -> None:

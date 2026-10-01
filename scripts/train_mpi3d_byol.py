@@ -12,15 +12,15 @@ from torch import nn
 from torch.nn.parallel import DistributedDataParallel
 from torch.utils.data import DataLoader
 
-from iwm_replication.data import build_iwm_dataset, build_mpi3d_training_sampler
-from iwm_replication.distributed import initialize_distributed, destroy_distributed, barrier, mean_across_ranks
-from iwm_replication.mpi3d_byol import (MATCHED_VERSION, MATCHED_ROLES,
+from src.data import build_iwm_dataset, build_mpi3d_training_sampler
+from src.distributed import initialize_distributed, destroy_distributed, barrier, mean_across_ranks
+from src.mpi3d_byol import (MATCHED_VERSION, MATCHED_ROLES,
     build_model, resolve_matched_config, validate_config, provenance,
     verify_provenance, contract_hash, file_hash)
-from iwm_replication.optimization import IWMOptimizationSchedule, apply_optimization_values, build_adamw_optimizer
-from iwm_replication.utils import load_yaml, save_yaml, save_json, seed_everything, tee_console_to_file
-from iwm_replication.seed_streams import context_from_config, seeded_rng
-from iwm_replication.paired_initialization import initialize_paired_model
+from src.optimization import IWMOptimizationSchedule, apply_optimization_values, build_adamw_optimizer
+from src.utils import load_yaml, save_yaml, save_json, seed_everything, tee_console_to_file
+from src.seed_streams import context_from_config, seeded_rng
+from src.paired_initialization import initialize_paired_model
 
 
 def primary_action(context, action):
@@ -88,7 +88,7 @@ def train_step(model, wrapped, batch, optimizer, generator, device, decay):
 
 def run(args, cfg, context):
     if getattr(args, "smoke_runtime_audit", False):
-        from iwm_replication.mpi3d_smoke import enable_smoke_determinism
+        from src.mpi3d_smoke import enable_smoke_determinism
         enable_smoke_determinism(cfg)
     if cfg.get("protocol") == MATCHED_VERSION:
         validate_config(cfg)
@@ -274,7 +274,7 @@ def _run(args, cfg, context, seed_context):
         raise ValueError("stop-after-epoch precedes the next resumable epoch")
     runtime = None
     if getattr(args, "smoke_runtime_audit", False):
-        from iwm_replication.mpi3d_smoke import SmokeRuntime
+        from src.mpi3d_smoke import SmokeRuntime
         runtime = SmokeRuntime(device, context.rank, context.world_size, batch_size)
     for epoch in range(start_epoch, cfg["train"]["epochs"] + 1):
         sampler.set_epoch(epoch - 1)
@@ -372,7 +372,7 @@ def argument_parser():
 def config_from_arguments(args):
     base = load_yaml(args.config)
     if args.array_index is not None:
-        from iwm_replication.five_seed_campaign import run_at_index
+        from src.five_seed_campaign import run_at_index
         if args.replication is not None:
             raise ValueError("Array index already determines its replication")
         row = run_at_index(args.array_index, dataset="mpi3d", purpose=args.purpose)

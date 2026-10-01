@@ -7,7 +7,7 @@ import subprocess
 import sys
 
 import yaml
-from iwm_replication.seed_streams import SeedContext
+from src.seed_streams import SeedContext
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config/campaigns/five_seed_v1"

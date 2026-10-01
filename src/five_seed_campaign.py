@@ -11,7 +11,7 @@ from pathlib import Path
 
 from .seed_streams import CAMPAIGN, SeedContext, content_sha256
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST = ROOT / "config/campaigns/five_seed_v1/seed_manifest.json"
 MANIFEST_SHA256 = "6283520677daaa751d4f3cd612467a3eafdbe76f39d26c16a42ca0d7904d3a7d"
 MANIFEST_FILE_SHA256 = "860c95ea46e1c2ee9b29b008ee4a9a867c447e3b56c95bef090a6ee62fb4490e"

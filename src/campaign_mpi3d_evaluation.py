@@ -242,9 +242,9 @@ def run(config, *, model, training_config, checkpoint, checkpoint_sha256, output
         np.savez_compressed(output_dir / 'forecasts.npz', **arrays)
         write_json(output_dir / 'banks.json', {'query_regeneration_manifest': query_manifest, 'realized_query_sha256': realized_query_hash, 'probes': probe_ids, 'queries': query_bank,
             'readout_training_image_ids': fitted['readout_image_ids']})
-    repo = Path(__file__).resolve().parents[2]
+    repo = Path(__file__).resolve().parents[1]
     files = [Path(module.__file__).resolve() for name, module in sys.modules.items()
-             if name.startswith('iwm_replication') and getattr(module, '__file__', '').endswith('.py')]
+             if name.startswith('src') and getattr(module, '__file__', '').endswith('.py')]
     files.extend([repo / 'scripts/evaluate_five_seed_mpi3d.py', repo / 'scripts/evaluate_mpi3d_byol.py'])
     code = {str(path.relative_to(repo)): file_hash(path) for path in files}
     contract = {'version': EVALUATION_VERSION, 'configuration': config, 'partition': mode, 'role': cfg['role'], 'runtime': runtime_metadata(device),

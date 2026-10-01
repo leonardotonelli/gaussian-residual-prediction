@@ -11,15 +11,15 @@ import torch
 from torch import nn
 import yaml
 
-from iwm_replication.moving_mnist_campaign import (
+from src.moving_mnist_campaign import (
     CAMPAIGN_STATUS, RECIPE_VERSION, model_recipe_report, resolve_campaign_config,
     validate_campaign_contract,
 )
-from iwm_replication.moving_mnist_full_training import (
+from src.moving_mnist_full_training import (
     ROLES, SEEDED_FULL_TRAINING_VERSION, FullTrainer, FullTrainingConfig, model_spec,
 )
-from iwm_replication.moving_mnist_shared import S0Config
-from iwm_replication.seed_streams import SeedContext
+from src.moving_mnist_shared import S0Config
+from src.seed_streams import SeedContext
 
 
 ROOT = Path(__file__).resolve().parents[1]

@@ -5,13 +5,13 @@ import numpy as np
 import pytest
 import torch
 
-from iwm_replication.moving_mnist import GeneratorConfig, SourceState, sample_future_velocities
-from iwm_replication.moving_mnist_evaluation import (
+from src.moving_mnist import GeneratorConfig, SourceState, sample_future_velocities
+from src.moving_mnist_evaluation import (
     extract_features, fit_digit_probe, fit_ridge, forecast_bank, make_banks, state_hash)
-from iwm_replication.moving_mnist_full_training import FullTrainer, FullTrainingConfig, ROLES, model_spec
-from iwm_replication.moving_mnist_stream import OnlineClips, STREAM_VERSION, SEEDED_STREAM_VERSION
-from iwm_replication.moving_mnist_training import clip_loader
-from iwm_replication.seed_streams import SeedContext
+from src.moving_mnist_full_training import FullTrainer, FullTrainingConfig, ROLES, model_spec
+from src.moving_mnist_stream import OnlineClips, STREAM_VERSION, SEEDED_STREAM_VERSION
+from src.moving_mnist_training import clip_loader
+from src.seed_streams import SeedContext
 
 
 @pytest.fixture(autouse=True)
@@ -137,7 +137,7 @@ def test_training_component_streams_private_and_paired():
 
 
 def test_evaluation_banks_fixed_across_training_replications(monkeypatch):
-    import iwm_replication.moving_mnist_evaluation as evaluation
+    import src.moving_mnist_evaluation as evaluation
     toy = data()
     def load(root, manifest, split):
         return toy.images, toy.labels, [f'{split}:{i}' for i in range(12)]
@@ -194,8 +194,8 @@ def test_fixed_forecast_truth_oracle_and_rng_isolation():
 def test_structured_runner_config_resume_and_frozen_load(tmp_path, monkeypatch):
     import importlib.util
     from pathlib import Path
-    from iwm_replication.moving_mnist_evaluation import file_hash, load_frozen
-    from iwm_replication.moving_mnist_full_training import SEEDED_FULL_TRAINING_VERSION
+    from src.moving_mnist_evaluation import file_hash, load_frozen
+    from src.moving_mnist_full_training import SEEDED_FULL_TRAINING_VERSION
     root = Path(__file__).resolve().parents[1]
     spec = importlib.util.spec_from_file_location('structured_runner', root / 'scripts/train_moving_mnist_full.py')
     runner = importlib.util.module_from_spec(spec)

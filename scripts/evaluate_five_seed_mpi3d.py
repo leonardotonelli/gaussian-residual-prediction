@@ -3,11 +3,11 @@ import argparse
 from pathlib import Path
 
 import torch
-from iwm_replication.campaign_evaluation import load_evaluation_config
+from src.campaign_evaluation import load_evaluation_config
 
 from evaluate_mpi3d_byol import load_endpoint
-from iwm_replication.campaign_mpi3d_evaluation import run
-from iwm_replication.moving_mnist_evaluation import file_hash
+from src.campaign_mpi3d_evaluation import run
+from src.moving_mnist_evaluation import file_hash
 
 
 def main():

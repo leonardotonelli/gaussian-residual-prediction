@@ -7,7 +7,7 @@ from pathlib import Path
 
 import yaml
 
-from iwm_replication.five_seed_analysis import analyze_campaign, markdown_report, validate_analysis_contract
+from src.five_seed_analysis import analyze_campaign, markdown_report, validate_analysis_contract
 
 
 def main():

@@ -1,8 +1,8 @@
 """Preprint implementation: selected components from the research codebase."""
 import json
 import torch
-from iwm_replication.mpi3d_byol import MATCHED_VERSION, build_model, validate_config, verify_provenance, contract_hash, file_hash
-from iwm_replication.seed_streams import preserve_rng
+from src.mpi3d_byol import MATCHED_VERSION, build_model, validate_config, verify_provenance, contract_hash, file_hash
+from src.seed_streams import preserve_rng
 
 
 @preserve_rng()

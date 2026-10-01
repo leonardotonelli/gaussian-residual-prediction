@@ -8,7 +8,7 @@ import numpy as np
 import pytest
 import torch
 
-from iwm_replication.seed_streams import (
+from src.seed_streams import (
     SeedContext, SeedRegistry, context_from_config, preserve_rng, seeded_rng,
 )
 

@@ -20,6 +20,20 @@ jobs:
           python -m pip install numpy==1.26.4 PyYAML==6.0.3 matplotlib==3.9.4 pytest==8.4.2
           python -m pip install --no-deps --no-build-isolation -e .
           python -m pip check
+      - name: Check installed imports outside the checkout
+        run: |
+          cd "$RUNNER_TEMP"
+          python - <<'PY'
+          import importlib
+          import pkgutil
+          import src
+          from src.five_seed_campaign import manifest_binding
+          from src.seed_streams import SeedContext
+          for module in pkgutil.iter_modules(src.__path__):
+              importlib.import_module("src." + module.name)
+          manifest_binding(SeedContext("moving_mnist", "main-training", 1))
+          print("Installed package and manifest paths verified:", src.__file__)
+          PY
       - name: Test the paper implementations and final evaluation guards
         run: python -m pytest -q
       - name: Reproduce exported results and assets

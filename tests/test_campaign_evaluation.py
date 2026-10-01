@@ -6,15 +6,15 @@ import numpy as np
 import pytest
 import torch
 
-from iwm_replication.campaign_evaluation import (
+from src.campaign_evaluation import (
     assert_disjoint_partitions, feature_transform, fit_affine_mse, fit_readout_candidates,
     frozen_evaluation, iid_scores, load_fitted, require_final_contract, save_fitted,
     split_development_indices,
 )
-from iwm_replication.moving_mnist_evaluation import predict_velocity
-from iwm_replication.moving_mnist_metrics import physical_scores
-from iwm_replication.mpi3d_byol_evaluation import distribution_metrics
-from iwm_replication.seed_streams import SeedContext
+from src.moving_mnist_evaluation import predict_velocity
+from src.moving_mnist_metrics import physical_scores
+from src.mpi3d_byol_evaluation import distribution_metrics
+from src.seed_streams import SeedContext
 
 
 def test_analytic_two_atom_iid_and_weighted_estimators_are_distinct():

@@ -19,9 +19,9 @@ test = ["pytest>=8,<9"]
 [project.urls]
 Repository = "https://github.com/leonardotonelli/gaussian-residual-prediction"
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.setuptools]
+packages = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src", "scripts"]
+pythonpath = [".", "scripts"]

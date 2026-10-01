@@ -19,7 +19,7 @@ backward); elementwise, normalization, optimizer, EMA and SIGReg
 characteristic-function work are excluded, as in the benchmark.
 
 Usage (from the repository root):
-  PYTHONPATH=src python paper/scripts/recount_flops.py \
+  python paper/scripts/recount_flops.py \
       --output paper/data/flop_recount.json
 """
 from __future__ import annotations
@@ -34,11 +34,11 @@ import torch
 from torch.nn.attention import SDPBackend, sdpa_kernel
 from torch.utils.flop_counter import FlopCounterMode
 
-from iwm_replication.moving_mnist_campaign import MODEL_OPTIONS, TRAINING
-from iwm_replication.moving_mnist_full_training import FullTrainer, FullTrainingConfig, ROLES, model_spec
-from iwm_replication.mpi3d_byol import build_model, resolve_matched_config
-from iwm_replication.seed_streams import SeedContext
-from iwm_replication.utils import load_yaml
+from src.moving_mnist_campaign import MODEL_OPTIONS, TRAINING
+from src.moving_mnist_full_training import FullTrainer, FullTrainingConfig, ROLES, model_spec
+from src.mpi3d_byol import build_model, resolve_matched_config
+from src.seed_streams import SeedContext
+from src.utils import load_yaml
 
 PURPOSE = "software-smoke"  # separate namespace; no campaign stream is reused
 

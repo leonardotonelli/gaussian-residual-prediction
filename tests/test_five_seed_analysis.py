@@ -6,12 +6,12 @@ from pathlib import Path
 import pytest
 import yaml
 
-from iwm_replication.five_seed_analysis import (
+from src.five_seed_analysis import (
     analyze_campaign, exact_sign_flip_pvalue, holm_adjust, markdown_report,
     validate_analysis_contract,
 )
-from iwm_replication.five_seed_campaign import run_matrix
-from iwm_replication.seed_streams import content_sha256
+from src.five_seed_campaign import run_matrix
+from src.seed_streams import content_sha256
 
 
 def frozen_contract():

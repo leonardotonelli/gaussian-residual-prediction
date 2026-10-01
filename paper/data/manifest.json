@@ -212,7 +212,7 @@
       },
       "source": [
         "frozen_protocol.json:final_banks",
-        "src/iwm_replication/mpi3d_data.py",
+        "src/mpi3d_data.py",
         "data/concept2-mnist/concept2-identities-v1-seed0.json"
       ]
     },
@@ -328,7 +328,7 @@
       },
       "source": [
         "config/campaigns/five_seed_v1/mpi3d.yaml",
-        "src/iwm_replication/moving_mnist_campaign.py:MODEL_OPTIONS"
+        "src/moving_mnist_campaign.py:MODEL_OPTIONS"
       ]
     },
     "tables/setup_overview.tex": {

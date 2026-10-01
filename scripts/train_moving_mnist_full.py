@@ -17,13 +17,13 @@ import numpy as np
 import torch
 import yaml
 
-from iwm_replication.moving_mnist import GeneratorConfig
-from iwm_replication.moving_mnist_data import content_hash, load_digits, load_identity_manifest, write_once_json
-from iwm_replication.moving_mnist_stream import OnlineClips
-from iwm_replication.seed_streams import SeedContext, context_from_config
-from iwm_replication.moving_mnist_training import clip_loader
-from iwm_replication.moving_mnist_full_training import ROLES, FullTrainer, FullTrainingConfig, model_spec
-from iwm_replication.moving_mnist_campaign import (
+from src.moving_mnist import GeneratorConfig
+from src.moving_mnist_data import content_hash, load_digits, load_identity_manifest, write_once_json
+from src.moving_mnist_stream import OnlineClips
+from src.seed_streams import SeedContext, context_from_config
+from src.moving_mnist_training import clip_loader
+from src.moving_mnist_full_training import ROLES, FullTrainer, FullTrainingConfig, model_spec
+from src.moving_mnist_campaign import (
     CAMPAIGN_STATUS, model_recipe_report, resolve_campaign_config,
 )
 
@@ -80,7 +80,7 @@ def run(config, *, role, data_dir, output_dir, device, workers, stop_after=None,
     # Hash imported project dependencies, not future unrelated evaluator files.
     files = {Path(__file__).resolve()}
     files.update(Path(module.__file__).resolve() for name, module in sys.modules.items()
-                 if name.startswith("iwm_replication") and getattr(module, "__file__", "").endswith(".py"))
+                 if name.startswith("src") and getattr(module, "__file__", "").endswith(".py"))
     contract = json.loads(json.dumps({
         "version": trainer.version, "purpose": config["status"], "model_version": model_version,
         **({"seed_context": seed_context.as_dict(), "initialization": trainer.initialization}

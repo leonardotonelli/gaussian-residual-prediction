@@ -164,7 +164,7 @@ def run(config, *, checkpoint, expected_sha256, data_dir, output_dir, device, mo
     role = state['model_config']['role']
     step = state['step'] if allow_partial_software_smoke else state['training_config']['total_steps']
     del state
-    repo = Path(__file__).resolve().parents[2]
+    repo = Path(__file__).resolve().parents[1]
     model, training = load_frozen(checkpoint, expected_sha256=expected_sha256, expected_step=step,
                                   role=role, repo=repo, device=device,
                                   **({'allow_partial_software_smoke': True} if allow_partial_software_smoke else {}))
@@ -254,7 +254,7 @@ def run(config, *, checkpoint, expected_sha256, data_dir, output_dir, device, mo
         write_json(output_dir / 'per_query.json', {'physical': per_query, 'latent': latent_scores})
         write_json(output_dir / 'banks.json', {'query_regeneration_manifest': query_manifest, 'realized_query_sha256': realized_query_hash, 'contracts': {k: b.contract for k, b in banks.items()}, 'records': bank_records})
     files = [Path(module.__file__).resolve() for name, module in sys.modules.items()
-             if name.startswith('iwm_replication') and getattr(module, '__file__', '').endswith('.py')]
+             if name.startswith('src') and getattr(module, '__file__', '').endswith('.py')]
     files.append(repo / 'scripts/evaluate_five_seed_moving_mnist.py')
     contract = {'version': EVALUATION_VERSION, 'configuration': config, 'partition': mode, 'role': role, 'runtime': runtime,
         'checkpoint_sha256': expected_sha256, 'readout_sha256': fitted_sha256, 'query_bank_sha256': query_hash,

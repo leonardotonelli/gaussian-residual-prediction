@@ -18,7 +18,7 @@ campaign training used 4 GPUs at global batch 64; this benchmark uses the same
 global batch on one device, so it measures per-update work, not DDP overhead.
 
 Example:
-  PYTHONPATH=src python -s scripts/benchmark_role_training_cost.py \
+  python -s scripts/benchmark_role_training_cost.py \
       --device cuda --output results/compute_cost/benchmark_$(hostname).json
 """
 from __future__ import annotations
@@ -32,12 +32,12 @@ from pathlib import Path
 
 import torch
 
-from iwm_replication.moving_mnist_campaign import MODEL_OPTIONS, TRAINING
-from iwm_replication.moving_mnist_full_training import FullTrainer, FullTrainingConfig, ROLES, model_spec
-from iwm_replication.mpi3d_byol import build_model, resolve_matched_config
-from iwm_replication.optimization import build_adamw_optimizer
-from iwm_replication.seed_streams import SeedContext
-from iwm_replication.utils import load_yaml
+from src.moving_mnist_campaign import MODEL_OPTIONS, TRAINING
+from src.moving_mnist_full_training import FullTrainer, FullTrainingConfig, ROLES, model_spec
+from src.mpi3d_byol import build_model, resolve_matched_config
+from src.optimization import build_adamw_optimizer
+from src.seed_streams import SeedContext
+from src.utils import load_yaml
 
 # Benchmark models live in the separate smoke namespace; no campaign stream is reused.
 PURPOSE = "software-smoke"

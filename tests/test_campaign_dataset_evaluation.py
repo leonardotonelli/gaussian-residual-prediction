@@ -9,13 +9,13 @@ import pytest
 import torch
 import yaml
 
-from iwm_replication.campaign_evaluation import EVALUATION_VERSION
-from iwm_replication.moving_mnist import GeneratorConfig
-from iwm_replication.moving_mnist_data import content_hash
-from iwm_replication.moving_mnist_evaluation import file_hash, state_hash
-from iwm_replication.moving_mnist_full_training import FullTrainer, FullTrainingConfig, model_spec
-from iwm_replication.moving_mnist_stream import OnlineClips
-from iwm_replication.seed_streams import SeedContext
+from src.campaign_evaluation import EVALUATION_VERSION
+from src.moving_mnist import GeneratorConfig
+from src.moving_mnist_data import content_hash
+from src.moving_mnist_evaluation import file_hash, state_hash
+from src.moving_mnist_full_training import FullTrainer, FullTrainingConfig, model_spec
+from src.moving_mnist_stream import OnlineClips
+from src.seed_streams import SeedContext
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -50,8 +50,8 @@ def fake_digits(split):
 
 @pytest.mark.parametrize('role', ['R0', 'R1', 'S0', 'S1'])
 def test_moving_mnist_complete_development_then_frozen_final_replay(tmp_path, monkeypatch, role):
-    import iwm_replication.campaign_moving_mnist_evaluation as campaign
-    import iwm_replication.moving_mnist_evaluation as legacy
+    import src.campaign_moving_mnist_evaluation as campaign
+    import src.moving_mnist_evaluation as legacy
     context = SeedContext(dataset='moving_mnist', purpose='main-training', replication=1)
     cfg = FullTrainingConfig(total_steps=1, batch_size=4)
     mc, _ = model_spec(role, {}, cfg)
@@ -107,7 +107,7 @@ def test_moving_mnist_complete_development_then_frozen_final_replay(tmp_path, mo
 
 
 def matched_config(role):
-    from iwm_replication.mpi3d_byol import resolve_matched_config
+    from src.mpi3d_byol import resolve_matched_config
     cfg = yaml.safe_load((ROOT / 'config/campaigns/five_seed_v1/mpi3d.yaml').read_text())
     cfg['model'].update(vit_dim=16, vit_depth=1, vit_heads=2, projector_dim=8, head_hidden_dim=16)
     cfg['data'].update(batch_size=4, num_workers=0)
@@ -117,10 +117,10 @@ def matched_config(role):
 
 @pytest.mark.parametrize('role', ['R0', 'R1', 'S0', 'S1'])
 def test_mpi3d_forecasts_replay_every_condition_and_freeze(role):
-    from iwm_replication.mpi3d_byol import build_model
-    from iwm_replication.campaign_mpi3d_evaluation import evaluate_matched_forecasts
-    from iwm_replication.mpi3d_byol_evaluation import distribution_metrics
-    from iwm_replication.campaign_evaluation import fit_readout_candidates, frozen_evaluation
+    from src.mpi3d_byol import build_model
+    from src.campaign_mpi3d_evaluation import evaluate_matched_forecasts
+    from src.mpi3d_byol_evaluation import distribution_metrics
+    from src.campaign_evaluation import fit_readout_candidates, frozen_evaluation
     cfg = matched_config(role)
     cfg['eval']['quantiles'] = 3
     model = build_model(cfg).eval().requires_grad_(False)
@@ -159,8 +159,8 @@ def test_mpi3d_forecasts_replay_every_condition_and_freeze(role):
 @pytest.mark.parametrize('role', ['R0', 'R1', 'S0', 'S1'])
 def test_mpi3d_full_development_and_final_artifact_reuse(tmp_path, monkeypatch, role):
     """Checkpoint loader is isolated; real model/probe/scorer paths use tiny synthetic images."""
-    import iwm_replication.campaign_mpi3d_evaluation as campaign
-    from iwm_replication.mpi3d_byol import build_model, resolve_matched_config
+    import src.campaign_mpi3d_evaluation as campaign
+    from src.mpi3d_byol import build_model, resolve_matched_config
     model = build_model(matched_config(role)).eval().requires_grad_(False)
     # Production config validity and final-bank gates are exercised independently
     # of the tiny model architecture; CLI load_endpoint validates their binding.
@@ -231,7 +231,7 @@ def test_mpi3d_full_development_and_final_artifact_reuse(tmp_path, monkeypatch, 
 
 
 def test_mpi3d_query_group_order_supports_wrong_source_control(monkeypatch):
-    import iwm_replication.campaign_mpi3d_evaluation as campaign
+    import src.campaign_mpi3d_evaluation as campaign
     from types import SimpleNamespace
     class Queries:
         def __len__(self):
@@ -245,7 +245,7 @@ def test_mpi3d_query_group_order_supports_wrong_source_control(monkeypatch):
     loader, manifest = campaign.campaign_forecast_loader(cfg, config()['mpi3d'], context, mode='development')
     assert len(manifest['indices']) == 8
     assert len(set(index//4 for index in manifest['indices'])) == 2
-    from iwm_replication.adassl_controls import deranged_source_permutation
+    from src.adassl_controls import deranged_source_permutation
     for batch in loader:
         perm = deranged_source_permutation(batch['source_factors'])
         assert not (batch['source_factors'][perm] == batch['source_factors']).all(-1).any()

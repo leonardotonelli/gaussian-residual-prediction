@@ -12,11 +12,11 @@ Outputs (all under paper/): tables/*.tex, figures/*.{pdf,png},
 data/*.csv and data/manifest.json. Nothing under results/ or E is written.
 
 Primary numbers are recomputed with the repository analyzer
-(``iwm_replication.five_seed_analysis.analyze_campaign``) and asserted equal to the
+(``src.five_seed_analysis.analyze_campaign``) and asserted equal to the
 exported analysis.json before any table or figure is produced.
 
 Usage (repository root):
-  PYTHONPATH=src python paper/scripts/build_assets.py
+  python paper/scripts/build_assets.py
 """
 from __future__ import annotations
 
@@ -44,7 +44,7 @@ ROOT = PAPER.parent
 E = ROOT / "results/campaigns/five_seed_v1/20260925_eval_fix_v3"
 COST = ROOT / "results/compute_cost"
 TABLES, FIGURES, DATA = PAPER / "tables", PAPER / "figures", PAPER / "data"
-sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT))
 
 ROLES = ("R0", "R1", "S0", "S1")
 REPS = (1, 2, 3, 4, 5)
@@ -185,7 +185,7 @@ def plot_rows(figure, panel, series, dataset, metric, by_role, transform="none")
 
 
 def verified_analysis():
-    from iwm_replication.five_seed_analysis import analyze_campaign
+    from src.five_seed_analysis import analyze_campaign
     rows = load_json(E / "model_results.json")
     contract = load_json(E / "frozen_analysis.json")
     exported = load_json(E / "analysis.json")
@@ -308,7 +308,7 @@ def label_points(fig, ax, points, fontsize=5.5):
 
 # ----------------------------------------------------------------------------- tables: design
 def table_role_matrix(mm_cfg, mpi_cfg):
-    from iwm_replication.moving_mnist_campaign import MODEL_OPTIONS
+    from src.moving_mnist_campaign import MODEL_OPTIONS
     beta = MODEL_OPTIONS["R1"]["beta"]
     assert beta == MODEL_OPTIONS["S1"]["beta"] == mpi_cfg["loss"]["beta"] == 0.001
     lam = MODEL_OPTIONS["S0"]["sigreg_weight"]
@@ -336,12 +336,12 @@ def table_role_matrix(mm_cfg, mpi_cfg):
     lines += [r"\bottomrule", r"\end{tabular}"]
     (TABLES / "role_matrix.tex").write_text("\n".join(lines) + "\n")
     record("tables/role_matrix.tex", source=["config/campaigns/five_seed_v1/mpi3d.yaml",
-                                              "src/iwm_replication/moving_mnist_campaign.py:MODEL_OPTIONS"],
+                                              "src/moving_mnist_campaign.py:MODEL_OPTIONS"],
            names=NAME)
 
 
 def split_counts():
-    from iwm_replication.mpi3d_data import (MPI3DCleanImageDataset, MPI3DDeterministicTransitionDataset,
+    from src.mpi3d_data import (MPI3DCleanImageDataset, MPI3DDeterministicTransitionDataset,
                                             MPI3DRepeatedFutureDataset, load_mpi3d_position_manifest,
                                             mpi3d_attribute_configurations, _all_mpi3d_common_legal_positions)
     manifest_dir = ROOT / "config/shared/mpi3d_position_manifests"
@@ -419,7 +419,7 @@ def table_splits(counts, protocol, mpi_cfg):
              r"\toprule", r" & Moving-MNIST & MPI3D-S \\", r"\midrule", *rows_tex, r"\bottomrule", r"\end{tabular}"]
     (TABLES / "setup_overview.tex").write_text("\n".join(table).replace(",", "{,}").replace("{{,}}", "{,}") + "\n")
     record("tables/setup_overview.tex", source=["frozen_protocol.json:final_banks", "config/campaigns/five_seed_v1/*.yaml"])
-    record("tables/dataset_splits.tex", counts=c, source=["frozen_protocol.json:final_banks", "src/iwm_replication/mpi3d_data.py",
+    record("tables/dataset_splits.tex", counts=c, source=["frozen_protocol.json:final_banks", "src/mpi3d_data.py",
            "data/concept2-mnist/concept2-identities-v1-seed0.json"])
     num("MMTrainIds", f"{c['mnist']['train']:,}".replace(",", "{,}"))
     num("MPTrainPairs", f"{c['train_pairs']:,}".replace(",", "{,}"))
@@ -1410,9 +1410,9 @@ def figure_speed_strata():
 
 
 def regenerate_dataset_protocols():
-    from iwm_replication.moving_mnist import GeneratorConfig, render_centers, sample_future_velocities, sample_source, trajectory_centers
-    from iwm_replication.moving_mnist_data import load_digits, load_identity_manifest
-    from iwm_replication.mpi3d_data import MPI3DTaskState, mpi3d_attribute_split
+    from src.moving_mnist import GeneratorConfig, render_centers, sample_future_velocities, sample_source, trajectory_centers
+    from src.moving_mnist_data import load_digits, load_identity_manifest
+    from src.mpi3d_data import MPI3DTaskState, mpi3d_attribute_split
     data_dir = MNIST_DIR
     manifest = load_identity_manifest(data_dir / "concept2-identities-v1-seed0.json")
     images, labels, ids = load_digits(data_dir, manifest, "train")

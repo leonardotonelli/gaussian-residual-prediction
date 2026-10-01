@@ -12,15 +12,15 @@ import torch
 from torch import nn
 from torch.distributions import Normal, kl_divergence
 
-from iwm_replication.distributed import DistributedContext
-from iwm_replication.moving_mnist_evaluation import state_hash
-from iwm_replication.mpi3d_byol import (
+from src.distributed import DistributedContext
+from src.moving_mnist_evaluation import state_hash
+from src.mpi3d_byol import (
     MATCHED_ROLES, MATCHED_VERSION, MPI3DGlobal, build_model, file_hash,
     resolve_matched_config, validate_config,
 )
-from iwm_replication.paired_initialization import initialize_paired_model
-from iwm_replication.seed_streams import SeedContext
-from iwm_replication.utils import load_yaml
+from src.paired_initialization import initialize_paired_model
+from src.seed_streams import SeedContext
+from src.utils import load_yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import train_mpi3d_byol as training
@@ -291,7 +291,7 @@ def test_actual_trainer_epoch_resume_exact_including_sigreg(tmp_path, monkeypatc
 
 def _global_sigreg_gradient(rank, init_file, output_file):
     import torch.distributed as dist
-    from iwm_replication.lewm_adassl import PatchSIGReg
+    from src.lewm_adassl import PatchSIGReg
     dist.init_process_group("gloo", init_method=f"file://{init_file}", rank=rank, world_size=2)
     try:
         weight, source, target = _sigreg_fixture()
@@ -318,7 +318,7 @@ def _sigreg_fixture():
 
 def test_singleton_global_sigreg_ddp_gradient_matches_full_batch(tmp_path):
     import torch.multiprocessing as mp
-    from iwm_replication.lewm_adassl import PatchSIGReg
+    from src.lewm_adassl import PatchSIGReg
     output = tmp_path / "sigreg-gradient.pt"
     mp.spawn(_global_sigreg_gradient, args=(str(tmp_path / "gloo-init"), str(output)),
              nprocs=2, join=True)

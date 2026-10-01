@@ -4,7 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from iwm_replication.five_seed_analysis import analyze_campaign, markdown_report
+from src.five_seed_analysis import analyze_campaign, markdown_report
 
 ROOT = Path(__file__).resolve().parents[1]
 EVIDENCE = ROOT / "results/campaigns/five_seed_v1/20260925_eval_fix_v3"
