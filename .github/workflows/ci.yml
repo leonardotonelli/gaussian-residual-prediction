@@ -1,0 +1,28 @@
+name: Reproduction checks
+on: [push, pull_request]
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        torch: ['2.5.1', '2.8.0']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install isolated CPU dependencies
+        run: |
+          python -m pip install 'setuptools>=68' wheel
+          python -m pip install torch==${{ matrix.torch }} --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install numpy==1.26.4 PyYAML==6.0.3 matplotlib==3.9.4 pytest==8.4.2
+          python -m pip install --no-deps --no-build-isolation -e .
+          python -m pip check
+      - name: Test the paper implementations and final evaluation guards
+        run: python -m pytest -q
+      - name: Reproduce exported results and assets
+        run: |
+          python scripts/reproduce_results.py --output outputs/ci-analysis
+          python paper/scripts/build_assets.py

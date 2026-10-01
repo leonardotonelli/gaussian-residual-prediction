@@ -1,0 +1,53 @@
+{
+  "mm_identity": "mnist-train:00000",
+  "mm_digit_label": 5,
+  "mm_seed_sequence": [
+    20260930,
+    24
+  ],
+  "mm_selection_rule": "first s = 0, 1, 2, ... with SeedSequence([20260930, s]) such that both initial velocity components are >= 1.2 px/frame, the first x-changed and first y-changed of 16 future draws each change velocity by >= 1 px/frame, and all nine digit centres of both futures lie in [9, 55] (digit fully visible)",
+  "mm_source_state": {
+    "center": [
+      13.368134922494441,
+      10.273814870940107
+    ],
+    "velocity": [
+      2.607168486571842,
+      1.8233398108199732
+    ]
+  },
+  "mm_future_draw_indices": [
+    1,
+    0
+  ],
+  "mm_future_velocities": [
+    [
+      3.757767669730861,
+      1.8233398108199732
+    ],
+    [
+      2.607168486571842,
+      3.3244400640974145
+    ]
+  ],
+  "mm_split": "training identity (illustration only; not an evaluation example)",
+  "mpi3d_asset": "notebooks/assets/mpi3d_one_to_many_scenarios.png",
+  "mpi3d_crop_rows_cols": [
+    1015,
+    1496,
+    392,
+    1616
+  ],
+  "mpi3d_source_factors": {
+    "colour": 4,
+    "shape": 3,
+    "size": 1,
+    "camera": 1,
+    "position": [
+      20,
+      20
+    ],
+    "command": "right"
+  },
+  "mpi3d_split": "validation attribute combination: (4 + 3 + 3*1) mod 6 = 4"
+}

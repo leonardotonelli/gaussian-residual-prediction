@@ -1,0 +1,6 @@
+# Original campaign PyTorch version; choose the CUDA wheel as documented.
+numpy==1.26.4
+PyYAML==6.0.3
+torch==2.5.1
+matplotlib==3.9.4
+pytest==8.4.2

@@ -1,0 +1,37 @@
+\section{Experimental design}
+\label{sec:design}
+
+\subsection{Prediction tasks}
+\label{sec:data-mm}
+\label{sec:data-mpi3d}
+
+\paragraph{Moving-MNIST.} We follow the single-digit variant of Moving-MNIST~\citep{srivastava2015unsupervised} used in AdaSSL's video experiment~\citep[App.~D.5]{zhang2026adassl}, with MNIST digits~\citep{lecun1998mnist}. A $16{\times}16$ digit moves on a $64{\times}64$ canvas with initial velocity $v\sim\mathcal U[0,3]^2$ px/frame. Between frames 3 and 4, one randomly selected component changes to $v'_k=v_k+\tfrac23v_k\epsilon$, with $\epsilon\sim\mathcal N(0,1)$; the other stays fixed. The source clip is therefore compatible with many future velocities. There is no bouncing. We read $\tfrac23v_k$ as a standard deviation, a documented local convention for an ambiguity in the reference (Appendix~\ref{app:fidelity}). Training draws digits from 50{,}000 MNIST training images (identities), and final evaluation uses the 10{,}000 official test images; the remaining 10{,}000 training images are used for readout selection and development. Trajectories are generated afresh for every batch. Appendix~\ref{app:data} gives the rendering, the partitions (Table~\ref{tab:data}) and an illustration (Figure~\ref{fig:data}).
+
+\paragraph{MPI3D-S (stochastic command execution).} We construct action-conditioned transitions by indexing factor-controlled MPI3D-realistic images~\citep{gondal2019mpi3d}; they are not recorded trajectories. The input is an object image and one of four commands (left, right, up or down). A successful command moves the object four grid indices; a failed one leaves the image unchanged. The two outcomes are equally likely, enforced by a balanced training quota. Test objects combine colour, shape and size levels seen during training into combinations never seen in training. Besides its outcome law and split, this task differs from Moving-MNIST in its conditioning and architecture. Appendix~\ref{app:data} specifies the transition and split construction.
+
+\subsection{Training and paired replications}
+\label{sec:training}
+
+Moving-MNIST uses a 3D convolutional backbone, trained for 75{,}000 updates at batch 128. MPI3D uses a vision Transformer~\citep{dosovitskiy2021vit}, trained for 102{,}400 updates at global batch 64. All models are trained in FP32 with AdamW~\citep{loshchilov2019adamw}, without gradient clipping; architectures and optimization schedules are in Appendix~\ref{app:arch}. Each dataset uses one optimization recipe for all four models, which we did not tune separately for any model. Budgets are matched in updates within each dataset, and every result uses the terminal checkpoint.
+
+Within a replication, all four models share initial weights for their common modules and see the same training examples in the same order. The variational models also share latent noise streams, and the Shared models share SIGReg directions. The five replications vary training randomness on fixed splits and evaluation banks (Appendix~\ref{app:seeds}). After one development replication per model and dataset, the evaluation configuration, query banks and analysis were frozen before main training. All 40 main runs completed, and none was replaced.
+
+\subsection{Evaluation and statistical analysis}
+\label{sec:evaluation}
+\label{sec:controls}
+\label{sec:stats}
+
+\paragraph{Physical forecasts.} We score forecasts in physical units. Each checkpoint receives its own ridge readout, fitted and selected on real target-space features and never on forecasts (Appendix~\ref{app:eval}). The readout maps predicted embeddings to the post-change velocity $v'$ (px/frame) on Moving-MNIST and to object position (grid indices) on MPI3D. The primary metric therefore evaluates the encoder, predictor and readout together.
+
+For a forecast distribution $P$ and the true conditional distribution $Q$, we use the Energy Score in its lower-is-better form~\citep{gneiting2007scoring}:
+\begin{equation}
+\label{eq:es}
+\mathrm{ES}(P,Q)=\mathbb E_{X\sim P,Y\sim Q}\|X-Y\|_2-\tfrac12\mathbb E_{X,X'\sim P}\|X-X'\|_2.
+\end{equation}
+The score is strictly proper: it is minimized at $P=Q$, where it equals $\tfrac12\mathbb E_{Y,Y'\sim Q}\|Y-Y'\|_2$, so even a perfect forecast of a stochastic outcome scores above zero. On Moving-MNIST, we compare 64 prior draws with 128 independent simulator draws for each of 1{,}024 queries. On MPI3D, we represent each prior by 16 equal-weight quantiles and enumerate both true outcomes for each of 2{,}048 queries. The estimators and their distinction from energy distance~\citep{szekely2013energy} are in Appendix~\ref{app:eval}.
+
+\paragraph{Controls and probes.} The fixed-prior-mean control replaces prior samples with the prior mean in a trained variational model, without retraining. Target-space persistence forecasts no change: it decodes the model's own target-space embedding of the source. Pixel constant velocity uses source pixels only; the simulator oracle and the coordinate references use privileged state information (Appendix Table~\ref{tab:controls}). Linear probes assess the trained source representations with the encoder held fixed.
+
+\paragraph{MPI3D latent score.} For MPI3D we add a secondary, decoder-independent latent score. Forecasts and both outcome embeddings are unit-normalized, and the Energy Score is computed in the model's own target space and divided by the distance between the two outcome embeddings. Under this gap normalization, persistence scores exactly 0.5 and the true two-outcome distribution 0.25. Because a failed command leaves the image unchanged, persistence reproduces the failure outcome exactly. By the triangle inequality, no single-point forecast scores below 0.5, so only a forecast distribution with spread can beat persistence; the deterministic models can at best match it. Because target spaces differ between models, each model is compared only with its own persistence control. All MPI3D queries use held-out attribute combinations, so this score cannot separate a failure to forecast from a failure to generalize to new combinations.
+
+\paragraph{Paired comparisons.} We analyse the physical Energy Score separately by dataset. The prespecified contrasts are \shvar{}\,$-$\,\shdet{} and \shvar{}\,$-$\,\emavar{}. We report all five values, means, sample SDs and individual paired-$t$ 95\% intervals with 4 degrees of freedom. These intervals treat the five replication-level scores as the units. They describe training randomness conditional on the fixed benchmark and are not simultaneous across contrasts. We report no query-level uncertainty: the query banks are fixed across models and replications, and the MPI3D queries are clustered (512 sources, each with four commands). The prespecified analysis prescribes no hypothesis tests, and an interval containing zero does not establish equivalence. All other comparisons are secondary and descriptive.

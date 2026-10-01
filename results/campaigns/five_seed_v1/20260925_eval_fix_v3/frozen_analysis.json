@@ -1,0 +1,62 @@
+{
+  "campaign": "jepa-five-seed-20260924-v1",
+  "contrasts": [
+    [
+      "S1",
+      "R1"
+    ],
+    [
+      "S1",
+      "S0"
+    ]
+  ],
+  "datasets": [
+    "moving_mnist",
+    "mpi3d"
+  ],
+  "endpoint_selection": "terminal declared budget, independent of final outcomes",
+  "evaluation_contract_sha256": "91013e30f760e480ce8be549e63d2228c0f69d74db17e5656c1acbaa4acb1d0a",
+  "failure_policy": "preserve original IDs and all attempts; resume the same run when valid; no seed substitution",
+  "final_bank_sha256": {
+    "moving_mnist": "652815708ad57fc437f770c12ab897c08aaf7c8cc4828671b7d51f3562e6b2d2",
+    "mpi3d": "94748e3beab145e4263bcca942aaf7981363d854d15cf3b2a2a96c1de80bd76f"
+  },
+  "frozen": true,
+  "head_restarts": [
+    0
+  ],
+  "hypothesis_tests": "none",
+  "interpretation": "full predictor/readout pipeline, conditional on the fixed benchmark",
+  "interval": {
+    "degrees_of_freedom": 4,
+    "level": 0.95,
+    "method": "paired-student-t"
+  },
+  "metrics_by_dataset": {
+    "moving_mnist": [
+      "physical_forecast_energy_score"
+    ],
+    "mpi3d": [
+      "physical_forecast_energy_score"
+    ]
+  },
+  "multiplicity": "not-applicable",
+  "proposal_status": "development reviewed; frozen before main training",
+  "protocol_sha256": "7bf4a31460e95135e1bc19e8b3b782ffde40b220dca67281a6b4710edeb91ce2",
+  "query_uncertainty": "separate conditional analysis, never extra training replications",
+  "replications": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "roles": [
+    "R0",
+    "R1",
+    "S0",
+    "S1"
+  ],
+  "schema": "five-seed-analysis-contract-v1",
+  "seed_manifest_sha256": "6283520677daaa751d4f3cd612467a3eafdbe76f39d26c16a42ca0d7904d3a7d"
+}

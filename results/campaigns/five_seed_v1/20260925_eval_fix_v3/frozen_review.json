@@ -1,0 +1,45 @@
+{
+  "accepted": true,
+  "campaign_sha256": "4d17800ce1c5c458836f1e16888442264bcab760ba5cb6417da7ae6ecf1c114f",
+  "datasets": {
+    "moving_mnist": {
+      "cost_evidence": "Slurm sacct ElapsedRaw for 4731968_0..3; all COMPLETED, ExitCode 0:0. Includes job startup/teardown. Five times the four development durations estimates main training; evaluation and queue time are additional.",
+      "fidelity_and_numerical_stability": "Pinned source regression suite: 285 passed in 212.04 s, covering matched roles, gradients, distributed/resume behavior, seed streams, frozen evaluation, scoring, final-data guards and workflow. All smoke/development phases formally verified complete=4 failed=0; endpoint verifier checks finite model/optimizer/history, terminal budgets and source binding. Accepted reference deviations remain documented in ADASSL_FIDELITY.md. No implementation defect found in audited paths; not a proof of absence of all bugs.",
+      "limitations": "Single development replication; S0 decoding distortion and R0 forecast error are preserved. Fixed 64 prediction samples/128 truth futures; finite-draw sensitivity not a convergence guarantee. Accepted local simulator/reference deviations and conservative final-data-history disclosure remain in force.",
+      "measured_training_seconds_per_role": {
+        "R0": 4662,
+        "R1": 8177,
+        "S0": 7499,
+        "S1": 11044
+      },
+      "predicted_feature_sensitivity": "Saved support diagnostics show R0 feature extrapolation and S0 oracle distortion; retained unchanged. Raw/unit selection is validated against stored real-feature MSE. Full-bank primary scores and half-bank diagnostics match saved outputs; no selection on forecasts or final scores.",
+      "readout_and_oracle_validity": "Scores replayed in verified artifacts and independently summarized for all four roles. Real-feature selection chooses raw for R0/R1/S1 and unit for S0. Oracle decode RMSE is about .279/.209/1.514/.205 respectively. S0 readout degradation remains an outcome; state hashes unchanged and development contracts exclude official test identities.",
+      "sample_count_adequacy": "Retain predeclared evaluation counts without tuning to development rankings. launch_audit.json records all-query score means, conditional source-mean standard errors and alternating-source half-bank diagnostics. These counts support execution of the specified finite-sample estimand; quadrature/Monte Carlo convergence has not been established and is not claimed. User explicitly accepts all scientific outcomes."
+    },
+    "mpi3d": {
+      "cost_evidence": "Slurm sacct ElapsedRaw for 4732619_0..3; all COMPLETED, ExitCode 0:0. Includes job startup/teardown. Five times the four development durations estimates main training; evaluation and queue time are additional.",
+      "fidelity_and_numerical_stability": "Pinned source regression suite: 285 passed in 212.04 s, covering matched roles, gradients, distributed/resume behavior, seed streams, frozen evaluation, scoring, final-data guards and workflow. All smoke/development phases formally verified complete=4 failed=0; endpoint verifier checks finite model/optimizer/history, terminal budgets and source binding. Accepted reference deviations remain documented in ADASSL_FIDELITY.md. No implementation defect found in audited paths; not a proof of absence of all bugs.",
+      "limitations": "Historically inspected MPI3D split; conditional benchmark inference only. In-support readout holdout is not attribute generalization. Severe R0/R1 extrapolation and remaining oracle distortion retained as outcomes. Fixed 16-point quadrature; convergence not certified. Superiority is not an acceptance criterion.",
+      "measured_training_seconds_per_role": {
+        "R0": 5487,
+        "R1": 7411,
+        "S0": 6088,
+        "S1": 6511
+      },
+      "predicted_feature_sensitivity": "All R0/R1 predicted atoms exceed the fit 99th-percentile standardized norm; R0 predicted p99~139926 vs real-target p99~15.57, R1~889 vs~16.50. Large readout operators amplify this mismatch. Independent solve/decode agrees to relative tolerance 1e-5. This is evidence of poor extrapolation under the prescribed cosine-trained/raw-readout pipeline, not an identified implementation defect. Do not clamp, normalize differently, or select heads using forecast scores.",
+      "readout_and_oracle_validity": "Independent direct ridge solve and decoding reproduced all four saved forecast arrays; independent float64 Energy Scores matched verified primary scores. Raw/unit head selection follows real-feature selection MSE, fit-only normalization, no forecast-score selection. Large R0/R1 scores are reproduced by the declared predictor/readout pipeline. Physical oracle=1, persistence=2; encode/decode oracle distortion remains reported and is not subtracted.",
+      "sample_count_adequacy": "Retain predeclared evaluation counts without tuning to development rankings. launch_audit.json records all-query score means, conditional source-mean standard errors and alternating-source half-bank diagnostics. These counts support execution of the specified finite-sample estimand; quadrature/Monte Carlo convergence has not been established and is not claimed. User explicitly accepts all scientific outcomes."
+    }
+  },
+  "mnist_test_history": {
+    "evidence": "Conservative disclosure: universal untouched status is not certified, not an assertion of observed final evaluation. All four current development contract.json files record test_set_accessed=false. Historical ARTIFACT_INVENTORY.md records development-only contracts and distinguishes identity/download enumeration from evaluation. No final images were opened for this launch audit. Prior activity outside these records cannot be excluded.",
+    "reviewed": true,
+    "untouched": false
+  },
+  "mpi3d_historical_split_disclosed": true,
+  "primary_and_statistics_accepted": true,
+  "readout_policy": "real-feature selection MSE; raw/unit; fit-only normalization; no final-score selection",
+  "reviewed_at": "2026-09-26T23:37:48.848656+00:00",
+  "reviewer": "Codex implementation audit; user explicitly authorized outcome-independent campaign launch on 2026-09-27",
+  "schema": "five-seed-development-review-v1"
+}

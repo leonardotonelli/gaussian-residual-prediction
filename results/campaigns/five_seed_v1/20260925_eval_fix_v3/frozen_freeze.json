@@ -1,0 +1,57 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/freeze/protocol.json",
+      "sha256": "2f0ae04d6893b8f5c9d36b02305341148467ff0ddae5367eee0520c0e68f7681"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/freeze/analysis.json",
+      "sha256": "0f3a57f98bfad4c2b3efa8760a8379ab3cbd9e6d094a2e64e1bde269c33b708d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/freeze/registry.json",
+      "sha256": "d0f8fbb1cc81f0399ef262517df6839416502d42037991d0d20447706a0b217f"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/freeze/review.json",
+      "sha256": "cbf95c642fcf6eb4621cdb091bb8bd9d393e14d90ce3dd1424e6f07d8b58830a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/development-moving_mnist-evaluate/verified.json",
+      "sha256": "e9515984c9e96114ee741b6871e6ce53bfbf9a26457decb779095c532ba8b149"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/development-moving_mnist-train/verified.json",
+      "sha256": "4fcb13993b50e2f511e014ab0d732a44af1f7ad3a5e9d9b4fd566ba50c5d1ba6"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/development-mpi3d-evaluate/verified.json",
+      "sha256": "87162ce9db8e027fc4d9fc811e8060d572c2d57772c250870929a90d606df55c"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/development-mpi3d-train/verified.json",
+      "sha256": "e536830ad1c0c3203704cf23da50a3b8f6dd0f6faf8ec928137c98e3358e81bd"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/smoke-moving_mnist-evaluate/verified.json",
+      "sha256": "4d28caab5df6b8fe5d1e1d731fc508045dddce4ed26c573854166eb28b1ef8ae"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/smoke-moving_mnist-train/verified.json",
+      "sha256": "f406bcee24a67394868004ed92f2b3e0b430f97ba18936b868ff678ab95ebac3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/smoke-mpi3d-evaluate/verified.json",
+      "sha256": "93517907744240c749fe2e18d56b039f6dc2a4240b6a64e8adcff7cf5e434ca3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/smoke-mpi3d-train/verified.json",
+      "sha256": "14e7b184a6718c20361bf3c20a75d6cd49921b6b28fa6c354e6989a7b808214b"
+    }
+  ],
+  "campaign_sha256": "4d17800ce1c5c458836f1e16888442264bcab760ba5cb6417da7ae6ecf1c114f",
+  "frozen_at_utc": "2026-09-26T23:38:01.718790+00:00",
+  "protocol_sha256": "7bf4a31460e95135e1bc19e8b3b782ffde40b220dca67281a6b4710edeb91ce2",
+  "schema": "five-seed-protocol-freeze-v1",
+  "sha256": "3accbb81a21bc4134a4eba1c56448238269a12dc63898a670f45f06c081a69a6"
+}

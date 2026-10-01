@@ -1,0 +1,28 @@
+\begin{tabular}{@{}p{0.29\linewidth}p{0.66\linewidth}@{}}
+\toprule
+\multicolumn{2}{@{}l}{\textbf{Moving-MNIST}} \\
+\midrule
+Image source & MNIST, 28$\times$28 digits \\
+Identity partition & 50,000 train / 10,000 development (5,000 selection, 5,000 report) / 10,000 official test \\
+Training examples & fresh online clips; 75{,}000 updates $\times$ 128 = 9.6M presentations \\
+Observed $x$ / target $y$ & frames 1--3 / frames 4--6 \\
+Posterior input $u$ (training) & frames 7--9 of the same trajectory \\
+Readout and probe fit & 8,192 clips, train identities \\
+Readout and probe selection & 2,048 clips, development selection identities \\
+Final report / forecast queries & 2,048 / 1,024 clips, official test identities \\
+Draws per query & 64 forecast, 128 physical truth \\
+\midrule
+\multicolumn{2}{@{}l}{\textbf{MPI3D-S (balanced stochastic execution)}} \\
+\midrule
+Image source & MPI3D-realistic, 64$\times$64, background fixed \\
+Attribute split & 48 / 12 / 12 colour--shape--size combinations \\
+Training population & 589,824 source/command pairs (48 $\times$ 3 cameras $\times$ 1,024 positions $\times$ 4) \\
+Training examples & 100 epochs $\times$ 65,536 = 6.55M presentations, 102,400 updates \\
+Observed $x,a$ / target $y$ & source image and unit command / realized next image \\
+Posterior input $u$ (training) & the realized target $y$ itself \\
+Readout fit / select / hold-out & 8,192 / 2,048 / 2,048 train-attribute images (of 230,400) \\
+Probe fit / select / report & 8,192 train / 2,048 validation / 2,048 test images \\
+Forecast queries & 2,048 = 512 test sources $\times$ 4 commands (of 36,864) \\
+Truth and forecast support & exact two outcomes; 16 equal-weight prior quantiles \\
+\bottomrule
+\end{tabular}

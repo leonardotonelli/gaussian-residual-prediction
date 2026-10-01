@@ -1,0 +1,19 @@
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Model & Enc.\ passes & Params (M) $\downarrow$ & GFLOPs $\downarrow$ & ms / update $\downarrow$ & Wall-clock (s) $\downarrow$ \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{Moving-MNIST}} \\
+\emadet{} & 2 / 1 & 6.03 & \best{134.2} & \best{276} & \best{4{,}662} \\
+\emavar{} & 3 / 2 & 6.44 & 234.3 & 479 & 8{,}177 \\
+\shdet{} & 2 / 2 & \best{3.67} & 200.6 & 428 & 7{,}499 \\
+\shvar{} & 3 / 3 & 4.08 & 300.8 & 631 & 11{,}044 \\
+\quad \shvar{} vs.\ \emavar{} & & $-$37\% & $+$28\% & $+$32\% & $+$35\% \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{MPI3D}} \\
+\emadet{} & 2 / 1 & 10.70 & \best{105.5} & \best{57} & \best{5{,}487} \\
+\emavar{} & 3 / 2 & 11.11 & 184.4 & 99 & 7{,}411 \\
+\shdet{} & 2 / 2 & \best{6.01} & 157.8 & 88 & 6{,}088 \\
+\shvar{} & 2 / 2 & 6.42 & 158.0 & 90 & 6{,}511 \\
+\quad \shvar{} vs.\ \emavar{} & & $-$42\% & $-$14\% & $-$9\% & $-$12\% \\
+\bottomrule
+\end{tabular}

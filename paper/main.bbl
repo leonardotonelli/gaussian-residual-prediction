@@ -1,0 +1,201 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Assran et~al.(2023)Assran, Duval, Misra, Bojanowski, Vincent, Rabbat,
+  LeCun, and Ballas]{assran2023ijepa}
+Mahmoud Assran, Quentin Duval, Ishan Misra, Piotr Bojanowski, Pascal Vincent,
+  Michael Rabbat, Yann LeCun, and Nicolas Ballas.
+\newblock Self-supervised learning from images with a joint-embedding
+  predictive architecture.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, pages 15619--15629, 2023.
+\newblock \doi{10.1109/CVPR52729.2023.01499}.
+
+\bibitem[Babaeizadeh et~al.(2018)Babaeizadeh, Finn, Erhan, Campbell, and
+  Levine]{babaeizadeh2018sv2p}
+Mohammad Babaeizadeh, Chelsea Finn, Dumitru Erhan, Roy~H. Campbell, and Sergey
+  Levine.
+\newblock Stochastic variational video prediction.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2018.
+
+\bibitem[Balestriero and LeCun(2025)]{balestriero2025lejepa}
+Randall Balestriero and Yann LeCun.
+\newblock {LeJEPA}: Provable and scalable self-supervised learning without the
+  heuristics, 2025.
+\newblock arXiv:2511.08544v3.
+
+\bibitem[Bardes et~al.(2022)Bardes, Ponce, and LeCun]{bardes2022vicreg}
+Adrien Bardes, Jean Ponce, and Yann LeCun.
+\newblock {VICReg}: Variance-invariance-covariance regularization for
+  self-supervised learning.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2022.
+\newblock arXiv:2105.04906.
+
+\bibitem[Chen and He(2021)]{chen2021simsiam}
+Xinlei Chen and Kaiming He.
+\newblock Exploring simple {Siamese} representation learning.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, pages 15745--15753, 2021.
+\newblock \doi{10.1109/CVPR46437.2021.01549}.
+
+\bibitem[Denton and Fergus(2018)]{denton2018svg}
+Emily Denton and Rob Fergus.
+\newblock Stochastic video generation with a learned prior.
+\newblock In \emph{Proceedings of the 35th International Conference on Machine
+  Learning}, volume~80 of \emph{Proceedings of Machine Learning Research},
+  pages 1174--1183, 2018.
+
+\bibitem[Dosovitskiy et~al.(2021)Dosovitskiy, Beyer, Kolesnikov, Weissenborn,
+  Zhai, Unterthiner, Dehghani, Minderer, Heigold, Gelly, Uszkoreit, and
+  Houlsby]{dosovitskiy2021vit}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+  Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2021.
+
+\bibitem[Drozdov et~al.(2024)Drozdov, Shwartz-Ziv, and LeCun]{drozdov2024vjvcr}
+Katrina Drozdov, Ravid Shwartz-Ziv, and Yann LeCun.
+\newblock Video representation learning with joint-embedding predictive
+  architectures, 2024.
+\newblock arXiv:2412.10925v1.
+
+\bibitem[Epps and Pulley(1983)]{epps1983test}
+T.~W. Epps and Lawrence~B. Pulley.
+\newblock A test for normality based on the empirical characteristic function.
+\newblock \emph{Biometrika}, 70\penalty0 (3):\penalty0 723--726, 1983.
+\newblock \doi{10.1093/biomet/70.3.723}.
+
+\bibitem[Gneiting and Raftery(2007)]{gneiting2007scoring}
+Tilmann Gneiting and Adrian~E. Raftery.
+\newblock Strictly proper scoring rules, prediction, and estimation.
+\newblock \emph{Journal of the American Statistical Association}, 102\penalty0
+  (477):\penalty0 359--378, 2007.
+\newblock \doi{10.1198/016214506000001437}.
+
+\bibitem[G{\"o}gl and Yau(2026)]{gogl2026varjepa}
+Moritz G{\"o}gl and Christopher Yau.
+\newblock {Var-JEPA}: A variational formulation of the joint-embedding
+  predictive architecture -- bridging predictive and generative self-supervised
+  learning.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning}, volume 306 of \emph{Proceedings of Machine Learning Research},
+  pages 35490--35513, 2026.
+\newblock arXiv:2603.20111v2.
+
+\bibitem[Gondal et~al.(2019)Gondal, W{\"u}thrich, Miladinovic, Locatello,
+  Breidt, Volchkov, Akpo, Bachem, Sch{\"o}lkopf, and Bauer]{gondal2019mpi3d}
+Muhammad~Waleed Gondal, Manuel W{\"u}thrich, Djordje Miladinovic, Francesco
+  Locatello, Martin Breidt, Valentin Volchkov, Joel Akpo, Olivier Bachem,
+  Bernhard Sch{\"o}lkopf, and Stefan Bauer.
+\newblock On the transfer of inductive bias from simulation to the real world:
+  a new disentanglement dataset.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem[Grill et~al.(2020)Grill, Strub, Altch{\'e}, Tallec, Richemond,
+  Buchatskaya, Doersch, {Avila Pires}, Guo, Azar, Piot, Kavukcuoglu, Munos, and
+  Valko]{grill2020byol}
+Jean-Bastien Grill, Florian Strub, Florent Altch{\'e}, Corentin Tallec,
+  Pierre~H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo {Avila Pires},
+  Zhaohan~Daniel Guo, Mohammad~Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu,
+  R{\'e}mi Munos, and Michal Valko.
+\newblock Bootstrap your own latent -- a new approach to self-supervised
+  learning.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pages 21271--21284, 2020.
+
+\bibitem[Hafner et~al.(2019)Hafner, Lillicrap, Fischer, Villegas, Ha, Lee, and
+  Davidson]{hafner2019planet}
+Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha,
+  Honglak Lee, and James Davidson.
+\newblock Learning latent dynamics for planning from pixels.
+\newblock In \emph{Proceedings of the 36th International Conference on Machine
+  Learning}, volume~97 of \emph{Proceedings of Machine Learning Research},
+  pages 2555--2565, 2019.
+
+\bibitem[Huang(2026)]{huang2026vjepa}
+Yongchao Huang.
+\newblock {VJEPA}: Variational joint embedding predictive architectures as
+  probabilistic world models.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning}, volume 306 of \emph{Proceedings of Machine Learning Research},
+  pages 47703--47731, 2026.
+\newblock arXiv:2601.14354.
+
+\bibitem[Kingma and Welling(2014)]{kingma2014vae}
+Diederik~P. Kingma and Max Welling.
+\newblock Auto-encoding variational {Bayes}.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2014.
+\newblock arXiv:1312.6114.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{lecun1998mnist}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2324, 1998.
+\newblock \doi{10.1109/5.726791}.
+
+\bibitem[Loshchilov and Hutter(2019)]{loshchilov2019adamw}
+Ilya Loshchilov and Frank Hutter.
+\newblock Decoupled weight decay regularization.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2019.
+
+\bibitem[Maes et~al.(2026)Maes, {Le Lidec}, Scieur, LeCun, and
+  Balestriero]{maes2026lewm}
+Lucas Maes, Quentin {Le Lidec}, Damien Scieur, Yann LeCun, and Randall
+  Balestriero.
+\newblock {LeWorldModel}: Stable end-to-end joint-embedding predictive
+  architecture from pixels, 2026.
+\newblock arXiv:2603.19312v3.
+
+\bibitem[Sohn et~al.(2015)Sohn, Lee, and Yan]{sohn2015cvae}
+Kihyuk Sohn, Honglak Lee, and Xinchen Yan.
+\newblock Learning structured output representation using deep conditional
+  generative models.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~28, 2015.
+
+\bibitem[Srivastava et~al.(2015)Srivastava, Mansimov, and
+  Salakhutdinov]{srivastava2015unsupervised}
+Nitish Srivastava, Elman Mansimov, and Ruslan Salakhutdinov.
+\newblock Unsupervised learning of video representations using {LSTMs}.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37 of \emph{Proceedings of Machine Learning Research},
+  pages 843--852, 2015.
+
+\bibitem[Sz{\'e}kely and Rizzo(2013)]{szekely2013energy}
+G{\'a}bor~J. Sz{\'e}kely and Maria~L. Rizzo.
+\newblock Energy statistics: A class of statistics based on distances.
+\newblock \emph{Journal of Statistical Planning and Inference}, 143\penalty0
+  (8):\penalty0 1249--1272, 2013.
+\newblock \doi{10.1016/j.jspi.2013.03.018}.
+
+\bibitem[Yamada et~al.(2026)Yamada, Chai, Rhim, Ishikawa, Sabokrou, and
+  Tsai]{yamada2026phinetv2}
+Makoto Yamada, Kian Ming~A. Chai, Ayoub Rhim, Satoki Ishikawa, Mohammad
+  Sabokrou, and Yao-Hung~Hubert Tsai.
+\newblock Brain-inspired stochastic joint embedding representation learning,
+  2026.
+\newblock arXiv:2505.11129v2.
+
+\bibitem[Zhang et~al.(2026)Zhang, Ghaemi, Lee, Bakhtiari, Muller, and
+  Charlin]{zhang2026adassl}
+Yipeng Zhang, Hafez Ghaemi, Jungyoon Lee, Shahab Bakhtiari, Eilif~B. Muller,
+  and Laurent Charlin.
+\newblock Self-supervised learning from structural invariance.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+\newblock arXiv:2602.02381v2.
+
+\end{thebibliography}

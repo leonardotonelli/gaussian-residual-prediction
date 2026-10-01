@@ -1,0 +1,33 @@
+# Preparation protocol; no final banks are opened during implementation.
+# Final execution requires a frozen protocol hash and verified fitted development artifact.
+version: five-seed-frozen-evaluation-v1
+moving_mnist:
+  identity_manifest: concept2-identities-v1-seed0.json
+  seed: 9000
+  batch_size: 128
+  sizes: {fit: 8192, selection: 2048, report: 2048, queries: 1024}
+  samples: 64
+  futures: 128
+  latent_futures: 64
+  readout_transforms: [raw, unit]
+  ridge_alphas: [0.000001, 0.0001, 0.01, 1.0, 100.0]
+  digit_probe:
+    epochs: 100
+    patience: 10
+    min_delta: 0.00001
+    batch_size: 256
+    learning_rate: 0.001
+    weight_decay: 0.01
+mpi3d:
+  batch_size: 64
+  probe_counts: {fit: 8192, selection: 2048, report: 2048}
+  readout_counts: [8192, 2048, 2048]
+  queries: 2048
+  quantiles: 16
+  readout_transforms: [raw, unit]
+  ridge_alphas: [0.000001, 0.0001, 0.01, 1.0, 100.0]
+  probe:
+    batch_size: 512
+    learning_rate: 0.001
+    maximum_epochs: 100
+    lambda_grid: [0.0, 0.000001, 0.00001, 0.0001, 0.001, 0.01]

@@ -1,0 +1,17 @@
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+ & & Trainable & \multicolumn{2}{c}{Training GFLOPs} & Saved act. & ms / update & Inference \\
+\cmidrule(lr){4-5}
+Dataset & Model & params (M) & bench. & math attn. & (MiB) & sweep 1 / 2 & MFLOPs \\
+\midrule
+Moving-MNIST & \emadet{} & \best{3.674} & \best{134.2} & \best{134.2} & \best{395} & \best{275 / 278} & \best{263} (1) \\
+ & \emavar{} & 4.081 & 234.3 & 234.3 & 789 & {478 / 481} & 429 (64) \\
+ & \shdet{} & \best{3.674} & 200.6 & 200.6 & 790 & {428 / 428} & \best{263} (1) \\
+ & \shvar{} & 4.081 & 300.8 & 300.8 & 1184 & {630 / 632} & 429 (64) \\
+\midrule
+MPI3D & \emadet{} & \best{5.993} & \best{105.5} & \best{112.0} & \best{394} & \best{58 / 57} & \best{440} (1) \\
+ & \emavar{} & 6.399 & 184.4 & 195.6 & 787 & {99 / 99} & 479 (16) \\
+ & \shdet{} & \best{5.993} & 157.8 & 167.5 & 788 & {88 / 88} & \best{440} (1) \\
+ & \shvar{} & 6.399 & 158.0 & 167.7 & 789 & {90 / 90} & 479 (16) \\
+\bottomrule
+\end{tabular}

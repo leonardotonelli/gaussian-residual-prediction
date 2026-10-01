@@ -1,0 +1,82 @@
+# Accepted MPI3D-S recipe; resolve role, replication and manifest binding via campaign CLI.
+protocol: mpi3d-global-four-role-v2
+device: auto
+output_dir: runs
+target_bn: role_specific_independent_ema_or_shared_separate_passes
+data:
+  dataset: mpi3d
+  condition: S
+  images_path: data/mpi3d/images.npy
+  images_sha256: f6124f358e02846695cb3795acf8714f990c84cf02d495796898c133cf1ae866
+  position_manifest_paths:
+    probe_train: config/shared/mpi3d_position_manifests/probe_train.json
+    validation: config/shared/mpi3d_position_manifests/validation.json
+    test: config/shared/mpi3d_position_manifests/test.json
+  image_size: 64
+  batch_size: 64
+  num_workers: 0
+model:
+  encoder: vit
+  embedding_dim: 64
+  patch_size: 8
+  vit_dim: 256
+  vit_depth: 6
+  vit_heads: 8
+  vit_mlp_ratio: 2.0
+  action_dim: 2
+  residual_dim: 1
+  projector_dim: 128
+  head_hidden_dim: 1024
+loss:
+  alignment: negative_cosine
+  beta: 0.001
+optim:
+  lr: 0.001
+  betas:
+  - 0.9
+  - 0.999
+  learning_rate_schedule_scale: 1.25
+  weight_decay_start: 0.04
+  weight_decay_end: 0.4
+  ema_decay_start: 0.996
+  ema_decay_end: 1.0
+train:
+  epochs: 100
+  warmup_epochs: 10
+  transition_samples_per_epoch: 65536
+  log_every: 100
+  checkpoint_every: 20
+eval:
+  batch_size: 64
+  quantiles: 16
+  gap_epsilon: 1.0e-08
+probe:
+  batch_size: 512
+  learning_rate: 0.001
+  maximum_epochs: 100
+  lambda_grid:
+  - 0.0
+  - 1.0e-06
+  - 1.0e-05
+  - 0.0001
+  - 0.001
+  - 0.01
+readout:
+  seed: 1730
+  counts:
+  - 8192
+  - 2048
+  - 2048
+  ridge_alphas:
+  - 1.0e-06
+  - 0.0001
+  - 0.01
+  - 1.0
+  - 100.0
+sigreg:
+  weight: 0.1
+  projections: 128
+  knots: 17
+  interval:
+  - 0.2
+  - 4.0

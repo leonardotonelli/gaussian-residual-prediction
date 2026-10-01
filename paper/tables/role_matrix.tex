@@ -1,0 +1,10 @@
+\begin{tabular}{@{}llll@{}}
+\toprule
+Model & Target branch (encoders) & Residual $r$ & Additional losses \\
+\midrule
+\emadet{} & EMA, stopped (2) & none & -- \\
+\emavar{} & EMA, stopped (2) & Gaussian & $\beta\mathcal{L}_{\mathrm{KL}}$ \\
+\shdet{} & Shared, gradients (1) & none & $\lambda\mathcal{L}_{\mathrm{SIG}}$ \\
+\shvar{} & Shared, gradients (1) & Gaussian & $\beta\mathcal{L}_{\mathrm{KL}}+\lambda\mathcal{L}_{\mathrm{SIG}}$ \\
+\bottomrule
+\end{tabular}

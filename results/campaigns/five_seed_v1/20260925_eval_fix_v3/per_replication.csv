@@ -1,0 +1,41 @@
+dataset,units,metric,role,replication,value
+moving_mnist,pixels/frame,physical_forecast_energy_score,R0,1,3.337570083827519
+moving_mnist,pixels/frame,physical_forecast_energy_score,R0,2,3.2912274947675275
+moving_mnist,pixels/frame,physical_forecast_energy_score,R0,3,3.5373132268417073
+moving_mnist,pixels/frame,physical_forecast_energy_score,R0,4,2.865642167484646
+moving_mnist,pixels/frame,physical_forecast_energy_score,R0,5,3.2378156510455236
+moving_mnist,pixels/frame,physical_forecast_energy_score,R1,1,0.675663017294761
+moving_mnist,pixels/frame,physical_forecast_energy_score,R1,2,0.880812094183109
+moving_mnist,pixels/frame,physical_forecast_energy_score,R1,3,0.6646255452768777
+moving_mnist,pixels/frame,physical_forecast_energy_score,R1,4,0.8289746212714082
+moving_mnist,pixels/frame,physical_forecast_energy_score,R1,5,0.834617254994842
+moving_mnist,pixels/frame,physical_forecast_energy_score,S0,1,1.6485436741846171
+moving_mnist,pixels/frame,physical_forecast_energy_score,S0,2,1.6079624956808933
+moving_mnist,pixels/frame,physical_forecast_energy_score,S0,3,1.6139299301623375
+moving_mnist,pixels/frame,physical_forecast_energy_score,S0,4,1.5959729294908656
+moving_mnist,pixels/frame,physical_forecast_energy_score,S0,5,1.658838707370851
+moving_mnist,pixels/frame,physical_forecast_energy_score,S1,1,0.9228722426667808
+moving_mnist,pixels/frame,physical_forecast_energy_score,S1,2,0.6564149615355686
+moving_mnist,pixels/frame,physical_forecast_energy_score,S1,3,0.6466332305269079
+moving_mnist,pixels/frame,physical_forecast_energy_score,S1,4,0.6432930004684005
+moving_mnist,pixels/frame,physical_forecast_energy_score,S1,5,0.6405484313871359
+mpi3d,grid-index distance,physical_forecast_energy_score,R0,1,1002129.24386052
+mpi3d,grid-index distance,physical_forecast_energy_score,R0,2,1717949.8527781526
+mpi3d,grid-index distance,physical_forecast_energy_score,R0,3,10813676.489214929
+mpi3d,grid-index distance,physical_forecast_energy_score,R0,4,2000765.0411413028
+mpi3d,grid-index distance,physical_forecast_energy_score,R0,5,4677939.889808647
+mpi3d,grid-index distance,physical_forecast_energy_score,R1,1,3537.840515501422
+mpi3d,grid-index distance,physical_forecast_energy_score,R1,2,6964.644478833607
+mpi3d,grid-index distance,physical_forecast_energy_score,R1,3,4549.758591144266
+mpi3d,grid-index distance,physical_forecast_energy_score,R1,4,3926.745180227772
+mpi3d,grid-index distance,physical_forecast_energy_score,R1,5,1772.7536917745924
+mpi3d,grid-index distance,physical_forecast_energy_score,S0,1,8.53367375733136
+mpi3d,grid-index distance,physical_forecast_energy_score,S0,2,5.479004713138299
+mpi3d,grid-index distance,physical_forecast_energy_score,S0,3,8.428870334882346
+mpi3d,grid-index distance,physical_forecast_energy_score,S0,4,4.542871292614008
+mpi3d,grid-index distance,physical_forecast_energy_score,S0,5,9.116530460383625
+mpi3d,grid-index distance,physical_forecast_energy_score,S1,1,7.932190090351233
+mpi3d,grid-index distance,physical_forecast_energy_score,S1,2,5.583434346192447
+mpi3d,grid-index distance,physical_forecast_energy_score,S1,3,9.402665215635803
+mpi3d,grid-index distance,physical_forecast_energy_score,S1,4,4.6020015457911345
+mpi3d,grid-index distance,physical_forecast_energy_score,S1,5,4.2537246558994894

@@ -1,0 +1,2603 @@
+{
+  "all_40_outcomes_accounted_for": true,
+  "all_40_successful": true,
+  "campaign_sha256": "4d17800ce1c5c458836f1e16888442264bcab760ba5cb6417da7ae6ecf1c114f",
+  "exports": [
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/ADASSL_FIDELITY.md",
+      "sha256": "c0f9ecf5a85fa0db58e90712c9862d9cec186afa6c1237e4ab77952e4e3a637f"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/MANUSCRIPT_NOTES.md",
+      "sha256": "b9ea2272469338e79c6bb91baf039de947eed924e9a6df365cc51f9287560d86"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/REPRODUCE.md",
+      "sha256": "6d8389fb01b415d37a4676164f83d310b1ae45be0f06aa827a467ce322b775b6"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/accounting.csv",
+      "sha256": "abc0f73bb2f8081fe2a9046d02308cff7ad054bb072a2a8fb3c032b02c7aebbe"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/analysis.json",
+      "sha256": "471badafa101539a9036ef146e3010ba85570166fb692effb5ae897db71afc3d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/diagnostics.csv",
+      "sha256": "a9fb535ed98cf6bcaa7ee28914f987c4b3ce0d22bb441aea85d78031332dcd97"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/frozen_analysis.json",
+      "sha256": "0f3a57f98bfad4c2b3efa8760a8379ab3cbd9e6d094a2e64e1bde269c33b708d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/frozen_freeze.json",
+      "sha256": "7e9d61d3a2a70280a78100c03b3f1c1d13c8a90a96cfbc4b8e8a704421674307"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/frozen_protocol.json",
+      "sha256": "2f0ae04d6893b8f5c9d36b02305341148467ff0ddae5367eee0520c0e68f7681"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/frozen_registry.json",
+      "sha256": "d0f8fbb1cc81f0399ef262517df6839416502d42037991d0d20447706a0b217f"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/frozen_review.json",
+      "sha256": "cbf95c642fcf6eb4621cdb091bb8bd9d393e14d90ce3dd1424e6f07d8b58830a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/model_results.json",
+      "sha256": "adf2504a44e223069a443dc881503f04f4acc8decce2e5215bfbfdd6d134635f"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/moving_mnist_physical_forecast_energy_score.pdf",
+      "sha256": "0d58dcf8f001b86e7003752175ac9bfc4a181e8734141dd79093ba37870c29ff"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/moving_mnist_physical_forecast_energy_score.png",
+      "sha256": "899fa778e0f460e8d62274b3b4a090f16c5705e35b9542d56ee4b81370449093"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/moving_mnist_physical_forecast_energy_score.tex",
+      "sha256": "a50d92d057d2833320f195d3d5ce91f6a8bd3cf2d71d2e0101008f2a6aa8efbc"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/mpi3d_physical_forecast_energy_score.pdf",
+      "sha256": "9fe4c102cde82443266bbd761b7e3d634ce102a0b9df43c98f0462ba8c4bb1bb"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/mpi3d_physical_forecast_energy_score.png",
+      "sha256": "e3b67705b02e22601e105b64270bbee9ddb9a377df9694ea31a647af24356223"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/mpi3d_physical_forecast_energy_score.tex",
+      "sha256": "6cdb8e89de4b148bffa7487bd344341d6d1790b82e9cbc32684dcf596e1088c7"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/paired_differences.csv",
+      "sha256": "8136ce174ab50c6efd877e60b2e55fa64fc5e50ad370d4b8a86890458f1c1228"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/per_replication.csv",
+      "sha256": "a3b05119a8924bb10f22ed27b8a4a8d467e4dd8979770b72e913b3ad99f360e0"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/summary.md",
+      "sha256": "baacde78a70133d1496a5a9e5ef6e2161af0b1f8a91bfe535c50e3ba89a786ab"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/evidence/training_curves.csv",
+      "sha256": "72eab739523232dd7e4666a4a350c7090fb77c95fc8deef5f8111f2e6207c1d8"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/verified.json",
+      "sha256": "4e348e6bb945cb48c58f55ae5cc8749a263d5b3a96253a7959dbdc5dc8f6589c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/contract.json",
+      "sha256": "e0bca4644de96430d3adfc6f8c9e42733b6745665067189b9f41dec622425501"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/features_report_source.npz",
+      "sha256": "1d6091df1b1182d9b72f6031e34740485eb9fa59ee7b512c0da858250435c255"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/features_report_target.npz",
+      "sha256": "bf076328c881e2a7bac59548c3feaaaaa1f9b59ab2c6d54c54364808cc01bfca"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/latent_forecasts.npz",
+      "sha256": "4aba6b07c98d95e478da8cb42bf6eff58eb1bd21b7382ec488083f605a2eaf60"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/metrics.json",
+      "sha256": "9401d0d0036199db9da3fc84da55f6d89ea9b322dee37e1a492d4c7fbef36a49"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/per_query.json",
+      "sha256": "5a4c1c603729c30bedbd46c98c08cb55787c915cc57545f5de97bfe42b1a8086"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/physical_forecasts.npz",
+      "sha256": "39880d5e3cf40b350abef6b64f660b21f607d71dd0c4573af79cc96003be68f1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1/summary.json",
+      "sha256": "70bc030efdd583c4aa38609df201475a22318f24d69b766cd104c115aa586c1f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep1/fitted.pt",
+      "sha256": "20db479493f401e1c46ccb51e1a4236134957f75c4d717151cf79bf0aa274223"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/plan.json",
+      "sha256": "8b4d0da8468f00e0b30ebfc743467de7e5eefdb3dd1d47f130fa3db642beba99"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-0.json",
+      "sha256": "fced462ff8e4c767df31e2237298c56e89e12f73d88deaf5477a161cc5ff37cb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep1/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "42a0723a827de0cb882dd229836dc73eaa0b438f0cde1c2babf073ff7bf738fd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep1/checkpoints/checkpoint_step_075000.json",
+      "sha256": "4ae05590648ea4e812e66d13ebd739b9fffc1e78466c39b1ad58039d3ac3efb0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep1/config.json",
+      "sha256": "a58e9d29ecdd7557a21d56689ec87011e505de73ae19a8732412aff461010b46"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep1/learning_curve.jsonl",
+      "sha256": "4a91d9c2c1c5c96c2771f1676d873fd7a9bce31682cd88d52d5dc814ea17bf24"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep1/metrics.json",
+      "sha256": "08e619068b398bf8a7cd71f418ca34f776e9f6eb9f19865449b0900b3d7ad04e"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/plan.json",
+      "sha256": "ae87fee4c5bc74aaa5aad64080892a052a20b7fde597e4c7aaaf0e28c58c955c"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-0.json",
+      "sha256": "f13a7ffc40bba8631170548304a358dee032d5d016afdf981deb77232549e36d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/contract.json",
+      "sha256": "5d2fc4a9bad83efc38aaa44532ae3719ccecaebeab0466151e26b2dbb74a741e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/features_report_source.npz",
+      "sha256": "cf4f1286280d4cbded2dceea47148e028f16c67573f5fff8b2bf7904f66cc75b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/features_report_target.npz",
+      "sha256": "c89d3be9c7d32b131b3ae35a30af6b40e7214c96cc6e32331787fb224c1240e8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/latent_forecasts.npz",
+      "sha256": "dd4e53bc3a28aee234b3fd12b282c6863e8681cbb942160c7f21d496bbe7b3b1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/metrics.json",
+      "sha256": "1685c82a57947e8cf2ed283745c5767f6743527dcc3b8f8f5c66851bcb406a0c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/per_query.json",
+      "sha256": "10f2a838fc83db29548c1836c90da6e57ef90bee264590c458f0aa88e92ac83e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/physical_forecasts.npz",
+      "sha256": "27ea44abf1a921b444990f4bc61684a41879b6b4a621adf8e6fcac344d50e904"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2/summary.json",
+      "sha256": "eb265bc7426e4787798a3dde1c3058c8f125e3fd50c34db687eae67c647beaa1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep2/fitted.pt",
+      "sha256": "85f2ad6951bbdd520bb2669fbe7bb3163d439572501de6de53681684fc8d375a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-1.json",
+      "sha256": "549e0ccc34c6a9795bc352a904f8ad6fec565c3eb5473242280e0ff2cab8636d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep2/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "82e2eb3286937d1d5e58f88cecfdfa8f07a3e0ea199bf759259612073ea6187d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep2/checkpoints/checkpoint_step_075000.json",
+      "sha256": "74a4d10e421ec6c768778706d46e3a4f3310bae52d2272641b6cdf730f999172"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep2/config.json",
+      "sha256": "235d8010a384df2b95cf29b2ec16a63dfb3fc643fbe29b70b582646359012066"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep2/learning_curve.jsonl",
+      "sha256": "cec87e596975c7e97fe1e2028386ec00d982b96ea5b73aaae5e9856c1b7c8fc9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep2/metrics.json",
+      "sha256": "c4f89493273be02feb022107623058809c9b22043300a8b91b6330ee1b6222d3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-1.json",
+      "sha256": "2412621845742308ef703946dda7b0146b08744dbff4fb9bab98c830f94531c5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/contract.json",
+      "sha256": "b09c6121e215c482367dd62a1fe108e4fb2f1f066d71e4b422aa5917479d305b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/features_report_source.npz",
+      "sha256": "d545fb23ccf1d11aa0fb9ebda10f086602542d05673b6b03311b920a062ab0c1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/features_report_target.npz",
+      "sha256": "4baec9fa45164a13ac55c0ad158af7222a6ede49767b5d622ccdb74f67bd824d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/latent_forecasts.npz",
+      "sha256": "0d4834507feaea12e96dde0b4326df0a284e8490d704f2efa214d2476444b46b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/metrics.json",
+      "sha256": "beef7ef85db09ad2fe1a9e6d9a9d420f6f40d255cfc2cdaeb5786a308dd40b2c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/per_query.json",
+      "sha256": "2d5448594a39717fdf3501ea99401a939dd0f551a509f9f54d9e7d5741cfdfed"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/physical_forecasts.npz",
+      "sha256": "229de828fb6100234fb03eb8a062b163ac7a55eb7d0579119b16c4973cd031ed"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3/summary.json",
+      "sha256": "83df57d605657fcea3f9a9de193d52514ae9d68462592a491b6e3d3acf5a4d43"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep3/fitted.pt",
+      "sha256": "f3904d5d00ae6f0b7a633d25cb6dc2bd4f5522f13300ef24a60b87591239052c"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-2.json",
+      "sha256": "22b96a4395bce712c96a4413e732e13cf32297da81ff746a884cde6fb596c689"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep3/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "7766f1f3a42dd9714fe883d3d677a57913cf208a8f1c737cb4826485a26ea44d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep3/checkpoints/checkpoint_step_075000.json",
+      "sha256": "74ea05a68ddd0374230c0d9049767e9c464abb8298f9a7e6a442bff255274bda"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep3/config.json",
+      "sha256": "0c43f99c383d36d2c51be0d326c6d2e8a6ae7672240be75a4f5fa6181df99d06"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep3/learning_curve.jsonl",
+      "sha256": "7a3c6a2098c2ae4d3db913b4fe63c923864b6210df06ab7565d8909fe762c296"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep3/metrics.json",
+      "sha256": "38a87f23e2309840018c100ad0d47ff65098b6c197f63f0056bb0a3c7a99a6f7"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-2.json",
+      "sha256": "0809e2b07898e8f052f1e43762428fb171285eb2bfeb312b052ee5f7062c9b0d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/contract.json",
+      "sha256": "6bd423e7a1ba87ba3e05c027dccdbb446e6d7bd810a2f18c187c68720c7db5d0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/features_report_source.npz",
+      "sha256": "cb83aaf4d2864d1f41eb0088e5597c46e59d713ed5577636462721e78f4f6910"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/features_report_target.npz",
+      "sha256": "3aefab8229781e32aac62641fc4a2edb9c58c672e30e5a0a84fb8808b0efa537"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/latent_forecasts.npz",
+      "sha256": "d811a6c9e3bcdb13f5c94a797b20abc4837edd8d954ade779c805fef20d5d7d2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/metrics.json",
+      "sha256": "c22f430ca4aff95932e7454863bb1a4aa6cc2ae1550f8a9f5ec82e67a0c9125b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/per_query.json",
+      "sha256": "cea7fbe7cf40d263fc31ef7bc9b932056db08674f98e89a75abfd44bef43c433"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/physical_forecasts.npz",
+      "sha256": "ba01b7369f2181cbd802a06594135499b204cabbc8e6a0053dabf8c60630fd35"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4/summary.json",
+      "sha256": "5f13568a7947cb40942ed91b3bf56a6c8be1e074f2b543a0a3480f8d27a8a487"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep4/fitted.pt",
+      "sha256": "a8b0216217945946b8dc53b0f27a634d47effb292563fd486bd448ee39d47429"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-3.json",
+      "sha256": "71d4085d5eb2407a977417ddf3429c91ec87749d92f2709377ea5f14b423c6a6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep4/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "0b76a870841fe0cde220035264103e720b35dd6d5023701a30efc6577bff065d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep4/checkpoints/checkpoint_step_075000.json",
+      "sha256": "2cc2561a9e4822d64c4f90ac2030c293977003374fcd18376c721c9b951305b6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep4/config.json",
+      "sha256": "7b51f2241415b700e41793c822433109d6caebf8c530fd3ccf8b7282169b6ba8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep4/learning_curve.jsonl",
+      "sha256": "d560d2a5353869540d1f92a0e252bf78e71832cedd42627ddfa0580134fbdcb3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep4/metrics.json",
+      "sha256": "db4e4d9a8f0824f5982422186f6181a5caaa76518cc27fceef320c446f2bd812"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-3.json",
+      "sha256": "ba7f463b30c7732fabd73ad77516dd088f49fa3fa545fa3ed0e6b7e81164937f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/contract.json",
+      "sha256": "46e77161d892c5fbc8ea13315bcb2fe0d4fdb074302b0f5b93961cdd462ba422"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/features_report_source.npz",
+      "sha256": "84841272ddb52016cdbce542ba59ab8a6683f49aafae520fb220f5a1055382df"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/features_report_target.npz",
+      "sha256": "05788a4ea1a103168a9d1f0f05bcb9ac6d40efd6883f03d7d333c59c21893929"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/latent_forecasts.npz",
+      "sha256": "7c8ea04ad6b617445503edd3d0af7b51bb49287a14236c6ea888eb56689ba4b0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/metrics.json",
+      "sha256": "0aeac24bd2ebf8817ff90097dde452cde8a094fc1057436442dacdcd0b7ef539"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/per_query.json",
+      "sha256": "9441c078c8687f7ef6827d06b76f149906145cf198c508588fbae1f7a43b852b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/physical_forecasts.npz",
+      "sha256": "30c667a51ed2c363a71481a4506619842f9a4a3b301b258e19a3e4405edc6bc4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5/summary.json",
+      "sha256": "845eea741235519517dcdd77ac8f205505a023628d2ee4a1c948dc4ec207bc24"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep5/fitted.pt",
+      "sha256": "023d9caceabdf56edc8764330c1ab98a450c1fcb135482ac14003cd9cfb61ed5"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-4.json",
+      "sha256": "901c328afd5f071f95ee2f6a38a7783180a5381b05e3fe8ba7016eb51d146199"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep5/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "4bf55f0fb022681bf5cd69c8af5daf28082c785059fa09aad5fc6fa857dc7c71"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep5/checkpoints/checkpoint_step_075000.json",
+      "sha256": "b5d7fb1c426f8301af4520c337d349649db6d7858be9fd428b332facfb635b8c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep5/config.json",
+      "sha256": "f0e29d1e03e7ea7600fe01be98648114b383c024bbb444b2bf9451ecf8368633"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep5/learning_curve.jsonl",
+      "sha256": "d33956ff6e5a956fbec3406ef05141dca5ec7d05ad544fa5ef5ed7eca56c9128"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep5/metrics.json",
+      "sha256": "3c1ecd1542a99bfac3dc4c624d1f41debef9bdf22eca71c553dc647e647c7808"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-4.json",
+      "sha256": "863669ad1a3dd5ffb56081838cce701f37566123c5cffd7eac732ef2ee56cd3b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/contract.json",
+      "sha256": "0fa25e4bb4aa9ebaecbf4fe3c2c46922c1702fafac2f4f86ed8dcbcda9c2c5ee"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/features_report_source.npz",
+      "sha256": "23fd0ad3bc068a34ca57c54392a5750111048306c91b2b78e186b5214f906346"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/features_report_target.npz",
+      "sha256": "1085f3f84b960d7afcd21285478dac673334765e9e3594bb03d78f43a9c7fe88"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/latent_forecasts.npz",
+      "sha256": "e0b146a6eb88255e60e6b0075236d963c386bf096d07722fb63731009af15a70"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/metrics.json",
+      "sha256": "8033d6f5fceea33f5565de0b52ef27d6197d01940a5abbcfbb561a31e060f675"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/per_query.json",
+      "sha256": "83e4c2687072c8946a1bc61284dd9a6e1d6ba31d6b6f15a8e254d6e65f2ee17e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/physical_forecasts.npz",
+      "sha256": "8f78f015742edfd2216dbb5cf2430d7ec3fad57a84ed4e9ac75bbad434814bd2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1/summary.json",
+      "sha256": "d0e9f14f18e0ca450e38988929d22d536fd590949e561ee3f7d623d53d5a9c52"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep1/fitted.pt",
+      "sha256": "1305617e70aafcf37a55d67aad56d5f54c4e7623d1884309e460e479d0815d55"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-5.json",
+      "sha256": "af62ae384fc0a94bed78c918452549df4e980cb49b6bd4e5d04c18b461eca797"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep1/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "1dfd5c097f6428ebf5ddebf466efdc706d2a15d92ed6b7bb319bc9d4da5d07aa"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep1/checkpoints/checkpoint_step_075000.json",
+      "sha256": "970af50c77fd77604f47a5705dfd3f0e2e0c9da21d76880e650a70bf9b079f73"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep1/config.json",
+      "sha256": "b4bb14fa624aa3827c3f5062fbb9c1d64ef6527fd42f4f1e1de4e65e43dc2445"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep1/learning_curve.jsonl",
+      "sha256": "f92aac1196bcbc27cb1085f2a42461f24b483f3b37d77c159283b463700fcf1d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep1/metrics.json",
+      "sha256": "17604cd0cce828f9936dff3a32b79b17967aeef5f8e6f75f8cf4b5e9def8accd"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-5.json",
+      "sha256": "6bc475520f93291435add3fe47f08946c3f85e3cc860037a15a4c7767f069583"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/contract.json",
+      "sha256": "2bd9bf45782f1ea68ceac80c26a93fb1a2ecb35fb60e8278ba49875f98c16088"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/features_report_source.npz",
+      "sha256": "19e88f2eb1846ebdbc025ea667e68b93d3cf1c1d220e20e9e08f5a6f0be2cf7e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/features_report_target.npz",
+      "sha256": "93ba3dc0eaa95cbc2790b53ef451bac1b9f12c61d7b94a4eded72ffc85612bee"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/latent_forecasts.npz",
+      "sha256": "4dbcbdbb65c2e57de5514ab8e4b53bdad86f138b2130cd3c14d5b7eea81c4ec7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/metrics.json",
+      "sha256": "5051525b979bebe553951e32782515dd811c9450e9857b7db6e5dbeb3c18b5df"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/per_query.json",
+      "sha256": "6d1ca5b745b70544b431b2f751ddf658765e1fb87ded67f508201cf641a46669"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/physical_forecasts.npz",
+      "sha256": "be0eb5389b68a13fed233076dc97ae5cdda8b774f4ca5d80a0acb5ced69da820"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2/summary.json",
+      "sha256": "920876361dc0a1004c9f9a860a2b97baac569129cf2daa6bba37758f2d20347c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep2/fitted.pt",
+      "sha256": "590f8a5551d7ef0a4f5649ddce79fff0d810fbba1a63ac36ad1732cf2aa38fcf"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-6.json",
+      "sha256": "9654f73cd64bf8d177918129d62ecaba732340475d2b8925e399cb7b3b9411c4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep2/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "3c81fefe108b8f0503824c8495697e4b195cb379630d3da5196bed7f998daf1a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep2/checkpoints/checkpoint_step_075000.json",
+      "sha256": "569dcad9fdbf4e6b2f6824f21b8e5f5aa7631b35692c166736c136ee52c049f9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep2/config.json",
+      "sha256": "b20266d8637ba53d472044e5839638b295d92ed828e6a0f1d3d443724b275646"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep2/learning_curve.jsonl",
+      "sha256": "222013cb1eab9e6b83d0ea55410c7add03335a0bbb009ac61c11a2415dd1191f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep2/metrics.json",
+      "sha256": "736259d61f5fd00d688277d81c7b7d520056d9f4f147ae417ff8681c61c5d0b0"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-6.json",
+      "sha256": "b87ab2d091dffbf91f9e37ecafc33929d983123eebf1397d7db23d149173baba"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/contract.json",
+      "sha256": "4149554211f9576ab2321b7a45efef0dccc42af9d8ad1864b5ccbffbf0c5ab8a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/features_report_source.npz",
+      "sha256": "a2f519c5c66857738023cebdc45d35671908bb270d89a11aea0493025e9b4145"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/features_report_target.npz",
+      "sha256": "a41e983ccc119d2d80eacf8280d11c1d05ecd5af407974d3ed2d491e9475d4a2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/latent_forecasts.npz",
+      "sha256": "af2324b27af5e9bfee7a426d1d867ab9a1128211cba6deadb3237fa09b643b15"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/metrics.json",
+      "sha256": "ff95ead5a94331bef0522ce3e6a23df4e6fcca9bfb56c01f16177f710e4f1cc6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/per_query.json",
+      "sha256": "ad143c8f82076b8e5fc5e5415453f06f83c0cf3896cc4a7805f6f5f870b2bff7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/physical_forecasts.npz",
+      "sha256": "71b0fbe10fbadc06a631e7cdf1a58daaf92228765352b8eeb94d63ae4f599ade"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3/summary.json",
+      "sha256": "7f03706c06077147eaf854a2537210c60848c93c4fdb6d153f4bf344735b05d4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep3/fitted.pt",
+      "sha256": "f8a3bfb92eccd6e533a222790710106fe35ff4539bec560afe214602736b2c7b"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-7.json",
+      "sha256": "20aca664175b5e9f5498b6449b99670bc9c5021b3b3ee77394057ab20e0f18f8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep3/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "fc74a2dd0731fdf5b4604dda0f238fc8aa6b601e3a8cf049540eea6638f58ac7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep3/checkpoints/checkpoint_step_075000.json",
+      "sha256": "1fbfe4e219d7ad304d46be22a7fb29d0d78123324932e0425156cb7f0f926774"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep3/config.json",
+      "sha256": "7be88e64c2e06a677109cbedf58c38d424c29809e59a5085acde249f6f7f5e09"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep3/learning_curve.jsonl",
+      "sha256": "6110acc68e34740da2b315af5b4d844bffafde94c0bc2e1d03ac0148e5b8fa4b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep3/metrics.json",
+      "sha256": "f09a25f24f0ca5576ce7fecb022c09742c5e9d17a0033afb723d6ab18cd1ea29"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-7.json",
+      "sha256": "a5d678a2a10b1417bd36e1c3b3a382c584d5893a193b989451902065b5bdd5cc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/contract.json",
+      "sha256": "9265ddf7ee41b3d7b5d33241d2d84c0192256f7690c9ec338d0a1f1d696a07cb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/features_report_source.npz",
+      "sha256": "cf6ef384e83c3d81d8fe2e28c3575c89cecbac0ef7ea9422dfe52864024e57e2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/features_report_target.npz",
+      "sha256": "d05f90b6ac12745bd1001afa3606fcf721a1483c0d9c8bab8a0ca9ec24ce9543"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/latent_forecasts.npz",
+      "sha256": "d161106f07c94843677a391ac4a198d957c5e5863be8546ad871414279c1b1d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/metrics.json",
+      "sha256": "707802356c97df698d559b73a88078446e01f727952bf5ed5c18e4a492ee8e9f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/per_query.json",
+      "sha256": "3c4ed36f53ae9bbb35e1aa8d372967b2c12d27c031cc2af598adb181e9e7960c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/physical_forecasts.npz",
+      "sha256": "7ae44d69cea491b0632c7cfc278ec3b762686576d35fe484da1cb0381e501817"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4/summary.json",
+      "sha256": "e6c62264963da56a1e203b576fcfbbba995a3f67319b3b88a062d10e6b1c6a36"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep4/fitted.pt",
+      "sha256": "27d5558103804df1e9216a396c5e0fdc8024dcf68e0e3edbe47f30d6b848248e"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-8.json",
+      "sha256": "4aa77e4c2dc75db6c236e98dbea90055f9eb45a66998f5682849918b5dde12ec"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep4/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "d6a1c39baf4c3209de9bd7aa39ab1c71456bdd421a81600627d9af29f69ea5a4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep4/checkpoints/checkpoint_step_075000.json",
+      "sha256": "f854dbfa616a9c68e087d83457fccae2ce1f677ed8d0a8cf5851b48f572b98a8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep4/config.json",
+      "sha256": "7ae17205720000eae83f24688432289236425a9f52de2c90973cec6f8bf22715"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep4/learning_curve.jsonl",
+      "sha256": "b419da5b0aff579da8e9ba252f80eb46289af425f1cb14f48f8d79388f47001c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep4/metrics.json",
+      "sha256": "69ae309301fb14d8639b139da730bdf10c79b13b6e3db116bf3286fdecc35134"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-8.json",
+      "sha256": "301bc0e540d36c49e0e97b30d8650c254f0f7d4c361ed75dfc1149d6b2a81c97"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/contract.json",
+      "sha256": "d34ea34a302561f1213f03ea9ae8d05d1dc98b129a4d7bac6ccae4f5128030b9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/features_report_source.npz",
+      "sha256": "d1fcac019cfd9ed543bc040fcaca330b9f071ff58f9c6f1782391770e34e08b3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/features_report_target.npz",
+      "sha256": "26cb5c56393f3a9b59038a8f8e0dfd2a5090daef4d427088100af82b9d259dc9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/latent_forecasts.npz",
+      "sha256": "015ff2533270036acd949e3f3e031fe832b66f10e4089854fb4d9d709871d2cd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/metrics.json",
+      "sha256": "b0045bef20b10ce700fe6ef8171cc4f782e346a18bd4011dd265d47ee0995947"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/per_query.json",
+      "sha256": "d84a56625399c918bf68811913d37121374b4ef1f07f81a86fdb905ce1413d1c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/physical_forecasts.npz",
+      "sha256": "753db5fbed812dbe5425891a0bcf2e3b5f55e809b2582ec1c96cce277d5d8250"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5/summary.json",
+      "sha256": "303e6869146ef47de4969f2a8a9e77000b4dd001daa50c523b1923aa6264abf0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep5/fitted.pt",
+      "sha256": "9d4e49bd5e8035e2ba10805a452a9e9fd158f5f441b2a33a548a505ebdbb5d8d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-9.json",
+      "sha256": "6a2e50d8f3de2da2613ebe5cf842b0654487434d392186d61fe487258f297ed5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep5/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "a6e9117d6fa95826b23a6127fdf0ed6a2f2598c4689a472b08ff0205098ae7f4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep5/checkpoints/checkpoint_step_075000.json",
+      "sha256": "8986c39051c63d63d841a7eae6d1b18c134a4a8baec5b21437128094f325842b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep5/config.json",
+      "sha256": "41b390fd4d6a5245c3e7f63c7fd9c217cf8e9d450bf2edcef79b92634bcad947"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep5/learning_curve.jsonl",
+      "sha256": "70288d214e50f86e190141d7f3d87304f8cbf63e0749cb0716b115ed77a309fd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep5/metrics.json",
+      "sha256": "e4660f53ee468f8fa056f9a98071641445577dc1666c06d8adae106ed629d336"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-9.json",
+      "sha256": "14baa4d6d48451484bd115e6bb99a7c07f513ce64280022f207c2d941ae3ff1e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/contract.json",
+      "sha256": "4676b1645aac449cd2ed7c4dd0c41a4cc7a776d88e0843854bc5a3869db8ab6a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/features_report_source.npz",
+      "sha256": "cb59e6fcd8980146cdf1fac53290f069263187213732d74a3909d071d7b94be3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/features_report_target.npz",
+      "sha256": "9bac8f77b5d461ea9bb88a3ff9c0ef9fea263076ac20b0dd07ceb06b9efd5f6f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/latent_forecasts.npz",
+      "sha256": "b7bbf652345c996306f8bc4a5a2bc216bb28c97891abde0a3fce07854e9fc204"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/metrics.json",
+      "sha256": "e7632766c0e44331ee7dcf3fbc2f66930c8080b667df56bde58c0812fcebc868"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/per_query.json",
+      "sha256": "2e455ce851cea9b293b5bf35ce9f142625f9a7c0c5c9ff71990b2a360feb68ff"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/physical_forecasts.npz",
+      "sha256": "29da3256f0b4b37e995c873037b9a7103dd0fd381fd8d5d330eebb308843a9bb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1/summary.json",
+      "sha256": "b448ee80c84e5651a6e1ce3bae7630ba7c00bcd4f7cac9281f88573dc7fef751"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep1/fitted.pt",
+      "sha256": "9985b6168cc43f6281dd0c06773ca74f89619a4f381a7efced539f8f9262dbe4"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-10.json",
+      "sha256": "757f017bd792fe72fb4a4fcd2981b0bf75f8e1d4f61909d3c0600b7bcd6541a7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep1/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "0fe15c6b53fcace26efde33b500c70fd477fecaf031f4ae9869e5664bf78345e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep1/checkpoints/checkpoint_step_075000.json",
+      "sha256": "d7f9662a81ba3d5cc58a5644ae67d3fc0202b6439e9161cf4988a78a4e14f50f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep1/config.json",
+      "sha256": "e9ff7834ce75f450f6731e8ce1097bbfeb630901eaae916e873b402ed1de0623"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep1/learning_curve.jsonl",
+      "sha256": "b176b463914c7f1294169a19f84a5b184c68422261bfecc4b01c877fe9b862f0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep1/metrics.json",
+      "sha256": "c314191277d223a95c84275a02d552e7a5f7128d57a984d8392a6d7bef48853e"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-10.json",
+      "sha256": "52ea07a82a9b288f42167731a4a6ceceb3492af8e339989afc38f085d6f3695d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/contract.json",
+      "sha256": "a499ef8d97b4b9a9c5da20a81ea4793072b05f34df27ff77afc58bb34ee83cdd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/features_report_source.npz",
+      "sha256": "e4c71492c01cb468831d333f3f40d1bb4c89be8e22c50ab15c63bf59276aae93"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/features_report_target.npz",
+      "sha256": "6b7db4c1643139837498925d23d1a516bf06dea0a5ce41958852217b6389281a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/latent_forecasts.npz",
+      "sha256": "0f04dd51453d47f13804dadaf3dcaa90388a30ed7e94a81de463062597b71266"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/metrics.json",
+      "sha256": "a601a1fa0ba84d6f2b6ebc5980137558a75132d3d02397c1ea383e60650fbb9c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/per_query.json",
+      "sha256": "ee3e353a65b6f2ba95e72d1a1ce3b5bdd0bd0d16bd4bce040d5f16c2a35b3e7f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/physical_forecasts.npz",
+      "sha256": "3930e08561070699b1721bd6c08c8bd80b587ecb929aace0fc72a041a8bcf564"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2/summary.json",
+      "sha256": "e80968211e842a95f234e80cfd6c4a45959a65dd5b1d9c00dadbe214f3551b50"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep2/fitted.pt",
+      "sha256": "dcba4645c870f1c5b218d8ad6d40e44d7882c10ec54dfd78b8930905331deb0d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-11.json",
+      "sha256": "af5d0fdd6c49aa6ce8bdbfdb78d58b3cc855d90b6fb2ee8dbab836c20d35a0df"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep2/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "c5aeca6e49db842072345b85df743d6377a08ecdc06c8891345cba687753286a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep2/checkpoints/checkpoint_step_075000.json",
+      "sha256": "ce2134ea2ad076bd6ca7c245a9a229e3944da2cdc41b22a1947732045b150bbe"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep2/config.json",
+      "sha256": "71b36db390234c1e408cb4f8cd5f30bde01b18226665abb81636f3a4eb69d249"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep2/learning_curve.jsonl",
+      "sha256": "11676089a5e15ce962b6d03ae7225ffc1eca14b447951c266e1e8929068eb5fd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep2/metrics.json",
+      "sha256": "ffe54e2b106a16c90fa23345631e730192b19e1ce4ca2b6ca82780ca04409f02"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-11.json",
+      "sha256": "c271256f44cda92476629b8f914187bee7a6f26185d6e102a11e066b7b24f923"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/contract.json",
+      "sha256": "324876598405df7bb093e4a2af2aaa397ba714cde65fcc1183d23d48fe31f2b8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/features_report_source.npz",
+      "sha256": "8c53403de251e5fff48b1f921ad296ba834209fd1980d2ac32738d8f41e79be1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/features_report_target.npz",
+      "sha256": "4a52fd8f52fd991fbe067a7461a7c59f3dc4d3f721732ce9f4090654467854bb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/latent_forecasts.npz",
+      "sha256": "c8eebb7af4c73d5f1f75f41902cfadd2b45425011ccb007428f5501ce71b5594"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/metrics.json",
+      "sha256": "2291bbce83d65d324747c1e8bd1630e2151d4a718c501b40b236c05d21cab1b5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/per_query.json",
+      "sha256": "c484f27ce7bce39ad52ea2be6034072077d296e8cc7b69ee871055ca0def6a6e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/physical_forecasts.npz",
+      "sha256": "6d95ea9da491e875060961740f447ca8837093ccb69a159e4224f6fb8ca7577a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3/summary.json",
+      "sha256": "d1b84dcbd364e67406d1c7fd3245541a7f8274b5680a609b3785a680e7492eac"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep3/fitted.pt",
+      "sha256": "1d2b572c56c8e32cf634e4b2c6dceeaff724ce13079fedd0dde5e75a9f51c5bf"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-12.json",
+      "sha256": "f67bd0eb7a0c88a66839c040c77cad537e77773b20d1b275e4146d27663a6261"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep3/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "8fc8f4b5c446d6661b85d1c7f36656884dd134ffc26436feb4a30279bcaef4c5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep3/checkpoints/checkpoint_step_075000.json",
+      "sha256": "b5bb5754c141b2180504b2b10f997d146421c58c3a789154adeeba016edfe416"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep3/config.json",
+      "sha256": "7f806298fba1f62df686a853ed307093ea1286de27b38e8bee902619ed4e710e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep3/learning_curve.jsonl",
+      "sha256": "f9d24eb8f3c1b6d6eeb815308bd0ef6f1dd1de4f426d82e660bf1183ee17d1a3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep3/metrics.json",
+      "sha256": "eb400c2f00b9fbd95bc930083ab71d39d1097c61296d07f5e8327b828d28c3a4"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-12.json",
+      "sha256": "5bf7c68908abb315c3596d8e70ad261ffbbf789edf9103ff3228bc840bd737a1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/contract.json",
+      "sha256": "5b57ae233f7d23131c34f144b3e785c50cf9d61bdfefda3ae2befec169232dad"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/features_report_source.npz",
+      "sha256": "9011e0c5279d0dd37669657b30c5b77dde54daf91ed12622090cddbb973f0050"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/features_report_target.npz",
+      "sha256": "623dcf5c1a98d8592bf5486b79a1cf589ad0900c5c0c81ce9d7e3bdd7dea4938"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/latent_forecasts.npz",
+      "sha256": "863b27c5975ec2c832ea5e200c1b5f815d9a9db916173329cd130a9f2c8428cf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/metrics.json",
+      "sha256": "9fc3d969b978c6901eab3665cb5e948f3be8d16ecfec28a7934708d3a8334df7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/per_query.json",
+      "sha256": "d561df3ed4439eacd9cf37132e7103ce14e3266cca9b770f9cee60d0f0ce6dd0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/physical_forecasts.npz",
+      "sha256": "2e650abd5e964a0621e8e43f06755f866f7b3d2d64a02f312e701d452f7feeff"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4/summary.json",
+      "sha256": "485ae0ad104ec171baad403f35b4787b942984a31681ff7021c294029ec25436"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep4/fitted.pt",
+      "sha256": "343be41010ed4a0bfae697378ea4bb9ad077ea68132f1048be32ca724ad5137b"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-13.json",
+      "sha256": "6679704fda9d0845a4ef0070ea18cbae818d044481ddbea3c589ee06d1d4a938"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep4/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "9dbbc5c7616b0509ea1b8f50fb5fc548a2dee616d35714802167e79d94e6b499"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep4/checkpoints/checkpoint_step_075000.json",
+      "sha256": "4c61ac4839c9e6f59cdef270b8eb8530a8c090ae9883a43090edacc19412a656"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep4/config.json",
+      "sha256": "86bfe06e6763dd3564eb8fdedc44c67a72482a5ab51b14640d03f51f8cb889c5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep4/learning_curve.jsonl",
+      "sha256": "4b7cb6eca262eadc78717a7db92186d951499a381d59d9dad59ad7b61426759c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep4/metrics.json",
+      "sha256": "9f5b27c4b917f547102278ba5a4f870f15e3d8c11bc36ab3b3e450cbe3875698"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-13.json",
+      "sha256": "05b28e620602043d89928e84664d60745385e283fb6e0d89198aa4be4d1fed07"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/contract.json",
+      "sha256": "2fd1086045bc76d3c934e256933752c2f215f8662e0ef6ac691763cfc07aa98f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/features_report_source.npz",
+      "sha256": "89b69654b2ef2c6da91a6c8497ecf8e216516cae6f783d8be311e88219f0fc31"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/features_report_target.npz",
+      "sha256": "9222d79847e629725d3e9d9892b74b3d7e687c3a760f8318dec31b92ca61f530"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/latent_forecasts.npz",
+      "sha256": "7326df8da31447b4a24b2eeee75d0f5fb6c1375e5ad9389b3794f93d9cb8e7f8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/metrics.json",
+      "sha256": "8eb9276bcfecb197fab868564a9975ca4e03845ec22ab40e5164ed247eacf81e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/per_query.json",
+      "sha256": "385b7d342c127175f5fc0819a38228cc0b4734605365c8ac7788197ad2b989c0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/physical_forecasts.npz",
+      "sha256": "e667751f2387fcc41d9f01ee78e93bf2103d6ff462bd7dee8baa7a15184dd47d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5/summary.json",
+      "sha256": "7fa7dba1008c34dbe976c07061dc7ee4bbccf442414e873fed522de21339ff59"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep5/fitted.pt",
+      "sha256": "f13597106c26e25e1fc1076b7dbaab478304cd5e6c902e56a2af3be6c47c5e60"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-14.json",
+      "sha256": "e5a1d2a7c8de79f62b8528615845ad782aba4b5f8f2cf6cb305ef4ec06c64b60"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep5/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "4541f2a7021d41015ea4a4fe6194b1121c58259670f6404f6a0cd34b07e4c4b7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep5/checkpoints/checkpoint_step_075000.json",
+      "sha256": "b5d4a896539bb1e070e3f9f4adf99719b7fe1b550d94cfde4f746cfd227ea82f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep5/config.json",
+      "sha256": "3b71435cba12f3658ba85ba769b68ddbc6ae18960c260bc2be1d8ded519136e3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep5/learning_curve.jsonl",
+      "sha256": "f99fde1e375b25da6561cee157911d0f7c45fa35d992ba48d1ecce5bb37f35d9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep5/metrics.json",
+      "sha256": "3929b1a2a580948a83eb6bc872044c7eb10ecac007d7976c25c93620f6e9c18b"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-14.json",
+      "sha256": "9cea725ee9a018640325dee7e04aaea41b11e289d697bcb4b391ebd33e683b2d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/contract.json",
+      "sha256": "b38475b4fa35c05068ac46e29e679dc43f819fc1733e6052b583de7e0f7619bf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/features_report_source.npz",
+      "sha256": "0404dc124bb503c1fd03d2010c49d5a21eb055b8a05ddfae6016ca27628c0903"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/features_report_target.npz",
+      "sha256": "3259a7506646306165156d677343eb89fa4f86e20138a6e4bc527857e8f8f620"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/latent_forecasts.npz",
+      "sha256": "fa897639280722eebbe66c24f8efdecb2cf7b5d3fdc7fcdea8a78daeecf2e342"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/metrics.json",
+      "sha256": "4bc05a226194ed8b51f52a49121554432cc7306db9d96f366ea9f8a4532e43c1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/per_query.json",
+      "sha256": "4ffbb51b3cc703f0a26201261946772f6ff2a6e673f5e23d3e63684fcdebe2b1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/physical_forecasts.npz",
+      "sha256": "6c9fcb1832491d79eaa497217f3194ad74944267ea8614ccecd694cdc28e311f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1/summary.json",
+      "sha256": "4f8bca1d4901055834a41a4ec5b11c371fc22b5dfe884406374eda8111b2abf0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep1/fitted.pt",
+      "sha256": "52d2fb0625a64f284ebd778138ecbef5eddb630e31a341e99488483beffd264a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-15.json",
+      "sha256": "a9db886eff564928ae9189928be482d072233cd402f7dd613cab3b96703a7dc5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep1/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "6f60a52a0d2fba6f944e02b7d509c14bcdbf61186b43f37978ece3d9deb3014c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep1/checkpoints/checkpoint_step_075000.json",
+      "sha256": "33368b705594c506cab65a146ae0498bac488e35749fe890923d1401e33a5534"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep1/config.json",
+      "sha256": "ff1964912c7a2ab1e0b4f5750c46509200180b8a3996b85e81e54bbe2f21ce74"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep1/learning_curve.jsonl",
+      "sha256": "a3f985e995a241340c199bdf0c6351ac7d2ad09b5666e6acc1840f364ffc152c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep1/metrics.json",
+      "sha256": "9a3be4ec84e338ee717e907817f027410e8261f18b01316dfc1961653ef75e7b"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-15.json",
+      "sha256": "cb4c935c05e5a394e3842cd2a4fab4ae2b11b525e0c777c032e3b674a5d8c0d9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/contract.json",
+      "sha256": "bae49a9eff4f6d61681ddd55aaf20f0aaf85ff04e837182205b151bf15ebb48f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/features_report_source.npz",
+      "sha256": "9963feb214f1b5b1a09d68c758f97e5416d2114850a42439d2627f16ac914654"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/features_report_target.npz",
+      "sha256": "65df3ba4f41d8b448c154ba2c27dba43de23362b5f49477338ad6584e9184054"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/latent_forecasts.npz",
+      "sha256": "c16c78c3a920a71cf6f0b6c4507b80a14aa50caf709a7f756d4a701ebd409b59"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/metrics.json",
+      "sha256": "2fcb7b93016899ceb0653d618e5d7143f9248adb9937eea2716b2a2748270a2b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/per_query.json",
+      "sha256": "a934f8f24d38c36cccf12ee5c1442549af255b0517603bdca8d30401872fe1f3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/physical_forecasts.npz",
+      "sha256": "63825be5d3699eebc6f22c97913ff91196935e6bb807cf533dc02a97632250a1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2/summary.json",
+      "sha256": "70ba1f9a6b68c0a89297ab3bac19011451012809fde8304b854df067fecf03d5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep2/fitted.pt",
+      "sha256": "cf1e698a9f7b50c6abfb68516d9ad9eba2f19f1bf5d24c98964d86db85d05a7c"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-16.json",
+      "sha256": "a1096ef4b374289ddb50683f6d22406d552b9c56bcf77517f965400899a5c68c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep2/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "aa0d80cea194c833c48b0e1d2650d85fdc7381ce292e61a7636c68b343bd1391"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep2/checkpoints/checkpoint_step_075000.json",
+      "sha256": "79146289c567b7b53c8e4dece0fa526fe59a2fe9552555a671cd5482fefd5288"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep2/config.json",
+      "sha256": "7b34cb6520e75faeb71339c6c9e362428bc405675920635746ff1606e09efdaf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep2/learning_curve.jsonl",
+      "sha256": "c058fa754a7ccf4647b3507ad50c819e53ced6b919faa967e930518b0baeaebc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep2/metrics.json",
+      "sha256": "b45a0b705833cb5c809381bc79f92fa6b9595b548e3bd5cab7f63e87bc919ae3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-16.json",
+      "sha256": "33ca65ce6991796bae2b84133fc95b623458ab9f3b5e77de50bc146d2a6c6b47"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/contract.json",
+      "sha256": "009c6d7627c43783f2a8f6345309bd2097ba3f0be7dacb01c3877d57c27474d5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/features_report_source.npz",
+      "sha256": "93c32655324b6a58207b2f9b5eafb868297cf0f87f24f76c645c53d165e69445"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/features_report_target.npz",
+      "sha256": "bcc66c80824e1cf9316124183a4b553701d229028f41dac9933be2568fbf4aa5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/latent_forecasts.npz",
+      "sha256": "471ed410953dcd8f197ed519ab59fdca419e1a8a9f455448e2e9866ff1908539"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/metrics.json",
+      "sha256": "b1946cb6ca93849a2a497c5d8d78b1330a51993f09275efa840f25721bc4115d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/per_query.json",
+      "sha256": "7d7f97348728afabc8e910b2fb00e4ff8b922351abb4c329f48e23c17c18ccbc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/physical_forecasts.npz",
+      "sha256": "b244c0a1193036984ca72b1acf46044174353b52cf288bda14dbcb20411090f6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3/summary.json",
+      "sha256": "f6d09805932207918499bc08e73399386d0d03f9fa11e4b9e4aa1fb3547b43db"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep3/fitted.pt",
+      "sha256": "32f3a5b9d1e8f6a927a64d440602004b81bfee3e80fe69398e08b506a99574eb"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-17.json",
+      "sha256": "db5a87a798863fa853c771cac944183b3b8ed9dcb659afb3af4e459f21d209cf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep3/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "773a13a6bc34f62e4b5c80b99447fe13535e8f15f177376ba162489b34301c0a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep3/checkpoints/checkpoint_step_075000.json",
+      "sha256": "ebdc770d82061ffbfc76cbe849f6fd6927195d024a7bfc569df7e1b1ad1bb236"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep3/config.json",
+      "sha256": "1ce0285c8a14db0d74fcb3a677db1933c50f4a1586d56834c3bcbf1ec7c7cc38"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep3/learning_curve.jsonl",
+      "sha256": "97519fa605b93cb4d0a4a167fa6007a79212b9d8ec7edf089410e43baa55460c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep3/metrics.json",
+      "sha256": "d3f067e6c37818eb2bf9ff1e8cc6b4ef9d29a6f6fc9d653db84fab838cee5d7c"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-17.json",
+      "sha256": "e849aca6902b0835c06f2aef82b91f44d88bf8a543051461c81054db69457583"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/contract.json",
+      "sha256": "e874259a9a50d6b230fc8e4cb3e80944c627605ac3564ace7a33bb39a26e1fef"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/features_report_source.npz",
+      "sha256": "4113772ddc95ded7dd3a240b5482198e56e6422919692bf678adf547b998aeb0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/features_report_target.npz",
+      "sha256": "db4987ae57ef8212ea69fce0f5cb56ee83d720c2227572a010a731381683dcda"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/latent_forecasts.npz",
+      "sha256": "5e340effecbee592af825144f6421a74a1d977c9486341ac9215c055ab29cac1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/metrics.json",
+      "sha256": "8b2a2cef9335c89abf0c5101df27ef4491fb63ac752603172b05948e2a4a586e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/per_query.json",
+      "sha256": "e2d1543170bd3690bc3cbe408018849f31460a92bafeb99efefeda7a5cac4cca"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/physical_forecasts.npz",
+      "sha256": "03a4b63351abcb87a153be3ad2dd76da0fdebf315aebc34894cbfdceafa557ad"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4/summary.json",
+      "sha256": "dc185c38106ff8a49974480d328f58ae31f1aa0218fd7b85be46a76d6220af8e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep4/fitted.pt",
+      "sha256": "4c0ad10b84220decbb32752db45f5a8795a5b6bb07791110c5b5f75c095859dd"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-18.json",
+      "sha256": "8c7422867599383c6f64594eff1a58b502e5c1b81a0fea2bc05c910120e20f73"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep4/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "b59ac9289bc12d334c1d4acf2edababe8cab0af388a6d90129771f82a1625f6d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep4/checkpoints/checkpoint_step_075000.json",
+      "sha256": "8c49d5d44cb4aa653461b523d3b32b0085091ef27a725aed4db3312921784581"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep4/config.json",
+      "sha256": "032c726717da1ed5741b62661065ffecd15b574ef40c9995e16efc6d663755f4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep4/learning_curve.jsonl",
+      "sha256": "048db84a4544eaaac1632f5ca278afdced0c7f2e52cbc4080ab8598d8f1b4960"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep4/metrics.json",
+      "sha256": "ea7c356ca76d9f1277d45d1ab4e4fdc878547bcf0eb71741e5d9a42b553649a9"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-18.json",
+      "sha256": "f5f2c1cb2f1edebc29ba54fa8f071d03bca6d54a1f9f8611e00cad50d93b3985"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/banks.json",
+      "sha256": "63c333b84a0dd08cf1523e9223994939ebbb68a0062f8988ba251ade3438c50a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/contract.json",
+      "sha256": "6b6a8ed49856dd164f88c4b9a838f673d977b35be17cb2427b1a3fff4a2e5790"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/features_report_source.npz",
+      "sha256": "733abf33027692aacb0cd55a6709b66b5cf72338be64414661941d04ee9bbf50"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/features_report_target.npz",
+      "sha256": "37aff0450e361cd83a329bd4fe718bd5014f6076036ee20f38514af56d8f61fe"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/latent_forecasts.npz",
+      "sha256": "ae219013a8c5af02218b47a11db89b74b809df54b22e91e261a96a009f1dac11"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/metrics.json",
+      "sha256": "476a4eb4875aabcee8f9230e59240b88d51ecbb1c81d6c4a0312e0bd122ffb93"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/per_query.json",
+      "sha256": "1bcd526fa0d351c86756d5cbee61da872ef99783191054d6fbe6b461fe16794f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/physical_forecasts.npz",
+      "sha256": "9ea8655f7b032db627287b9eb6eca198241d4f88ed44b0bcc40927b38f2c7e46"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5/summary.json",
+      "sha256": "c085e9c1366f6e27adfc3af27248294c66ed6cb33b1a51164a4b591eec1a6f64"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep5/fitted.pt",
+      "sha256": "c9b14d89c04c946f79c8ada61d2394ab180bdb95d7b0ee12c222b8473c3d23c4"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-final/attempt-001/task-19.json",
+      "sha256": "4479ee25e84bfc82c4aad4f94160cc6f71913cf38cc708b1c25b2261d1ca6260"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep5/checkpoints/checkpoint_step_075000.pt",
+      "sha256": "f9cb97bbbc089375fc66251facf07b7b5654b6712761067d831885994ffab61d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep5/checkpoints/checkpoint_step_075000.json",
+      "sha256": "81cea65006181faab4fec600330470f3421a5e26405a9f10130273f3768234e9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep5/config.json",
+      "sha256": "c263f3c3e4b970fd9832a2445e464cb8c87df6a163c07c11f2d5129593c22ba5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep5/learning_curve.jsonl",
+      "sha256": "176d2afe00c8065f41782290c46652a0389acc3a361f4d905dd2d0e2fe025d37"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep5/metrics.json",
+      "sha256": "991f42435c49f6edf7b89dc9166ba7aeb045d49b4575d667e7e50f1f80804111"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-moving_mnist-train/attempt-001/task-19.json",
+      "sha256": "d2320f9334dd42c4219286ab4251c1533d7f019b97643b7f60363f99a70072d1"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/verified.json",
+      "sha256": "6a817a18e99f281cc9a6533531ed4d3a94192c8db46640b002f93718c71d406b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/contract.json",
+      "sha256": "865b35290b9a53ce6b7831df5814d9b169d5154bd9c4a8a4630f02d255b76b6a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/forecasts.npz",
+      "sha256": "fa601c7ab800bcfd8dffe3b98a980d0db4f28059ad307fd2aef34f13e4b0af9a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/metrics.json",
+      "sha256": "ddca0d36c396ced8ab6afbb7751804a8ce499a09cc2342e43f13709a3e910c31"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/per_query.npz",
+      "sha256": "6f9135c53cfb025221f3cbf52a6bc916de738a34e8773040ee70ff672df12f21"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/probe_bank_report.pt",
+      "sha256": "88f17acc972eb901d419311f290225f5e08fa7f98aea37169622552e36acdb3f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1/summary.json",
+      "sha256": "58169bd7ef06461b4335293daba0cb1daebef6f11baee43f6ded0094063188f8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep1/fitted.pt",
+      "sha256": "01640dd9b55ca95b9a3561f18f908fbeaf1f00cf41cbaed82cfafc5331da0f5e"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/plan.json",
+      "sha256": "b9bb3815445a1ee7940acfc607e156df2f827fe2f18ce2fd4a5a4868a087ea9a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-0.json",
+      "sha256": "3f468f1dd6858560686140c0d591502a7664f2f368071a3979f2beb3f98fcf7e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep1/runs/mpi3d_s_r0_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "3115b575e4a8e665d42f9f1c6b518506a5bccbb597a17898ef745fa7711fc2bb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep1/runs/mpi3d_s_r0_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "9682fa4808d22bb148836c7dba3d0aae9c9f6f9c3c62b1b3095802f8c862c393"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep1/runs/mpi3d_s_r0_v2_main-training_rep1_100ep/metrics/training.json",
+      "sha256": "043076d6fdf86ad31c96d22ae84023ac0d751817893e9af481602de04def42d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep1/runs/mpi3d_s_r0_v2_main-training_rep1_100ep/config.yaml",
+      "sha256": "36ccddab8f963e0eb4441d7b6c2150155076234f0b089fa65ca904112d9b84a9"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/plan.json",
+      "sha256": "27099bd61f9bd24aa2ca8eacbaa124285dcae6e5250b3eee5aeddc1100a5aadf"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-0.json",
+      "sha256": "28c3ecdaf2b99a36e1f32ec537526567ce02d194d52b983dc821f9703385a3cf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/contract.json",
+      "sha256": "d3f8861d415c83a1bd760d34fe87ba1ca9c4e3df3cd428e1c28b0f8f70fd7ffc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/forecasts.npz",
+      "sha256": "9a64a561dc1956e587636c9ed655b5c952023201c80db05b8737af31c78e38ac"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/metrics.json",
+      "sha256": "4b709deeae1881f1c53c6fe0f35e2f2e1ce47123255f6cede98d7bf2d467b90c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/per_query.npz",
+      "sha256": "1d2fe413b3ae2b61f97d61c6107a123df2f1b4376b494ad06c13284db85b4d90"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/probe_bank_report.pt",
+      "sha256": "dfee3aee63e082a146fce2ff9c46093b74d2b2b6c1dcb0e84eed67a38ce4f1b5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2/summary.json",
+      "sha256": "09436a0eef5e8be28bc60cff31b0793f5d8cd88307fb2233d103005b631bb897"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep2/fitted.pt",
+      "sha256": "0486486230bc644010e2b81d7f9c11f42ac924773689a857bd892b24a1188f19"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-1.json",
+      "sha256": "053bc81cd7e04a5011470ad99455297b999e7e2bf0351222936a07f0eb494891"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep2/runs/mpi3d_s_r0_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "bed58d50d77ed6e59da449798ffcf36feb1ebd4c8f79a22843bc8c2c98901f07"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep2/runs/mpi3d_s_r0_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "89584e530619f9d742d0929be735fbb2ead1ecf9645c7781a938af4c34fd4677"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep2/runs/mpi3d_s_r0_v2_main-training_rep2_100ep/metrics/training.json",
+      "sha256": "1713b4f2929d58ed79b5a605f272d8b792fa16d740342dda8865ec192f5c688c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep2/runs/mpi3d_s_r0_v2_main-training_rep2_100ep/config.yaml",
+      "sha256": "c559e255c691d592c8ba5a6e8486ef631bc5acd73d394e9f2551319c7b1892d3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-1.json",
+      "sha256": "04a6fcf090b6c36b628bee169894125a4f4b2e67b040a67ea9c7c8336de33d33"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/contract.json",
+      "sha256": "ff53ad9c3b7379c0f68475ed4a2d784f36285296efedfb6ff3bfd349aa62a839"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/forecasts.npz",
+      "sha256": "d0e70571b4cd666e3bec69ed64d6f3b6d6836a49fd8a34aef01f1f75fa3732ba"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/metrics.json",
+      "sha256": "3193266972ca9137c959e2bf551a8230b846b1477a25ce17c9c97b1df0e35083"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/per_query.npz",
+      "sha256": "283bf83816a6a60c02d2cd05275d10e4e6fffeac119305e97acdc395a21a0d75"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/probe_bank_report.pt",
+      "sha256": "8cee89b0c65a2148a72d7723d375f0a9c915ce2f76827e6a79d5c48c436997b4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3/summary.json",
+      "sha256": "1d4f8c6adfd49df8d5edd036ec7d4708c462825e0776064465aa8e8a30d7b3bb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep3/fitted.pt",
+      "sha256": "c2d17142e003c5b16a1af2ab2ea476421bae58615d58432886431e9c86b3db7e"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-2.json",
+      "sha256": "6f528f06d33bfc591c2dc0dea1ad516be77be008ad3016f059990e92f20af0ef"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep3/runs/mpi3d_s_r0_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "d04a6ca34fa0eefc1d638b7f458270fbe037aceb54a6cf63f668cea8cd600a22"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep3/runs/mpi3d_s_r0_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "eeb380313aca106adc9a7b3e156d8d3bbb5fb6b6d1f77af42ed34a5991d63cc2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep3/runs/mpi3d_s_r0_v2_main-training_rep3_100ep/metrics/training.json",
+      "sha256": "9515886518e9178ece26f22d60af2a7a0179845bb332387bbb1b2308f7cae525"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep3/runs/mpi3d_s_r0_v2_main-training_rep3_100ep/config.yaml",
+      "sha256": "296045016e1a59d38546fa182113349fc49cac5ed3690fa65ff4a4bf974dfbad"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-2.json",
+      "sha256": "e7f6c56dd02d8ac9d9414bc2e4dded429352555fc47ac0ec1138219885d1dc3a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/contract.json",
+      "sha256": "ff58d31a946feec2bc94e5ea3bdc0ced5ebc72121557f7df6ee3a89a47398e94"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/forecasts.npz",
+      "sha256": "bb8c7dadb0b89ea15625624ac587303c8f09d40d0682a64d516ed1ad51b6ef7d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/metrics.json",
+      "sha256": "ac94c9ba45685489bec7a90d9b4eefa46cd97ad0f824ffce80e7039f117cfadc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/per_query.npz",
+      "sha256": "328485a0026d2308bd83f0866dd1a695f3f098e8da55f473ca38e26d959454a0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/probe_bank_report.pt",
+      "sha256": "7ff58fc231ae7de6302b26891226fd0c61e6ef827e6f92951f9a5fbf64018706"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4/summary.json",
+      "sha256": "52e770a9c4809622f17c27a6f2ebabdafaa7e925a592ab53ee8d43989605e606"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep4/fitted.pt",
+      "sha256": "5c14d502ebf7f4b31ed68a3bca6f3d3f6311824c3164ed447a5d9a0b62390fe5"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-3.json",
+      "sha256": "2d7e5022dfb7503e79c3109a4c571faed81fce7f6035ec7d76e1b7fce1dc5605"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep4/runs/mpi3d_s_r0_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "f127189dc2d472516760287e30f6402d9c48d3f33eddf060c604454291feb70c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep4/runs/mpi3d_s_r0_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "1f6ff0316b50d25c8164ccd7e5641db975c6d846524836d8c31b4882a4cd9e5c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep4/runs/mpi3d_s_r0_v2_main-training_rep4_100ep/metrics/training.json",
+      "sha256": "45edd443a4ebd45fc778ba35e9698f2749af2d94d3c7f35022f7a54e96ad8ef4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep4/runs/mpi3d_s_r0_v2_main-training_rep4_100ep/config.yaml",
+      "sha256": "db0a7af192c16c1a635f30f30a02b54068d70c1537202c9c24ffcaf625afa936"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-3.json",
+      "sha256": "05af8928398555298d7da12ed50952a967fd54724c73ac74131514c9e96ecc4b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/contract.json",
+      "sha256": "6e7451f0716027ffacdcd9179684a9ee411e9196d6792469be79247a9a4d1775"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/forecasts.npz",
+      "sha256": "2cea1a846f4b23f67f1c8cd16a1e50a904ed3400c5330ff0ea7f098261cedf9b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/metrics.json",
+      "sha256": "c400f4f03b857057481fae9963f0456c78c5882247e91ffb4b3c000cae29c464"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/per_query.npz",
+      "sha256": "8a600c6cba4f48e451e9623fb5d5cd121caa1a18b57653a577ad094475b5f024"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/probe_bank_report.pt",
+      "sha256": "12db6837b5997744d9789473d069f01c13fb1ad57fb7d27ff0c16396310882f9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5/summary.json",
+      "sha256": "d790fb11ddf0d467ca6360ef998a526e250ea34f402501eec2627f237f3a2b57"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep5/fitted.pt",
+      "sha256": "9fe34515d815586ba94fa8285c8400c5599452a5652fcc1649032b3c25189fb3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-4.json",
+      "sha256": "3855317c2f0d67a5e59b0f6e6e2d4fe3a7cf84244e1af77f25c8ee7fef497bb0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep5/runs/mpi3d_s_r0_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "c716bbb864426694e2c6d6d639b54c849d922a17dba85c72e7217ae090df66eb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep5/runs/mpi3d_s_r0_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "95aea680ff0034dadcda9047bb2f772c543360060a36120e0f95a2f4ddfc45d8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep5/runs/mpi3d_s_r0_v2_main-training_rep5_100ep/metrics/training.json",
+      "sha256": "8c75f96e812b61aa2fd105991dcb8bb805bb58b27fc8f1f991ab65cd771185f5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep5/runs/mpi3d_s_r0_v2_main-training_rep5_100ep/config.yaml",
+      "sha256": "6016d45b0f2ab29047e1d43d0aa84f48950ff94a3c00fff47be30f0bd1ec1a97"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-4.json",
+      "sha256": "970c4a32f946c26d0731458384fde68d1cc5105f737d63fe2e2f66d8ac676201"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/contract.json",
+      "sha256": "974cce221e78cc6e80d8965554ea8cedebbaaf5d202ec868ed1cc4ececd18ab3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/forecasts.npz",
+      "sha256": "35e891a176913b52da331ef57e4098703236fd6fb72ba83e9adf483681aa72e8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/metrics.json",
+      "sha256": "e549e88c3ce421c7a6b78acec1fdc334d2d9f7a0f6ccf175c7f6976d2d563061"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/per_query.npz",
+      "sha256": "3186a786bfb36ac6c1aa8b98e235f478206e6719c9d3919e9044e092562c35d2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/probe_bank_report.pt",
+      "sha256": "3810bc7da0c621526e55b3df3ad8e2784948599579aeae193c53ef7b0a3228ae"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1/summary.json",
+      "sha256": "93fa9bb77f524ac16cf29e33edf41929c203ae5b042145f26919e278db33a12b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep1/fitted.pt",
+      "sha256": "20d2aa6af10b4c978f1ff41390faa78e1f53aa3ba402abb8a4b9a7c429c0e5fe"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-5.json",
+      "sha256": "c9c32a518d2e79d5eb6d7147a2cce8e04b0363872ac5aebe815b9812ec3313f6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep1/runs/mpi3d_s_r1_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "925942eb08e3b26157a4c5ac3cd3151e861dd843e1a6721875497e14502bea48"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep1/runs/mpi3d_s_r1_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "84b3c74e59b452d86bd4ce73afb77ca17c77575db017bd69e9b84e1f24d9dd4d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep1/runs/mpi3d_s_r1_v2_main-training_rep1_100ep/metrics/training.json",
+      "sha256": "3eca67bcc6dda59a9b090ac122297c20dbcbc584690878b28a786cb9e81816a7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep1/runs/mpi3d_s_r1_v2_main-training_rep1_100ep/config.yaml",
+      "sha256": "94368610c67aeab1d86ed06f953e6a7d342c5976fc7aef40373efd3c75148f8b"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-5.json",
+      "sha256": "a26328f82a581a083de73a4797338d5be017c023b3204800ad58bdbac5306967"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/contract.json",
+      "sha256": "5b888f59ece61776914b9571991dc6fa07b71760aed7e7a10fb748dc54f7ae2b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/forecasts.npz",
+      "sha256": "aff37657da7b05c36c1ed8cd882e0a2788b009953c1e7f9b2628d2f7f3860895"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/metrics.json",
+      "sha256": "e57fa2d43484aa9cf07f72a54357654c8d868904ec283f951519ce22c5494201"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/per_query.npz",
+      "sha256": "5bef131a6e06ed00a4e5f0c07ede22b33539121cf985ddf7ea360458d65d9257"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/probe_bank_report.pt",
+      "sha256": "55ecbb86249df4dcd32d205b107851f87d713707aff54ccfa79c1ad1f0acc778"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2/summary.json",
+      "sha256": "fd76e1e3f40e2bf7f0b614d373150114fb3dfad4f0f52fc9b879d7ad4cc6895d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep2/fitted.pt",
+      "sha256": "0f0c8e3e3cbbe36f41ea1ea720e81c0fc151f04cce9102ec68bb4fd4a471a316"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-6.json",
+      "sha256": "07d3cb41f68c805273cb722df49a6f3949bed82ecb782d82281fa635f522f549"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep2/runs/mpi3d_s_r1_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "1653dda75afc07a38331a99f27e0e315b237c6c6be3a9aa710c7c2855638d345"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep2/runs/mpi3d_s_r1_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "9ffefa1279a4d62b989f53a3305ce21e91d70d6b0e4eb48abdfdc4eba61b01f2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep2/runs/mpi3d_s_r1_v2_main-training_rep2_100ep/metrics/training.json",
+      "sha256": "96f59c01adfa7cdd4aa64fe940331816432f345282ee90e8cf379952a1936cbc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep2/runs/mpi3d_s_r1_v2_main-training_rep2_100ep/config.yaml",
+      "sha256": "e2501c799cfbac246e1e1568c1257efb17cff437b2d7011e6ad55d42844d1a36"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-6.json",
+      "sha256": "b9622eed537f8ddccdf7390e3419a642ad724c601322e796e02ca0bb5c684cfc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/contract.json",
+      "sha256": "385aaaf715c07b1a00091ffe4cee2518116d0ed062cdd8b6940487744bf93f76"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/forecasts.npz",
+      "sha256": "ab00cc9044188d9dfaf761423270d3ef05310f31130f5a832b8f1b72665c553b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/metrics.json",
+      "sha256": "77d8bf9c172552c5ae90394d67fcc630d49ee42948f73ccde30718dcf283ec26"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/per_query.npz",
+      "sha256": "c4e16336801259b398ff3dd73d67fa487be03f457de6a2b8b6e712d323f91e37"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/probe_bank_report.pt",
+      "sha256": "1588217954e492258cf03c4f7d878a9b9821641d520579e869a8da05e606cd38"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3/summary.json",
+      "sha256": "ccb10695c7994ba20e2e37cc59d06298a4809dfaf51cbddc02e1858ec17961dc"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep3/fitted.pt",
+      "sha256": "9484ae3060242fffc873026314bff8fcbcbbf7ce36d20d3845e9a2395d9ef9c0"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-7.json",
+      "sha256": "c85d633d8b29218f0773c4caaf5f2e13173477d034c811d64e33c40cc459255f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep3/runs/mpi3d_s_r1_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "0688b59ad28aeb7b2a27361c8d19bab4b902f73aa45ecd64a43de3d8b8b110be"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep3/runs/mpi3d_s_r1_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "18b1b9d4a5265aacdcb6486a87280089dde0fc0dbe5969862226537bf4095226"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep3/runs/mpi3d_s_r1_v2_main-training_rep3_100ep/metrics/training.json",
+      "sha256": "85f0ccd2a358c6360cf4722256dd20c687c085cae6d2d1ac74547857dbe3e4e6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep3/runs/mpi3d_s_r1_v2_main-training_rep3_100ep/config.yaml",
+      "sha256": "dac9cabfb67837205efef4cf9334dbc027a63d4ddee369f562a22462cc1d0aac"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-7.json",
+      "sha256": "ac46d2db69866e514b29d9c62b3c9dd9157a4f7b65e6403175ee2304f9580411"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/contract.json",
+      "sha256": "8a068309699ade07b3519fa05aab3df29b2f5f34a58da4b254e34a5f59d98bba"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/forecasts.npz",
+      "sha256": "1e9951205b92d3e64f69cfdf2e93abf8f36712d7c325e5e5df87da066add5f50"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/metrics.json",
+      "sha256": "3561395f45fae08a186385e0d4ce65462adde293b797ae10a2f6c5153dbe3669"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/per_query.npz",
+      "sha256": "e2757172599afc2a0542d7b24f46331b9a1287381da68997d3a11510a95b69fd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/probe_bank_report.pt",
+      "sha256": "34ccc2d0408d0dfb2d68c79dab1348e5eb7a61d8d2a401de52a710cd6a1baedd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4/summary.json",
+      "sha256": "f1b3a527466632513b0f588da0880e5d20e5797f7be9351488611f144db1bcc9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep4/fitted.pt",
+      "sha256": "45fe9787f0509e5a79617b0cbf40e143f61edac56084e11a513fe6a838668480"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-8.json",
+      "sha256": "2801b8b4b4de91f0fcded63cae95be656d0ac7a11c20b901d8515b7ff3ec30b9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep4/runs/mpi3d_s_r1_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "16388f1265680e46b537e56e770e5773fe5a9fb8e2706fb88b9ec425a805807e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep4/runs/mpi3d_s_r1_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "cd800ada471457c3b73c41356be7f31ece40282c3e7106b1c6657a6a3bc1de60"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep4/runs/mpi3d_s_r1_v2_main-training_rep4_100ep/metrics/training.json",
+      "sha256": "31020711bb3e3077ededcc353aac3ab284a564066b8fe64a612a426a62e95dc7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep4/runs/mpi3d_s_r1_v2_main-training_rep4_100ep/config.yaml",
+      "sha256": "88a8525c355c4a9db469f396df10c00408ddc6e76f4ac072ca5cf69114edc662"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-8.json",
+      "sha256": "735110edf300341cb41038d053126da0596961e60513d32d8d339e25c5b238c8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/contract.json",
+      "sha256": "662898d117802fc11c9182bd6649cf3c045bb8bd1260a7623cde27884c22a5b1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/forecasts.npz",
+      "sha256": "cd9f34ba96a092aeca8877bb2473e615f8639df553f91e0d5a0103ff88a5d737"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/metrics.json",
+      "sha256": "e01d34a4c986c25174b0ad8b52018fdf7bdfe3bad2d6fb3887ea1788938b3647"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/per_query.npz",
+      "sha256": "d8e0ed7145ac5ad1018a34b7570b3ec5a9e24535235448f344dc014ba39eabad"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/probe_bank_report.pt",
+      "sha256": "b6b6258428c5c7d5557d198454e55016b2a0d44d7aac860f20ab189b3ed079e0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5/summary.json",
+      "sha256": "aca5eede16b636d1b60abc188970c805b13f3677d6d4acb2648920bb1872d32a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep5/fitted.pt",
+      "sha256": "010b039eca58ac2f72e490cd5c6a585ee3d3d08ced31a904411827c9ac64de27"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-9.json",
+      "sha256": "2df1d3db6fe2b5e01eb1488117e6006d6e8ce15c5bc09f35017b50c0d15bc2be"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep5/runs/mpi3d_s_r1_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "0df03119dd507856efb024944983b1654c59116113f216609f0f9bee7dba0d3b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep5/runs/mpi3d_s_r1_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "782ec1cb7170862a9ec3f0cf84dd050d0ea83d15b09f78cadb3d8df22c05d20b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep5/runs/mpi3d_s_r1_v2_main-training_rep5_100ep/metrics/training.json",
+      "sha256": "f32b75caab6011d68b9e8e1e79cb198df5ff544095adc3ea6bc057f2a32aec20"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep5/runs/mpi3d_s_r1_v2_main-training_rep5_100ep/config.yaml",
+      "sha256": "c19788df8508455e993f20a29253e5257ffd982dcced829f57b34c936f39e431"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-9.json",
+      "sha256": "d46ab0455718562d358634d56a2795284c09348a11f93fb0725de16864bdac89"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/contract.json",
+      "sha256": "aa09cdd4ffbea16055e8cbfccafb93cfba3a5077cebbc4cb871422d10a618fa5"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/forecasts.npz",
+      "sha256": "1d77291ca86b33017315bd67ea7cf6d6296f0dbd9b559cdc466d1578c3ea228a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/metrics.json",
+      "sha256": "f6e2e1505c97132cfc8c5b1f588eec476ddbd39237a21a7866e1c28d8e04361e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/per_query.npz",
+      "sha256": "2064743d58185192d7987755eee3973b693a250bca57bff13f4b1c320bb296c4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/probe_bank_report.pt",
+      "sha256": "55e0e759df220846cff567f468acc657cc0292fe405d3412ac900c1e7d9edfb4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1/summary.json",
+      "sha256": "bd7eafb68db0cffa1632661a7b0d4245c2ef9bc98b831b630b774707eff1017a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep1/fitted.pt",
+      "sha256": "95be33a46c19fae0339503034c3f44df40bb5c092006f7b4645be4da31263ade"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-10.json",
+      "sha256": "298a4a3dc9e02046b3ce80b4fbaf9c60078d8b7cd51b41f157bc400632a289f3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep1/runs/mpi3d_s_s0_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "934a957c5aa82d5f175d5c77b4c78c05bea6440ad1f51c13413c79143e77c32a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep1/runs/mpi3d_s_s0_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "4a1b0bfcf8aea11dc3ebdee514829dde35ac67fe2bbb9b1703ed7d7733631cc7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep1/runs/mpi3d_s_s0_v2_main-training_rep1_100ep/metrics/training.json",
+      "sha256": "d3deefcf923ea9dd1ca55072f827dae79252b91109b369803d0d8b129b301fd7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep1/runs/mpi3d_s_s0_v2_main-training_rep1_100ep/config.yaml",
+      "sha256": "473addaaea73974ae149d3fb8b3d407f415751e3debddba2e721d925fb6ff1e1"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-10.json",
+      "sha256": "4d706656e4e9edd4121d351e3603a250a98021aa968be3d82e179c7855c55aac"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/contract.json",
+      "sha256": "8a3f27708214b1062fd3a6a4331e76b79ff755713456ae7f3aeaadc34ef3e395"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/forecasts.npz",
+      "sha256": "f47607a91b1a31dc26a103303f0bf9b54458208476fd8b007a533f7c623a2209"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/metrics.json",
+      "sha256": "33f3052711d4db1e2786a6b36bdb3beec00c80b73ef0ef685d47f84cd34f232d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/per_query.npz",
+      "sha256": "aeafbd8997706fc4bddfaab090838f67bc8f6f869a3d2a74cf409250b4abe5c1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/probe_bank_report.pt",
+      "sha256": "469e225fbef191537a99c7a0c22fdedfc6baef43d4080c586f4446151b9b07e8"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2/summary.json",
+      "sha256": "12d29654311976671e19d5739ab71b91adc1d147d24cdc98a18552bc0c67801a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep2/fitted.pt",
+      "sha256": "6d2d721e2b5ee7a73748f6e9bec1974b4cd429736da91040e08928179f59928d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-11.json",
+      "sha256": "77784756fa98516f34b4fcf534ca4646191b111ce10f45e85a5f8e8811b95b53"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep2/runs/mpi3d_s_s0_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "3d55daa40e7822cc46f108ac9a38917f7e4dd839006a720e6d403dc0b544bd8f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep2/runs/mpi3d_s_s0_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "17d3c6fdf140f6be32328bf15cf3ba84c45ced563df61d306cc9a4e572fc72b6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep2/runs/mpi3d_s_s0_v2_main-training_rep2_100ep/metrics/training.json",
+      "sha256": "73bed8f8494901bcab283b95cbf36b17a0bafa8f1e6d759dd53c1c56988ef638"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep2/runs/mpi3d_s_s0_v2_main-training_rep2_100ep/config.yaml",
+      "sha256": "d5ee3906474c39ccf468f497d18481576de93ec9e7e08b510cfe1c0597cbba0d"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-11.json",
+      "sha256": "f039f07ea5d1d92cd547a333b756874148ad25258fe48e2baede9e77916ef737"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/contract.json",
+      "sha256": "2bd3ef457b4274b3e3c515e433ba2b50d4f21c2cf6fee234ac016939d1a77b24"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/forecasts.npz",
+      "sha256": "7f2b842c7fa28bf635babf4400105f29ddc04bb5c6d71affd7d7afd4045a761f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/metrics.json",
+      "sha256": "72ac57a742c9d5340e76d3c20151a95200caa64716b1a27e3f18a0f652067e68"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/per_query.npz",
+      "sha256": "1c744f27d5c2ee0f0937e8312434f515c37fbf2873f882cb9249b86f168bba03"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/probe_bank_report.pt",
+      "sha256": "8aee97fe0c14f96f0e3d85595d01dfc5c25c8fe1f2be5d743db4c438b76dd6ed"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3/summary.json",
+      "sha256": "402da0de28c4be7f75ec08cfc8df3d292fd75b90a84e6563e026c2e5fe8f7da9"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep3/fitted.pt",
+      "sha256": "963e1684ebd603f05ed24947e4faef62b025ecde543c9e282452ad6e6839bd92"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-12.json",
+      "sha256": "e6fb5c1de31c72de47eca2ce20663155295eb5f00007c4fa6396259359e85313"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep3/runs/mpi3d_s_s0_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "6268b7c17878eb82ebe8cfc3f344cfa14727366e104e60b13ee5e11011500f6e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep3/runs/mpi3d_s_s0_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "5f1be6db904e078797905a758ba36492e052011c5444c213d9ad715e4e6d921f"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep3/runs/mpi3d_s_s0_v2_main-training_rep3_100ep/metrics/training.json",
+      "sha256": "cb3327274a8becebdaf9034f0c7b9b74641b8ba2c4bbefaa74d9ef46fdaa9aa6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep3/runs/mpi3d_s_s0_v2_main-training_rep3_100ep/config.yaml",
+      "sha256": "db48d4fd2a38f74dc4f58c1e61ae290bc0a1b75d37910ddb3dcaf6ad95d2caa2"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-12.json",
+      "sha256": "8b1f56490de5c5fb1d2c801b402bbd14d471462ac0c69794a9e8a475213ba321"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/contract.json",
+      "sha256": "37122f2114febd0f18605fae7fba3c7ef986d6027781e8c24d41ddcdb98afbf0"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/forecasts.npz",
+      "sha256": "087c64c5b2a0a45a3e93422da55eed8850f1ce7a19d088d03d10bce46a3a4b0e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/metrics.json",
+      "sha256": "02496b9fc83e6ce3f004dc27f84f4cddeab5af36f7dc9d22807c30548b81c02c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/per_query.npz",
+      "sha256": "996f443045a47b1049298bc95edafd1caa8c76581a3e0861580f94efe356bbd1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/probe_bank_report.pt",
+      "sha256": "cb8ab6598c1190b2cf3fcede634ddaf049fd6f9cde294a78974abd2769b2d229"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4/summary.json",
+      "sha256": "840ea5e7db5c751e562bee642d4019aba51f5e3ac0a80c681b4649348c691392"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep4/fitted.pt",
+      "sha256": "3303abb9edaac316951667b5415d4271a6d0d48d69a3c5c710191f8efa1a76b9"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-13.json",
+      "sha256": "317dd35022d96526823557ff8b14c703c64fdf69c796a897d24cda4bb3b5c28d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep4/runs/mpi3d_s_s0_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "292d91d31a74b7ccfde2da18551954bbabcb2161fe66753e171ba2f719a926ac"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep4/runs/mpi3d_s_s0_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "bbe59219d4871a064692b5f3edf5ccc1028e0bb91bf205fdbd337d592dd83794"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep4/runs/mpi3d_s_s0_v2_main-training_rep4_100ep/metrics/training.json",
+      "sha256": "4d88fce6a7a79232fe6166efd79552784583244548446bd0932769ff2732600c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep4/runs/mpi3d_s_s0_v2_main-training_rep4_100ep/config.yaml",
+      "sha256": "45273fea235563d40bdea81c7b7008b82b89d9b239c2ae7f5d1830ea187b5da3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-13.json",
+      "sha256": "0d8964a35d6b84d90e7c4f599b62fb3d6164ebc24559ece5b1e67c11ff982b24"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/contract.json",
+      "sha256": "ce6eee75ab8de4964531b2cb7d6461bfc31f58e66784b4bb947f7b61bd9ac360"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/forecasts.npz",
+      "sha256": "c172a9c8a33b7c45f64ee64a6db648f54ca2adc01ca502ed8e0a11af7719c014"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/metrics.json",
+      "sha256": "e80303d66e4e477c722ef9bae55b1c0f88c674b93e6f3a04358171e8e5360799"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/per_query.npz",
+      "sha256": "43897d1725a257c392f3f8ecc6f395dd2800a25d5bf8a6c270bd342ef61dd296"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/probe_bank_report.pt",
+      "sha256": "3c9af166c021f91ffe92ebe940e96c60ba897847473acfcdf2e9cd4d045dfb99"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5/summary.json",
+      "sha256": "ada9dca3d46684b6a8191747cb0aab5b3017106519d6c7d031036a49f0f358bf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep5/fitted.pt",
+      "sha256": "adfad824cffdb204addc52b4d1e5d96a8ab988d74b537d677c996b29ec366de4"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-14.json",
+      "sha256": "fd9a7713d4b3c51f45d7c944072b1c7eb8427d99ea84d36c86e5cc17e818805c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep5/runs/mpi3d_s_s0_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "b4fb4b3cc126876c44452ba5ceead6521aa632281107bf28e2457478d21c27f1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep5/runs/mpi3d_s_s0_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "960f510fd7d3191d7ce01b0ae3b5f2d2978b2c66cd40e5b08169fc0d979008bf"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep5/runs/mpi3d_s_s0_v2_main-training_rep5_100ep/metrics/training.json",
+      "sha256": "8e33d2f0aca0175171a28d147a0d8312973be528120f1e1608eb357c8378cad3"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep5/runs/mpi3d_s_s0_v2_main-training_rep5_100ep/config.yaml",
+      "sha256": "73def1fcdb5a5ecb5da9a0c47de88bda754183c1ab9e753004bf558516c2d2c3"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-14.json",
+      "sha256": "f23a46d63c6b370d33451e0c87f69cfc84da50d42f4611ada8f2165afbf9fe32"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/contract.json",
+      "sha256": "c275fcd3c223a4d69889e41be66a191be90fee525909402fe98d515643ecd062"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/forecasts.npz",
+      "sha256": "7f919d3a7f4f9096dc296cbc7914c10bb1340d48ef6f6f6c33b1504a2fc186f4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/metrics.json",
+      "sha256": "ee342d200f6eff9179593e9609f539539bb8162f763a6fefb89e5541a06f1e4c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/per_query.npz",
+      "sha256": "8fe8a8b276c998e26d13f9c40110d6afcd765ce8acb9b8ae2db953a9f56fdc63"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/probe_bank_report.pt",
+      "sha256": "818305868c45d87c356ac6353f0d82f46425ae1b97ca4744d04263405f83b5ec"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1/summary.json",
+      "sha256": "f627b963d1e80653f606db0f7b4fa59ea034242d99ec9638eeb9d013733f8c51"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep1/fitted.pt",
+      "sha256": "42d6760bf1809a30e315c29523e4cc79951bb55517b9791356379be41fcd1ebf"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-15.json",
+      "sha256": "822dc5d2c90df3bb852a55c42ad07c309442fa611cfeceaa2c5a53b500f845f4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep1/runs/mpi3d_s_s1_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "6f8d36e8871f45f2d175a71a0ee8c29619c2ce4147172e23986391c06d242b80"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep1/runs/mpi3d_s_s1_v2_main-training_rep1_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "dd72d97df4519d1568218469e9571e8259c861fb3e9c5d3f124ec3b727a14806"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep1/runs/mpi3d_s_s1_v2_main-training_rep1_100ep/metrics/training.json",
+      "sha256": "deb7aaaab6dcd6a66f657954a7f9475142ee146cc76cfcabb1a15bfad9feac04"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep1/runs/mpi3d_s_s1_v2_main-training_rep1_100ep/config.yaml",
+      "sha256": "e7d7ad9a19ea41a788d7538bf8994a4629f5563d56f39c9e8f5b4d933b357b3c"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-15.json",
+      "sha256": "b9e686c7735a6443775a7966881858dd5fed90ac4f458f1df5638151d42415f2"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/contract.json",
+      "sha256": "f2d455edb73ef85aa4ea2b12d8035aa2d3deb55c921ab872cd104535d3d3974e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/forecasts.npz",
+      "sha256": "439172cbd40c5ec5d014b805932217f163b0b1d1711367acb5619deda230aa65"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/metrics.json",
+      "sha256": "22992eb9ec65dcfad9cee187a6b53840b7710c8935c6c2d4e7c4f7af98ab1861"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/per_query.npz",
+      "sha256": "89ba1b1c663b61380c19ca730707ecfc839fb4cdc69bd6791d429a958048ce1c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/probe_bank_report.pt",
+      "sha256": "f48151695e1e359f2474f5c17950bc9366fc18a32d88dc1752fec1c46eaa8714"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2/summary.json",
+      "sha256": "c2d216d7f5e2468499d7ac7fad585cb35adbed6c638fb211e2c86e0757b27796"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep2/fitted.pt",
+      "sha256": "9d522f49a7c2680af31092b188633fcff47f794237be0d7598a2f74522c368fe"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-16.json",
+      "sha256": "9dc844c871e91e599d324e21ce83a123a0c2ba0e480693a0e7d09ebac2c81a8c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep2/runs/mpi3d_s_s1_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "6c8c1898659b8d7a32c3eba62400fb5e1c6d1e36f668e7478ba8065812cebb51"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep2/runs/mpi3d_s_s1_v2_main-training_rep2_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "d5c4542c27dbb7c91592060bfc08362c7939dada5f097bfe5ec449f4b3e354aa"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep2/runs/mpi3d_s_s1_v2_main-training_rep2_100ep/metrics/training.json",
+      "sha256": "7d44f75868498a9e87aac583ba1048dc76bc17100946fe78bd37e49db9c2d3fb"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep2/runs/mpi3d_s_s1_v2_main-training_rep2_100ep/config.yaml",
+      "sha256": "8fce41830ffd79bd3aac6bba02becdc01c4898066388b062461e60a99575308f"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-16.json",
+      "sha256": "776a5d38b8f7d31eaa6bffe9cbab03d1af7140514ac1c528c0ed92e41fbd810a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/contract.json",
+      "sha256": "0016a3b4801aa5b98f4fe090c7d7ed07df9a70abc8b65a9347267b8a775c72cd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/forecasts.npz",
+      "sha256": "4c226d877569060dc6795750078219fe2c5d3f1f2417244ac057245b73d31b6a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/metrics.json",
+      "sha256": "3019f9abb45eb06154b747b105024578a4f2d46f0b514bc3b4a7ab93f2e95fd1"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/per_query.npz",
+      "sha256": "65e92d17a8c887877afb87019a51ef4c1e4f56b6b292deff395661d42a0501cd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/probe_bank_report.pt",
+      "sha256": "e65966bf389641661d3a677b66b32a1ad9672502cfd183273398fb4d90dd99df"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3/summary.json",
+      "sha256": "20d47a283dbc85e690d1c81a39019b5abe93c465df810d1d652731419483998b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep3/fitted.pt",
+      "sha256": "1558713b25fbdb8497fe785266b30cc3df352b7a167234c883b1317932deb56a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-17.json",
+      "sha256": "5d4696968d007ba433ceca6fdfe3c75b8c92b51c2a0be943f90173faeae1d590"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep3/runs/mpi3d_s_s1_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "d64adf91ff6f74b7d1e45923919c1792bae929892585f802d3085cd916ec29fe"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep3/runs/mpi3d_s_s1_v2_main-training_rep3_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "307c51ba105288d3a00a06afb3afab5e3c15e963c6545b2578a43e9cf7d1b53a"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep3/runs/mpi3d_s_s1_v2_main-training_rep3_100ep/metrics/training.json",
+      "sha256": "9da5f43727bacab295ae016499f5c8a59c3b1b71d44bb7807568438da639e847"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep3/runs/mpi3d_s_s1_v2_main-training_rep3_100ep/config.yaml",
+      "sha256": "6ba35ae43e67eb26f78f8c5cc7af7414659942a729fd98b6027c63f19d6f539a"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-17.json",
+      "sha256": "65b9c8854a5fb2eb82bc14fe3f2b6acf74784f3c413787c425c5eabaee462139"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/contract.json",
+      "sha256": "61d00f1e4a9ea3189f56bbead136527273036ccec977af9f7a4a31f879012416"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/forecasts.npz",
+      "sha256": "6fdbdb1af8b518f91e4f352be6c815fd935464921f94c15269f0c3dad5f4c68d"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/metrics.json",
+      "sha256": "d7e0ec4be507e492d9d513000da8969d5094c3113c9f91e641f9d85665694fc4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/per_query.npz",
+      "sha256": "64548e1991745a34bed1888d3e799e674f2e4a2d0702e9fd4d3821c5ea58c9d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/probe_bank_report.pt",
+      "sha256": "72f97c065c683723578f6e9bd4f8642829cc55b83d2ded44bf9552810fbb648e"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4/summary.json",
+      "sha256": "808993b3f4e8507554b30df4ea02bfe34062a2d80862e4c7cd2ae91a30d66839"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep4/fitted.pt",
+      "sha256": "eb5085ae8ac65f99cf6f6fefced1372fdf41ee40b5a24366cda7d1a4e5842df5"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-18.json",
+      "sha256": "f291116a57a1186ea21980faf4e9b0be1a9e5a3e55cce96001d1f72692d31f36"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep4/runs/mpi3d_s_s1_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "350738d9bdf955284c4f4c2f85149486c7a9a41e62424f21d390c4c436b61441"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep4/runs/mpi3d_s_s1_v2_main-training_rep4_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "d72d201bb5ec2c271f0a4111f58355a36a9658cffffc710bf2559acdfa5db6d4"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep4/runs/mpi3d_s_s1_v2_main-training_rep4_100ep/metrics/training.json",
+      "sha256": "60f13be02d470fb6e470c459b247f57d823a1eb204b1c6313c736d7eca606a3c"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep4/runs/mpi3d_s_s1_v2_main-training_rep4_100ep/config.yaml",
+      "sha256": "c0fd9f90033a5d7affe4f806ea4b8de4cd8f43d0abef4cf886a4909d1f7b6424"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-18.json",
+      "sha256": "b46a30d27718aefc1b5ce742c015ed3fa4feeb29213e58578f4572b17c550fc6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/banks.json",
+      "sha256": "9692fffdeec57c59fc4d58ad132347b71e060af628007cfc8b0e9356410154d6"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/contract.json",
+      "sha256": "18853bbe140811be83049f3ba5db026abeed22ad4e4ca294903d9b8e44e8fa70"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/forecasts.npz",
+      "sha256": "a5d2ad7584f26a0d6af152e89b3974081a674751d0a334325f2c630a3d729a00"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/metrics.json",
+      "sha256": "45b03a242ef7b12275f8caa682cc16a802dc534ec32c2d7fb06c993f656d42fd"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/per_query.npz",
+      "sha256": "3a70f41244e1e2d65b2191b935b04c7214edda85dfc127537d532c06028c9d74"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/probe_bank_report.pt",
+      "sha256": "e526fca440b7fe1ab2caff595c0cd3babf2cef7479209ce6a1251019dba6eb49"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5/summary.json",
+      "sha256": "856dac6e2491e82f73891f84d6a38b239d8521c602dba0975c65d9de262e0177"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep5/fitted.pt",
+      "sha256": "a9f1484d36992203b15cd5edfc2705eeaabf64f1ef60bdc07316ab3228969bfc"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-final/attempt-001/task-19.json",
+      "sha256": "a222088cc543c2f46867c51d8516d46f927b8cd1b173d585b439d92943316f21"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep5/runs/mpi3d_s_s1_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.pt",
+      "sha256": "a620d7c1e421bfd140deadfab8525b85bf020105424a08d927efb2791f37966b"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep5/runs/mpi3d_s_s1_v2_main-training_rep5_100ep/checkpoints/checkpoint_epoch_0100.json",
+      "sha256": "f2e4638285df3bd28e9837024c888efc531a090a9e63133b99b89be631ce6fa7"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep5/runs/mpi3d_s_s1_v2_main-training_rep5_100ep/metrics/training.json",
+      "sha256": "9c89ec9114a11d5fd845b060f02180673c1cc3078a87d7958b91da4f2c518336"
+    },
+    {
+      "path": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep5/runs/mpi3d_s_s1_v2_main-training_rep5_100ep/config.yaml",
+      "sha256": "865a01665f44f506b695cdd5a3238b50dc962c5bf999da4cab03345f2a815e41"
+    },
+    {
+      "path": "/home/l/leonardo-tonelli/project/jepa-causal/runs/five_seed_campaigns/20260925_eval_fix_v3/phases/main-mpi3d-train/attempt-001/task-19.json",
+      "sha256": "fdb932c3a4648eb361f4ec96e757c1e9744a7d517154b92d6a3f4b0edb654bd0"
+    }
+  ],
+  "schema": "five-seed-evidence-provenance-v1",
+  "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945"
+}

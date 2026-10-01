@@ -1,0 +1,365 @@
+{
+  "generator": "paper/scripts/build_assets.py",
+  "inputs": {
+    "assets/mnist_identity_manifest.json": "3de79d2c4e4cac9324f3c4b5bfd907ac0081a80d2e9aaf27a7a858b208aa5610",
+    "config/campaigns/five_seed_v1/moving_mnist.yaml": "5f7f8a1868e21a099f35f61b95924e58c732d8deb29c4f3a829ec9b11db41dd9",
+    "config/campaigns/five_seed_v1/mpi3d.yaml": "46d9807a88bfd98613069faa223c51e858f65d7b346c6108395e4fb320b7111a",
+    "config/shared/mpi3d_position_manifests/probe_train.json": "1a47f916d2810a6b0321d96b46d937c82a54ba87359a458481a2edcc3b20dc6b",
+    "config/shared/mpi3d_position_manifests/test.json": "75fc0370efa8de8ed502cf813d8e127cc7b1d9012f4dde7fd7170be7f3b08841",
+    "config/shared/mpi3d_position_manifests/validation.json": "c822f1ee83e482b7c8ab5cfcc11e4654a3ab1d4ccaf41d2ece44d78dcc51a047",
+    "paper/data/dataset_protocols.json": "1c3ecb249e66d2ea874318a9cd8467d86410fd3d49517f30db352edfbc426eb8",
+    "paper/data/flop_recount.json": "83a1bb41c17105215579488d59da26ae12567bb6914ec9eb1f6560881e1abd73",
+    "paper/figures/dataset_protocols.pdf": "913ab198a2229c9ddc4762d02246d36f9d4d0a5bed1d584be70d777eb7eccd7d",
+    "paper/figures/src/model_information_flow.figma.json": "e6632bfec499e9ee75e5393deff2fb1e9685e55b2a26cb244a845736ae9be24e",
+    "results/campaigns/five_seed_v1/20260925_eval_fix_v3/analysis.json": "471badafa101539a9036ef146e3010ba85570166fb692effb5ae897db71afc3d",
+    "results/campaigns/five_seed_v1/20260925_eval_fix_v3/diagnostics.csv": "a9fb535ed98cf6bcaa7ee28914f987c4b3ce0d22bb441aea85d78031332dcd97",
+    "results/campaigns/five_seed_v1/20260925_eval_fix_v3/frozen_analysis.json": "0f3a57f98bfad4c2b3efa8760a8379ab3cbd9e6d094a2e64e1bde269c33b708d",
+    "results/campaigns/five_seed_v1/20260925_eval_fix_v3/frozen_protocol.json": "2f0ae04d6893b8f5c9d36b02305341148467ff0ddae5367eee0520c0e68f7681",
+    "results/campaigns/five_seed_v1/20260925_eval_fix_v3/frozen_review.json": "cbf95c642fcf6eb4621cdb091bb8bd9d393e14d90ce3dd1424e6f07d8b58830a",
+    "results/campaigns/five_seed_v1/20260925_eval_fix_v3/model_results.json": "adf2504a44e223069a443dc881503f04f4acc8decce2e5215bfbfdd6d134635f",
+    "results/compute_cost/benchmark_apple_mps.json": "f567fc0235bf2da56e884d7a9f89c530c36dc7f24ec736f4b29917d1a1c0bc6c",
+    "results/compute_cost/benchmark_local_cpu_flops.json": "d75fa03d56c5f08cdc4d03609764f7c6da344bb2007e452193395965df3a2160"
+  },
+  "outputs": {
+    "figures/dataset_protocols.pdf": {
+      "mm_digit_label": 5,
+      "mm_future_draw_indices": [
+        1,
+        0
+      ],
+      "mm_future_velocities": [
+        [
+          3.757767669730861,
+          1.8233398108199732
+        ],
+        [
+          2.607168486571842,
+          3.3244400640974145
+        ]
+      ],
+      "mm_identity": "mnist-train:00000",
+      "mm_seed_sequence": [
+        20260930,
+        24
+      ],
+      "mm_selection_rule": "first s = 0, 1, 2, ... with SeedSequence([20260930, s]) such that both initial velocity components are >= 1.2 px/frame, the first x-changed and first y-changed of 16 future draws each change velocity by >= 1 px/frame, and all nine digit centres of both futures lie in [9, 55] (digit fully visible)",
+      "mm_source_state": {
+        "center": [
+          13.368134922494441,
+          10.273814870940107
+        ],
+        "velocity": [
+          2.607168486571842,
+          1.8233398108199732
+        ]
+      },
+      "mm_split": "training identity (illustration only; not an evaluation example)",
+      "mpi3d_asset": "notebooks/assets/mpi3d_one_to_many_scenarios.png",
+      "mpi3d_crop_rows_cols": [
+        1015,
+        1496,
+        392,
+        1616
+      ],
+      "mpi3d_source_factors": {
+        "camera": 1,
+        "colour": 4,
+        "command": "right",
+        "position": [
+          20,
+          20
+        ],
+        "shape": 3,
+        "size": 1
+      },
+      "mpi3d_split": "validation attribute combination: (4 + 3 + 3*1) mod 6 = 4",
+      "png": "figures/dataset_protocols.png"
+    },
+    "figures/model_information_flow.pdf": {
+      "figma_url": "https://www.figma.com/design/wH8nvHCyosBQq3eYI3bC81?node-id=2-2",
+      "note": "reviewed Figma vector export; retained by the asset generator; no data",
+      "pdf_sha256": "15a565e9b6c5ac1c329b6640cb0aef4f7d7df6b5c562393f1f93de5041ab6b48",
+      "png": "figures/model_information_flow.png",
+      "source": "paper/figures/src/model_information_flow.figma.json"
+    },
+    "figures/moving_mnist_interval_coverage.pdf": {
+      "data": "data/moving_mnist_interval_coverage.csv",
+      "note": "empirical marginal 5-95% intervals from 64 draws against 128 truth draws; deterministic roles have zero width and zero coverage; not a calibration proof",
+      "png": "figures/moving_mnist_interval_coverage.png",
+      "question": "Do stochastic forecasts carry useful spread?",
+      "rows": 40
+    },
+    "figures/moving_mnist_paired_comparisons.pdf": {
+      "data": "data/moving_mnist_paired_comparisons.csv",
+      "metric": "physical_forecast_energy_score",
+      "note": "single common scale; circles are matched-run differences; diamond and horizontal interval summarize each contrast; zero denotes equal scores",
+      "png": "figures/moving_mnist_paired_comparisons.png",
+      "question": "How does Shared-Var compare with Shared-Det and AdaSSL reference on Moving-MNIST?",
+      "rows": 16,
+      "sample_size": "five paired replications per contrast",
+      "source": "analysis.json (recomputed and asserted equal)",
+      "uncertainty": "individual paired t 95% interval, df=4",
+      "units": "px/frame"
+    },
+    "figures/moving_mnist_representation_tradeoffs.pdf": {
+      "data": "data/moving_mnist_representation_tradeoffs.csv",
+      "note": "left/right of each role: first/second series; within series replications 1-5 left to right",
+      "png": "figures/moving_mnist_representation_tradeoffs.png",
+      "populations": "(a,b) online source-clip probes on final report clips; (c) target-space readout on real target clips",
+      "question": "Do forecasting gains coincide with better representations?",
+      "rows": 120
+    },
+    "figures/moving_mnist_sampling_control.pdf": {
+      "data": "data/moving_mnist_sampling_control.csv",
+      "note": "training identical within each pair; five lines per panel, one per replication; identities are in the plot-data CSV",
+      "png": "figures/moving_mnist_sampling_control.png",
+      "question": "Does sampling the prior improve on its mean in the same trained model?",
+      "rows": 20
+    },
+    "figures/moving_mnist_speed_strata.pdf": {
+      "data": "data/moving_mnist_speed_strata.csv",
+      "note": "strata by initial speed |v| of the source state; counts are identical fixed-bank query counts",
+      "png": "figures/moving_mnist_speed_strata.png",
+      "question": "Where does the S1-S0 gain arise? (post hoc, secondary)",
+      "rows": 66
+    },
+    "figures/mpi3d_forecast_failure.pdf": {
+      "data": "data/mpi3d_forecast_failure.csv",
+      "inclusion": "all 20 MPI3D runs; all 2,048 queries have a defined (non-degenerate) gap",
+      "metric": "gap-normalized latent ES minus own persistence; predicted-feature support ratios",
+      "png": "figures/mpi3d_forecast_failure.png",
+      "question": "Is the MPI3D problem only the physical decoder?",
+      "rows": 60,
+      "warning": "latent spaces are separately learned; values compare each run only with its own control"
+    },
+    "figures/paired_physical_effects.pdf": {
+      "data": "data/paired_physical_effects.csv",
+      "interval": "paired t, df=4, individual 95%",
+      "note": "squares are replications 1-5 left to right; diamond and bar: mean and interval; no significance marks",
+      "png": "figures/paired_physical_effects.png",
+      "question": "Primary paired contrasts",
+      "rows": 20
+    },
+    "figures/physical_forecast_results.pdf": {
+      "aggregation": "points are runs (left to right replications 1-5); black bar/line: arithmetic mean \u00b1 sample SD (MPI3D: mean marker and \u00b1SD line on log axis, lower end clipped at half the minimum run)",
+      "baselines": "MM pixel constant velocity and simulator oracle; MPI3D privileged coordinate persistence and two-outcome oracle; each one fixed-bank calculation",
+      "data": "data/physical_forecast_results.csv",
+      "direction": "lower is better",
+      "inclusion": "all 40 runs",
+      "metric": "physical_forecast_energy_score",
+      "png": "figures/physical_forecast_results.png",
+      "question": "How do the four roles compare on the primary metric?",
+      "rows": 40
+    },
+    "figures/readout_fidelity.pdf": {
+      "baselines": "dotted: privileged oracle (MM 0.610, MPI3D 1.0)",
+      "data": "data/readout_fidelity.csv",
+      "note": "aggregate statistics only; no invented histograms",
+      "png": "figures/readout_fidelity.png",
+      "question": "How faithfully does each fitted readout decode real target features?",
+      "rows": 80
+    },
+    "figures/residual_usage.pdf": {
+      "data": "data/residual_usage.csv",
+      "inclusion": "R1 and S1, five runs each; numbers next to points are replication IDs",
+      "note": "endpoint values only; posterior evaluated on query trajectories for diagnosis, never used to forecast; MPI3D KL is defined for all 2,048 queries per outcome",
+      "png": "figures/residual_usage.png",
+      "question": "Is the Gaussian residual used at the end of training?",
+      "rows": 60
+    },
+    "figures/training_cost.pdf": {
+      "data": "data/training_cost.csv",
+      "normalization": "each quantity divided by the R1 value of the same dataset",
+      "png": "figures/training_cost.png",
+      "question": "What does Shared-Var (S1) cost relative to AdaSSL reference (R1) and Shared-Det (S0)?",
+      "rows": 40,
+      "status": "post hoc, secondary",
+      "tiers": "analytic / controlled / development"
+    },
+    "tables/cost_summary.tex": {
+      "source": "same cost_data as tables/training_cost.tex",
+      "status": "post hoc, secondary",
+      "tier": "analytic",
+      "transformation": "100 * (Shared-Var / AdaSSL reference - 1), by dataset",
+      "units": "percent"
+    },
+    "tables/dataset_splits.tex": {
+      "counts": {
+        "attributes": {
+          "test": 12,
+          "train": 48,
+          "validation": 12
+        },
+        "legal_positions": 1024,
+        "mnist": {
+          "development": 10000,
+          "test": 10000,
+          "train": 50000
+        },
+        "mnist_sha256": "fd4a5cab1a6033112ed1d7ddcf11a9a0cda5f1dae3037d3dab6f76fd41441784",
+        "positions": {
+          "probe_train": 256,
+          "test": 256,
+          "validation": 128
+        },
+        "readout_population": 230400,
+        "test_clean": 9216,
+        "test_queries": 36864,
+        "train_clean": 36864,
+        "train_pairs": 589824,
+        "validation_clean": 4608,
+        "validation_queries": 18432
+      },
+      "source": [
+        "frozen_protocol.json:final_banks",
+        "src/iwm_replication/mpi3d_data.py",
+        "data/concept2-mnist/concept2-identities-v1-seed0.json"
+      ]
+    },
+    "tables/mm_controls.tex": {
+      "bold": "lowest mean in the primary row only",
+      "keys": [
+        "forecasts/model_prior/strata/all/energy_score",
+        "forecasts/model_fixed_prior_mean/strata/all/energy_score",
+        "forecasts/target_space_persistence/strata/all/energy_score",
+        "forecasts/encoded_decoded_oracle/strata/all/energy_score"
+      ],
+      "uncertainty": "mean \u00b1 sample SD over five replications"
+    },
+    "tables/mm_representation.tex": {
+      "aggregation": "mean over five replications",
+      "bold": "best mean per row (per axis for x/y cells)",
+      "keys": [
+        "probes/source/online_backbone/digit/accuracy",
+        "probes/source/online_projector/digit/accuracy",
+        "probes/source/online_backbone/velocity/r2_xy/",
+        "probes/source/online_projector/velocity/r2_xy/",
+        "forecast_readout/r2_xy/",
+        "diagnostics/oracle_decode_vector_rmse"
+      ]
+    },
+    "tables/mm_residual.tex": {
+      "bold": "coverage closer to nominal 0.90",
+      "keys": [
+        "latent/gaussian_diagnostics/mean_training_information_kl",
+        "latent/gaussian_diagnostics/prior_std_mean",
+        "latent/gaussian_diagnostics/posterior_std_mean",
+        "diagnostics/marginal_90_interval/coverage_xy/0",
+        "diagnostics/marginal_90_interval/coverage_xy/1",
+        "diagnostics/marginal_90_interval/mean_width_xy/0",
+        "diagnostics/marginal_90_interval/mean_width_xy/1"
+      ]
+    },
+    "tables/moving_mnist_primary.tex": {
+      "bold": "lowest observed mean",
+      "dataset": "moving_mnist",
+      "metric": "physical_forecast_energy_score",
+      "roles": [
+        "R0",
+        "R1",
+        "S0",
+        "S1"
+      ],
+      "source": "analysis.json (recomputed and asserted equal)",
+      "uncertainty": "sample SD over five training replications"
+    },
+    "tables/mpi3d_controls.tex": {
+      "aggregation": "mean over five replications",
+      "bold": "lowest mean in the two sampled-prior rows only",
+      "keys": [
+        "physical/prior",
+        "physical/fixed_prior_mean",
+        "physical/persistence",
+        "physical/wrong_action",
+        "physical/wrong_source",
+        "physical/encode_decode_oracle",
+        "latent/prior",
+        "latent/fixed_prior_mean",
+        "latent/persistence",
+        "latent/wrong_action",
+        "latent/wrong_source",
+        "latent/encode_decode_oracle"
+      ]
+    },
+    "tables/mpi3d_main.tex": {
+      "aggregation": "mean \u00b1 sample SD (physical), mean and range (latent) over five replications",
+      "bold": "none",
+      "source": "analysis.json (physical) and diagnostics.csv (persistence decode, latent score)"
+    },
+    "tables/mpi3d_probes.tex": {
+      "bold": "highest mean per row",
+      "keys": [
+        "probes/{v}/probes/position/mean_position_r2",
+        "probes/{v}/probes/color_id/balanced_accuracy",
+        "probes/{v}/probes/shape_id/balanced_accuracy",
+        "probes/{v}/probes/size_id/balanced_accuracy",
+        "probes/{v}/probes/camera_height/balanced_accuracy"
+      ],
+      "population": "2,048 test-attribute clean images (final report bank)"
+    },
+    "tables/mpi3d_support.tex": {
+      "aggregation": "mean over five replications",
+      "bold": "best mean in directional rows",
+      "note": "fit p99 uses the candidate with minimum real-feature selection MSE (raw tie-break), as the evaluator does"
+    },
+    "tables/numbers.tex": {
+      "count": 227
+    },
+    "tables/paired_effects.tex": {
+      "interval": "paired Student t, df=4, individual 95%",
+      "source": "analysis.json (recomputed)"
+    },
+    "tables/per_replication.tex": {
+      "bold": "lowest ES per replication and dataset",
+      "source": "analysis.json (recomputed)"
+    },
+    "tables/primary_results.tex": {
+      "bold": "lowest mean per dataset",
+      "metric": "physical_forecast_energy_score",
+      "source": "analysis.json (recomputed and asserted equal)",
+      "uncertainty": "sample SD over five training replications"
+    },
+    "tables/role_matrix.tex": {
+      "names": {
+        "R0": "BYOL reference",
+        "R1": "AdaSSL reference",
+        "S0": "Shared-Det",
+        "S1": "Shared-Var"
+      },
+      "source": [
+        "config/campaigns/five_seed_v1/mpi3d.yaml",
+        "src/iwm_replication/moving_mnist_campaign.py:MODEL_OPTIONS"
+      ]
+    },
+    "tables/setup_overview.tex": {
+      "source": [
+        "frozen_protocol.json:final_banks",
+        "config/campaigns/five_seed_v1/*.yaml"
+      ]
+    },
+    "tables/training_cost.tex": {
+      "bold": "lowest value per column and dataset",
+      "status": "post hoc, secondary",
+      "tiers": {
+        "analytic": "results/compute_cost/benchmark_local_cpu_flops.json (FLOPs, params)",
+        "controlled": "benchmark_apple_mps.json median ms/update, mean of two sweeps",
+        "development": "frozen_review.json measured_training_seconds_per_role (Slurm ElapsedRaw, n=1)"
+      }
+    },
+    "tables/training_cost_full.tex": {
+      "bold": "lowest value per column and dataset",
+      "source": [
+        "benchmark_local_cpu_flops.json",
+        "benchmark_apple_mps.json",
+        "data/flop_recount.json"
+      ]
+    },
+    "tables/training_settings.tex": {
+      "source": [
+        "config/campaigns/five_seed_v1/moving_mnist.yaml",
+        "config/campaigns/five_seed_v1/mpi3d.yaml",
+        "results/compute_cost/benchmark_local_cpu_flops.json"
+      ]
+    }
+  }
+}

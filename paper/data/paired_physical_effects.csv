@@ -1,0 +1,21 @@
+figure,panel,series,dataset,role,replication,metric_key,transformation,value
+paired_physical_effects,moving_mnist/S1-R1,paired difference,moving_mnist,S1-R1,1,physical_forecast_energy_score,"S1 minus reference, same replication",0.24720922537201984
+paired_physical_effects,moving_mnist/S1-R1,paired difference,moving_mnist,S1-R1,2,physical_forecast_energy_score,"S1 minus reference, same replication",-0.22439713264754046
+paired_physical_effects,moving_mnist/S1-R1,paired difference,moving_mnist,S1-R1,3,physical_forecast_energy_score,"S1 minus reference, same replication",-0.017992314749969762
+paired_physical_effects,moving_mnist/S1-R1,paired difference,moving_mnist,S1-R1,4,physical_forecast_energy_score,"S1 minus reference, same replication",-0.18568162080300765
+paired_physical_effects,moving_mnist/S1-R1,paired difference,moving_mnist,S1-R1,5,physical_forecast_energy_score,"S1 minus reference, same replication",-0.19406882360770605
+paired_physical_effects,moving_mnist/S1-S0,paired difference,moving_mnist,S1-S0,1,physical_forecast_energy_score,"S1 minus reference, same replication",-0.7256714315178363
+paired_physical_effects,moving_mnist/S1-S0,paired difference,moving_mnist,S1-S0,2,physical_forecast_energy_score,"S1 minus reference, same replication",-0.9515475341453248
+paired_physical_effects,moving_mnist/S1-S0,paired difference,moving_mnist,S1-S0,3,physical_forecast_energy_score,"S1 minus reference, same replication",-0.9672966996354296
+paired_physical_effects,moving_mnist/S1-S0,paired difference,moving_mnist,S1-S0,4,physical_forecast_energy_score,"S1 minus reference, same replication",-0.952679929022465
+paired_physical_effects,moving_mnist/S1-S0,paired difference,moving_mnist,S1-S0,5,physical_forecast_energy_score,"S1 minus reference, same replication",-1.0182902759837151
+paired_physical_effects,mpi3d/S1-R1,paired difference,mpi3d,S1-R1,1,physical_forecast_energy_score,"S1 minus reference, same replication",-3529.908325411071
+paired_physical_effects,mpi3d/S1-R1,paired difference,mpi3d,S1-R1,2,physical_forecast_energy_score,"S1 minus reference, same replication",-6959.061044487415
+paired_physical_effects,mpi3d/S1-R1,paired difference,mpi3d,S1-R1,3,physical_forecast_energy_score,"S1 minus reference, same replication",-4540.35592592863
+paired_physical_effects,mpi3d/S1-R1,paired difference,mpi3d,S1-R1,4,physical_forecast_energy_score,"S1 minus reference, same replication",-3922.1431786819808
+paired_physical_effects,mpi3d/S1-R1,paired difference,mpi3d,S1-R1,5,physical_forecast_energy_score,"S1 minus reference, same replication",-1768.499967118693
+paired_physical_effects,mpi3d/S1-S0,paired difference,mpi3d,S1-S0,1,physical_forecast_energy_score,"S1 minus reference, same replication",-0.601483666980128
+paired_physical_effects,mpi3d/S1-S0,paired difference,mpi3d,S1-S0,2,physical_forecast_energy_score,"S1 minus reference, same replication",0.10442963305414743
+paired_physical_effects,mpi3d/S1-S0,paired difference,mpi3d,S1-S0,3,physical_forecast_energy_score,"S1 minus reference, same replication",0.9737948807534575
+paired_physical_effects,mpi3d/S1-S0,paired difference,mpi3d,S1-S0,4,physical_forecast_energy_score,"S1 minus reference, same replication",0.059130253177126946
+paired_physical_effects,mpi3d/S1-S0,paired difference,mpi3d,S1-S0,5,physical_forecast_energy_score,"S1 minus reference, same replication",-4.862805804484136

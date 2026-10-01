@@ -1,0 +1,1722 @@
+[
+  {
+    "array_index": 0,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 0,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 0,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 0,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 0,
+    "replication": 1,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R0/replication-1",
+    "seed_context_sha256": "4e58780ef432a5f122b3b2ad22694eef857ac043a9852f629f685252d55d41e3",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 1,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 1,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 1,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 1,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 1,
+    "replication": 2,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R0/replication-2",
+    "seed_context_sha256": "78d865a1a3879da1b7181e1ce6754e05298f5f014b517530353f50103a7dce65",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 2,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 2,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 2,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 2,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 2,
+    "replication": 3,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R0/replication-3",
+    "seed_context_sha256": "af19e1e639f03425a08c28a587f91ca8d0e4d9e5745f6fb27204aac500c667f0",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 3,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 3,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 3,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 3,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 3,
+    "replication": 4,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R0/replication-4",
+    "seed_context_sha256": "d61bba7ec625dbdf32bba43b44188990e8e405a547a40e502c0f976f2a8d3b1a",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 4,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 4,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 4,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 4,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 4,
+    "replication": 5,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R0/replication-5",
+    "seed_context_sha256": "54ee104ac0bc86350873dce6de0d36ba23ca3ae6d32e04a31017dfc699df4ec9",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 5,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 5,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 5,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 5,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 5,
+    "replication": 1,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R1/replication-1",
+    "seed_context_sha256": "4e58780ef432a5f122b3b2ad22694eef857ac043a9852f629f685252d55d41e3",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 6,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 6,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 6,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 6,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 6,
+    "replication": 2,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R1/replication-2",
+    "seed_context_sha256": "78d865a1a3879da1b7181e1ce6754e05298f5f014b517530353f50103a7dce65",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 7,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 7,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 7,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 7,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 7,
+    "replication": 3,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R1/replication-3",
+    "seed_context_sha256": "af19e1e639f03425a08c28a587f91ca8d0e4d9e5745f6fb27204aac500c667f0",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 8,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 8,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 8,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 8,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 8,
+    "replication": 4,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R1/replication-4",
+    "seed_context_sha256": "d61bba7ec625dbdf32bba43b44188990e8e405a547a40e502c0f976f2a8d3b1a",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 9,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 9,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/R1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 9,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/R1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 9,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/R1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 9,
+    "replication": 5,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/R1/replication-5",
+    "seed_context_sha256": "54ee104ac0bc86350873dce6de0d36ba23ca3ae6d32e04a31017dfc699df4ec9",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 10,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 10,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 10,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 10,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 10,
+    "replication": 1,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S0/replication-1",
+    "seed_context_sha256": "4e58780ef432a5f122b3b2ad22694eef857ac043a9852f629f685252d55d41e3",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 11,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 11,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 11,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 11,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 11,
+    "replication": 2,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S0/replication-2",
+    "seed_context_sha256": "78d865a1a3879da1b7181e1ce6754e05298f5f014b517530353f50103a7dce65",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 12,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 12,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 12,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 12,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 12,
+    "replication": 3,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S0/replication-3",
+    "seed_context_sha256": "af19e1e639f03425a08c28a587f91ca8d0e4d9e5745f6fb27204aac500c667f0",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 13,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 13,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 13,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 13,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 13,
+    "replication": 4,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S0/replication-4",
+    "seed_context_sha256": "d61bba7ec625dbdf32bba43b44188990e8e405a547a40e502c0f976f2a8d3b1a",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 14,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 14,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 14,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 14,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 14,
+    "replication": 5,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S0/replication-5",
+    "seed_context_sha256": "54ee104ac0bc86350873dce6de0d36ba23ca3ae6d32e04a31017dfc699df4ec9",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 15,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 15,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 15,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 15,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 15,
+    "replication": 1,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S1/replication-1",
+    "seed_context_sha256": "4e58780ef432a5f122b3b2ad22694eef857ac043a9852f629f685252d55d41e3",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 16,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 16,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 16,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 16,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 16,
+    "replication": 2,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S1/replication-2",
+    "seed_context_sha256": "78d865a1a3879da1b7181e1ce6754e05298f5f014b517530353f50103a7dce65",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 17,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 17,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 17,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 17,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 17,
+    "replication": 3,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S1/replication-3",
+    "seed_context_sha256": "af19e1e639f03425a08c28a587f91ca8d0e4d9e5745f6fb27204aac500c667f0",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 18,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 18,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 18,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 18,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 18,
+    "replication": 4,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S1/replication-4",
+    "seed_context_sha256": "d61bba7ec625dbdf32bba43b44188990e8e405a547a40e502c0f976f2a8d3b1a",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 19,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "moving_mnist",
+    "phases": {
+      "final": {
+        "array_index": 19,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-final/attempt-001/S1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-final-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-final"
+      },
+      "fit": {
+        "array_index": 19,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-fit/attempt-001/S1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-fit-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-fit"
+      },
+      "train": {
+        "array_index": 19,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-moving_mnist-train/attempt-001/S1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-moving_mnist-train-a1-<array>_<index>.out",
+        "phase": "main-moving_mnist-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 19,
+    "replication": 5,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/moving_mnist/S1/replication-5",
+    "seed_context_sha256": "54ee104ac0bc86350873dce6de0d36ba23ca3ae6d32e04a31017dfc699df4ec9",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "moving_mnist",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 0,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 0,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 0,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 0,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 20,
+    "replication": 1,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R0/replication-1",
+    "seed_context_sha256": "748bdd0c72c45bfa2fd840919730582280b6529b71e3da493d8f52b6f413be8d",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 1,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 1,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 1,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 1,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 21,
+    "replication": 2,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R0/replication-2",
+    "seed_context_sha256": "fc0aed75881738a138236ffd6927289c29fc707e3bf8420a9ca45d8f8b578d48",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 2,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 2,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 2,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 2,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 22,
+    "replication": 3,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R0/replication-3",
+    "seed_context_sha256": "a0ad47f84a64cd02ad367823781d79e6f32925cb5202fc4ee9a4df00e7c044b6",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 3,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 3,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 3,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 3,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 23,
+    "replication": 4,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R0/replication-4",
+    "seed_context_sha256": "12902bfdba90e8c7062dca01d90880a59aac58e669c6f379b0d3d02271980f80",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 4,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 4,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 4,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 4,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 24,
+    "replication": 5,
+    "role": "R0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R0/replication-5",
+    "seed_context_sha256": "779460f2cab5f1ae8cba7253616d588c5aba30d7a086c7ca565edc0ed95de338",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 5,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 5,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 5,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 5,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 25,
+    "replication": 1,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R1/replication-1",
+    "seed_context_sha256": "748bdd0c72c45bfa2fd840919730582280b6529b71e3da493d8f52b6f413be8d",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 6,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 6,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 6,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 6,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 26,
+    "replication": 2,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R1/replication-2",
+    "seed_context_sha256": "fc0aed75881738a138236ffd6927289c29fc707e3bf8420a9ca45d8f8b578d48",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 7,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 7,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 7,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 7,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 27,
+    "replication": 3,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R1/replication-3",
+    "seed_context_sha256": "a0ad47f84a64cd02ad367823781d79e6f32925cb5202fc4ee9a4df00e7c044b6",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 8,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 8,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 8,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 8,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 28,
+    "replication": 4,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R1/replication-4",
+    "seed_context_sha256": "12902bfdba90e8c7062dca01d90880a59aac58e669c6f379b0d3d02271980f80",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 9,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 9,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/R1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 9,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/R1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 9,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/R1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 29,
+    "replication": 5,
+    "role": "R1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/R1/replication-5",
+    "seed_context_sha256": "779460f2cab5f1ae8cba7253616d588c5aba30d7a086c7ca565edc0ed95de338",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 10,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 10,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 10,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 10,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 30,
+    "replication": 1,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S0/replication-1",
+    "seed_context_sha256": "748bdd0c72c45bfa2fd840919730582280b6529b71e3da493d8f52b6f413be8d",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 11,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 11,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 11,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 11,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 31,
+    "replication": 2,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S0/replication-2",
+    "seed_context_sha256": "fc0aed75881738a138236ffd6927289c29fc707e3bf8420a9ca45d8f8b578d48",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 12,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 12,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 12,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 12,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 32,
+    "replication": 3,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S0/replication-3",
+    "seed_context_sha256": "a0ad47f84a64cd02ad367823781d79e6f32925cb5202fc4ee9a4df00e7c044b6",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 13,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 13,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 13,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 13,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 33,
+    "replication": 4,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S0/replication-4",
+    "seed_context_sha256": "12902bfdba90e8c7062dca01d90880a59aac58e669c6f379b0d3d02271980f80",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 14,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 14,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 14,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 14,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S0_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 34,
+    "replication": 5,
+    "role": "S0",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S0/replication-5",
+    "seed_context_sha256": "779460f2cab5f1ae8cba7253616d588c5aba30d7a086c7ca565edc0ed95de338",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 15,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 15,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 15,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 15,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep1",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 35,
+    "replication": 1,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S1/replication-1",
+    "seed_context_sha256": "748bdd0c72c45bfa2fd840919730582280b6529b71e3da493d8f52b6f413be8d",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 1
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 16,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 16,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 16,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 16,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep2",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 36,
+    "replication": 2,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S1/replication-2",
+    "seed_context_sha256": "fc0aed75881738a138236ffd6927289c29fc707e3bf8420a9ca45d8f8b578d48",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 2
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 17,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 17,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 17,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 17,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep3",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 37,
+    "replication": 3,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S1/replication-3",
+    "seed_context_sha256": "a0ad47f84a64cd02ad367823781d79e6f32925cb5202fc4ee9a4df00e7c044b6",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 3
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 18,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 18,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 18,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 18,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep4",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 38,
+    "replication": 4,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S1/replication-4",
+    "seed_context_sha256": "12902bfdba90e8c7062dca01d90880a59aac58e669c6f379b0d3d02271980f80",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 4
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  },
+  {
+    "array_index": 19,
+    "attempt_policy": "preserve all receipts; retries use new attempt IDs with explicit parent hashes",
+    "dataset": "mpi3d",
+    "phases": {
+      "final": {
+        "array_index": 19,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-final/attempt-001/S1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-final-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-final"
+      },
+      "fit": {
+        "array_index": 19,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-fit/attempt-001/S1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-fit-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-fit"
+      },
+      "train": {
+        "array_index": 19,
+        "concurrency": 1,
+        "first_attempt_output": "/work/YamadaU/leonardo/jepa-causal/runs/five_seed_20260925_eval_fix_v3/main-mpi3d-train/attempt-001/S1_rep5",
+        "log_pattern": "/home/l/leonardo-tonelli/slurm_logs/fs-20260925_eval_fix_v3-main-mpi3d-train-a1-<array>_<index>.out",
+        "phase": "main-mpi3d-train"
+      }
+    },
+    "purpose": "main-training",
+    "registry_index": 39,
+    "replication": 5,
+    "role": "S1",
+    "run_id": "jepa-five-seed-20260924-v1/main-training/mpi3d/S1/replication-5",
+    "seed_context_sha256": "779460f2cab5f1ae8cba7253616d588c5aba30d7a086c7ca565edc0ed95de338",
+    "seed_streams": {
+      "campaign": "jepa-five-seed-20260924-v1",
+      "dataset": "mpi3d",
+      "derivation_version": "structured-sha256-v1",
+      "purpose": "main-training",
+      "replication": 5
+    },
+    "source_snapshot_sha256": "011d387836a3414abc1ab6a0a7fda6cd27133be6aee665affa00017ff7975945",
+    "state": "NOT_STARTED"
+  }
+]

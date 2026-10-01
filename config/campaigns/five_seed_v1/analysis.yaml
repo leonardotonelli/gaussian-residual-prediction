@@ -1,0 +1,31 @@
+# Proposed in Task 2; populate artifact bindings and freeze after Task 3 development.
+schema: five-seed-analysis-contract-v1
+campaign: jepa-five-seed-20260924-v1
+frozen: false
+protocol_sha256: null
+evaluation_contract_sha256: null
+seed_manifest_sha256: 6283520677daaa751d4f3cd612467a3eafdbe76f39d26c16a42ca0d7904d3a7d
+final_bank_sha256:
+  moving_mnist: null
+  mpi3d: null
+datasets: [moving_mnist, mpi3d]
+roles: [R0, R1, S0, S1]
+replications: [1, 2, 3, 4, 5]
+head_restarts: [0]
+metrics_by_dataset:
+  moving_mnist: [physical_forecast_energy_score]
+  mpi3d: [physical_forecast_energy_score]
+contrasts:
+  - [S1, R1]
+  - [S1, S0]
+interval:
+  method: paired-student-t
+  level: 0.95
+  degrees_of_freedom: 4
+hypothesis_tests: none
+multiplicity: not-applicable
+interpretation: full predictor/readout pipeline, conditional on the fixed benchmark
+failure_policy: preserve original IDs and all attempts; resume the same run when valid; no seed substitution
+endpoint_selection: terminal declared budget, independent of final outcomes
+query_uncertainty: separate conditional analysis, never extra training replications
+proposal_status: primary physical ES and inference contract require development review and Task 3 freeze

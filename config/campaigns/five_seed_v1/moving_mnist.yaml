@@ -1,0 +1,81 @@
+# Accepted D1 recipe. Supply an explicit fixed-manifest seed context per run.
+# No jobs are authorized by this configuration; development and main remain separate.
+status: five-seed-campaign-training
+data_dir: data/concept2-mnist
+identity_manifest: concept2-identities-v1-seed0.json
+workers: 4
+training:
+  total_steps: 75000
+  batch_size: 128
+  seed: 0
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  checkpoint_interval: 2500
+  log_interval: 100
+  timing_warmup_steps: 10
+models:
+  R0:
+    spatial_strides:
+    - 2
+    - 2
+    - 2
+    ema_decay: 0.996
+    beta: 0.001
+    scale_floor: 1.0e-06
+    alignment: forward-negative-cosine
+    target_batchnorm: independent-batch-stats
+    posterior_gradients: online-source-and-surrogate
+  R1:
+    spatial_strides:
+    - 2
+    - 2
+    - 2
+    ema_decay: 0.996
+    beta: 0.001
+    scale_floor: 1.0e-06
+    alignment: forward-negative-cosine
+    target_batchnorm: independent-batch-stats
+    posterior_gradients: online-source-and-surrogate
+  S0:
+    spatial_strides:
+    - 2
+    - 2
+    - 2
+    sigreg_weight: 0.1
+    sigreg_projections: 128
+    sigreg_knots: 17
+    sigreg_interval:
+    - 0.2
+    - 4.0
+    sigreg_placement: projector-output-after-bn-before-cosine
+    alignment: forward-negative-cosine
+  S1:
+    spatial_strides:
+    - 2
+    - 2
+    - 2
+    sigreg_weight: 0.1
+    sigreg_projections: 128
+    sigreg_knots: 17
+    sigreg_interval:
+    - 0.2
+    - 4.0
+    sigreg_placement: projector-output-after-bn-before-cosine
+    alignment: forward-negative-cosine
+    beta: 0.001
+    scale_floor: 1.0e-06
+    posterior_gradients: shared-source-and-surrogate
+generator:
+  setting: A
+  gaussian_parameter: std
+  rendering: bilinear-zero-pad
+  boundary: crop-no-bounce
+  change_timing: before-frame-4
+  first_frame: at-initial-center
+  canvas_size: 64
+  digit_size: 16
+  initial_center_min: 8.0
+  initial_center_max: 16.0
+  max_initial_velocity: 3.0
+  noise_factor: 0.6666666666666666
+recipe_version: five-seed-moving-mnist-v1

@@ -1,0 +1,28 @@
+{
+  "file_key": "wH8nvHCyosBQq3eYI3bC81",
+  "node_id": "2:2",
+  "url": "https://www.figma.com/design/wH8nvHCyosBQq3eYI3bC81?node-id=2-2",
+  "pdf_sha256": "15a565e9b6c5ac1c329b6640cb0aef4f7d7df6b5c562393f1f93de5041ab6b48",
+  "scope": "Two aligned training diagrams: AdaSSL reference with a BYOL-style EMA target versus Shared-Var",
+  "omitted": "Auxiliary encoder and Gaussian heads, MPI3D command, layer dimensions, and evaluation readout are explained in text.",
+  "notation": [
+    "x",
+    "y",
+    "f",
+    "f_bar",
+    "g",
+    "z_x",
+    "z_y",
+    "z_hat",
+    "r",
+    "p_theta",
+    "q_phi",
+    "L_pred",
+    "L_KL",
+    "L_SIG",
+    "beta",
+    "lambda"
+  ],
+  "figma_export_pdf_sha256": "38406904b55ea75ff9f9f9f8e008fe5b1c71e41fd46e67f58afdbf501bcff209",
+  "postprocess": "v5: text converted to vector outlines with Ghostscript 10.07.1 (gs -sDEVICE=pdfwrite -dNoOutputFonts -dCompatibilityLevel=1.5) to remove a Type 3 font; geometry and rendering unchanged (review finding F20)"
+}

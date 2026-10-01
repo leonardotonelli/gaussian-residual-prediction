@@ -1,0 +1,15 @@
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.31\linewidth}>{\raggedright\arraybackslash}p{0.36\linewidth}@{}}
+\toprule
+ & Moving-MNIST & MPI3D-S \\
+\midrule
+Observed input & frames 1--3 & source image and unit command $a$ \\
+Target $y$ & frames 4--6 & realized next image \\
+Posterior input $u$ (training only) & frames 7--9 & the target $y$ itself \\
+Why the future is one-to-many & a random axis changes velocity{,} by a random amount & the command fails or succeeds{,} probability $\tfrac12$ each \\
+Held-out evaluation population & 10{,}000 official test digits & 12 unseen colour--shape--size combinations \\
+Training budget & 75{,}000 updates at batch 128 (fresh clips) & 102{,}400 updates at batch 64 (100 epochs) \\
+Encoder $\to$ projector & 3D CNN (768-d) $\to$ 128-d & ViT (256-d) $\to$ 128-d \\
+Final forecast queries & 1{,}024; 64 prior vs.\ 128 truth draws & 2{,}048 (512 sources $\times$ 4 commands); 16 prior atoms vs.\ exact outcomes \\
+Physical quantity (readout target) & new velocity (px/frame) & object position (grid indices) \\
+\bottomrule
+\end{tabular}

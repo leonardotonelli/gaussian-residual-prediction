@@ -1,0 +1,61 @@
+figure,panel,series,dataset,role,replication,metric_key,transformation,value
+residual_usage,ab,kl,moving_mnist,R1,1,kl,none,5.395103454589844
+residual_usage,ab,kl,moving_mnist,R1,2,kl,none,6.340417385101318
+residual_usage,ab,kl,moving_mnist,R1,3,kl,none,5.337001323699951
+residual_usage,ab,kl,moving_mnist,R1,4,kl,none,6.080855846405029
+residual_usage,ab,kl,moving_mnist,R1,5,kl,none,6.1940741539001465
+residual_usage,ab,kl,moving_mnist,S1,1,kl,none,4.826621055603027
+residual_usage,ab,kl,moving_mnist,S1,2,kl,none,5.319653511047363
+residual_usage,ab,kl,moving_mnist,S1,3,kl,none,4.888781547546387
+residual_usage,ab,kl,moving_mnist,S1,4,kl,none,4.830968379974365
+residual_usage,ab,kl,moving_mnist,S1,5,kl,none,4.810220241546631
+residual_usage,ab,delta_fixed_es,moving_mnist,R1,1,delta_fixed_es,none,0.3223672637454723
+residual_usage,ab,delta_fixed_es,moving_mnist,R1,2,delta_fixed_es,none,0.1951171195322774
+residual_usage,ab,delta_fixed_es,moving_mnist,R1,3,delta_fixed_es,none,0.34098181576094944
+residual_usage,ab,delta_fixed_es,moving_mnist,R1,4,delta_fixed_es,none,0.18821808969433218
+residual_usage,ab,delta_fixed_es,moving_mnist,R1,5,delta_fixed_es,none,0.18640826950589273
+residual_usage,ab,delta_fixed_es,moving_mnist,S1,1,delta_fixed_es,none,0.2854236736100271
+residual_usage,ab,delta_fixed_es,moving_mnist,S1,2,delta_fixed_es,none,0.22406950652796842
+residual_usage,ab,delta_fixed_es,moving_mnist,S1,3,delta_fixed_es,none,0.1875550395406399
+residual_usage,ab,delta_fixed_es,moving_mnist,S1,4,delta_fixed_es,none,0.19483551798994725
+residual_usage,ab,delta_fixed_es,moving_mnist,S1,5,delta_fixed_es,none,0.1905362408272574
+residual_usage,ab,prior_std,moving_mnist,R1,1,prior_std,none,5.5903706550598145
+residual_usage,ab,prior_std,moving_mnist,R1,2,prior_std,none,9.345802307128906
+residual_usage,ab,prior_std,moving_mnist,R1,3,prior_std,none,5.565045356750488
+residual_usage,ab,prior_std,moving_mnist,R1,4,prior_std,none,8.837628364562988
+residual_usage,ab,prior_std,moving_mnist,R1,5,prior_std,none,9.367279052734375
+residual_usage,ab,prior_std,moving_mnist,S1,1,prior_std,none,6.9274773597717285
+residual_usage,ab,prior_std,moving_mnist,S1,2,prior_std,none,8.16093635559082
+residual_usage,ab,prior_std,moving_mnist,S1,3,prior_std,none,7.700180530548096
+residual_usage,ab,prior_std,moving_mnist,S1,4,prior_std,none,7.330158710479736
+residual_usage,ab,prior_std,moving_mnist,S1,5,prior_std,none,7.762259483337402
+residual_usage,ab,posterior_std,moving_mnist,R1,1,posterior_std,none,0.40945741534233093
+residual_usage,ab,posterior_std,moving_mnist,R1,2,posterior_std,none,0.5827740430831909
+residual_usage,ab,posterior_std,moving_mnist,R1,3,posterior_std,none,0.41445329785346985
+residual_usage,ab,posterior_std,moving_mnist,R1,4,posterior_std,none,0.5827604532241821
+residual_usage,ab,posterior_std,moving_mnist,R1,5,posterior_std,none,0.6040927171707153
+residual_usage,ab,posterior_std,moving_mnist,S1,1,posterior_std,none,0.6502666473388672
+residual_usage,ab,posterior_std,moving_mnist,S1,2,posterior_std,none,0.5982346534729004
+residual_usage,ab,posterior_std,moving_mnist,S1,3,posterior_std,none,0.6594259142875671
+residual_usage,ab,posterior_std,moving_mnist,S1,4,posterior_std,none,0.6405873894691467
+residual_usage,ab,posterior_std,moving_mnist,S1,5,posterior_std,none,0.6698223352432251
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,R1,1,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.8161924481391907
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,R1,2,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.76755690574646
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,R1,3,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,2.0768173933029175
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,R1,4,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.9645556211471558
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,R1,5,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.602491021156311
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,S1,1,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.3558948040008545
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,S1,2,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.3304691910743713
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,S1,3,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.309119999408722
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,S1,4,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.346456229686737
+residual_usage,c,posterior_kl_mean_of_outcomes,mpi3d,S1,5,"mean of forecasts/metrics/diagnostic_posterior_kl_{0,1}/mean",mean of two outcomes,1.3627063632011414
+residual_usage,c,latent_sampling_gain,mpi3d,R1,1,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.2597934626069316
+residual_usage,c,latent_sampling_gain,mpi3d,R1,2,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.19014657360878684
+residual_usage,c,latent_sampling_gain,mpi3d,R1,3,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.2903114927064039
+residual_usage,c,latent_sampling_gain,mpi3d,R1,4,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.23972179025194218
+residual_usage,c,latent_sampling_gain,mpi3d,R1,5,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.23427672993130155
+residual_usage,c,latent_sampling_gain,mpi3d,S1,1,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.2234909448844552
+residual_usage,c,latent_sampling_gain,mpi3d,S1,2,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.23802091559314187
+residual_usage,c,latent_sampling_gain,mpi3d,S1,3,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.26134695366885596
+residual_usage,c,latent_sampling_gain,mpi3d,S1,4,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.21057201813074256
+residual_usage,c,latent_sampling_gain,mpi3d,S1,5,latent fixed_prior_mean minus prior normalized_energy_score/mean,difference,0.18375173018438873

@@ -1,0 +1,121 @@
+figure,panel,series,dataset,role,replication,metric_key,transformation,value
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R0,1,probes/source/online_backbone/digit/accuracy,none,0.84765625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R0,2,probes/source/online_backbone/digit/accuracy,none,0.8427734375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R0,3,probes/source/online_backbone/digit/accuracy,none,0.84619140625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R0,4,probes/source/online_backbone/digit/accuracy,none,0.85302734375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R0,5,probes/source/online_backbone/digit/accuracy,none,0.8671875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R1,1,probes/source/online_backbone/digit/accuracy,none,0.8916015625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R1,2,probes/source/online_backbone/digit/accuracy,none,0.888671875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R1,3,probes/source/online_backbone/digit/accuracy,none,0.89208984375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R1,4,probes/source/online_backbone/digit/accuracy,none,0.884765625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,R1,5,probes/source/online_backbone/digit/accuracy,none,0.89990234375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S0,1,probes/source/online_backbone/digit/accuracy,none,0.87451171875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S0,2,probes/source/online_backbone/digit/accuracy,none,0.8681640625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S0,3,probes/source/online_backbone/digit/accuracy,none,0.88623046875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S0,4,probes/source/online_backbone/digit/accuracy,none,0.8642578125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S0,5,probes/source/online_backbone/digit/accuracy,none,0.8974609375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S1,1,probes/source/online_backbone/digit/accuracy,none,0.8720703125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S1,2,probes/source/online_backbone/digit/accuracy,none,0.81591796875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S1,3,probes/source/online_backbone/digit/accuracy,none,0.86767578125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S1,4,probes/source/online_backbone/digit/accuracy,none,0.79931640625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,backbone,moving_mnist,S1,5,probes/source/online_backbone/digit/accuracy,none,0.86083984375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R0,1,probes/source/online_projector/digit/accuracy,none,0.716796875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R0,2,probes/source/online_projector/digit/accuracy,none,0.6884765625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R0,3,probes/source/online_projector/digit/accuracy,none,0.69580078125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R0,4,probes/source/online_projector/digit/accuracy,none,0.70068359375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R0,5,probes/source/online_projector/digit/accuracy,none,0.7265625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R1,1,probes/source/online_projector/digit/accuracy,none,0.85546875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R1,2,probes/source/online_projector/digit/accuracy,none,0.82861328125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R1,3,probes/source/online_projector/digit/accuracy,none,0.85693359375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R1,4,probes/source/online_projector/digit/accuracy,none,0.83837890625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,R1,5,probes/source/online_projector/digit/accuracy,none,0.87841796875
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S0,1,probes/source/online_projector/digit/accuracy,none,0.615234375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S0,2,probes/source/online_projector/digit/accuracy,none,0.6015625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S0,3,probes/source/online_projector/digit/accuracy,none,0.65869140625
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S0,4,probes/source/online_projector/digit/accuracy,none,0.5908203125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S0,5,probes/source/online_projector/digit/accuracy,none,0.64111328125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S1,1,probes/source/online_projector/digit/accuracy,none,0.55908203125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S1,2,probes/source/online_projector/digit/accuracy,none,0.51611328125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S1,3,probes/source/online_projector/digit/accuracy,none,0.5830078125
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S1,4,probes/source/online_projector/digit/accuracy,none,0.36083984375
+moving_mnist_representation_tradeoffs,(a) Source digit accuracy,projector,moving_mnist,S1,5,probes/source/online_projector/digit/accuracy,none,0.56640625
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R0,1,probes/source/online_projector/velocity/r2_xy/0,none,0.9857304864475522
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R0,2,probes/source/online_projector/velocity/r2_xy/0,none,0.9906561627035873
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R0,3,probes/source/online_projector/velocity/r2_xy/0,none,0.9853916301957943
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R0,4,probes/source/online_projector/velocity/r2_xy/0,none,0.9906304406791931
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R0,5,probes/source/online_projector/velocity/r2_xy/0,none,0.987540144869153
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R1,1,probes/source/online_projector/velocity/r2_xy/0,none,0.9867665272125608
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R1,2,probes/source/online_projector/velocity/r2_xy/0,none,0.9911846539659876
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R1,3,probes/source/online_projector/velocity/r2_xy/0,none,0.9882322961465335
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R1,4,probes/source/online_projector/velocity/r2_xy/0,none,0.9964733973370766
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,R1,5,probes/source/online_projector/velocity/r2_xy/0,none,0.9963166569461233
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S0,1,probes/source/online_projector/velocity/r2_xy/0,none,0.35748733913222486
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S0,2,probes/source/online_projector/velocity/r2_xy/0,none,0.4041408885754645
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S0,3,probes/source/online_projector/velocity/r2_xy/0,none,0.34780667143620314
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S0,4,probes/source/online_projector/velocity/r2_xy/0,none,0.444022752116779
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S0,5,probes/source/online_projector/velocity/r2_xy/0,none,0.3598857556776728
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S1,1,probes/source/online_projector/velocity/r2_xy/0,none,0.6180530413803136
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S1,2,probes/source/online_projector/velocity/r2_xy/0,none,0.9967593337510039
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S1,3,probes/source/online_projector/velocity/r2_xy/0,none,0.9944746016090492
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S1,4,probes/source/online_projector/velocity/r2_xy/0,none,0.9960961676152066
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$x$,moving_mnist,S1,5,probes/source/online_projector/velocity/r2_xy/0,none,0.9962728438427163
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R0,1,probes/source/online_projector/velocity/r2_xy/1,none,0.9852084389265527
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R0,2,probes/source/online_projector/velocity/r2_xy/1,none,0.9908904597343556
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R0,3,probes/source/online_projector/velocity/r2_xy/1,none,0.9861676425534083
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R0,4,probes/source/online_projector/velocity/r2_xy/1,none,0.9903326336830038
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R0,5,probes/source/online_projector/velocity/r2_xy/1,none,0.9828771060390807
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R1,1,probes/source/online_projector/velocity/r2_xy/1,none,0.9973940690406445
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R1,2,probes/source/online_projector/velocity/r2_xy/1,none,0.994167202210099
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R1,3,probes/source/online_projector/velocity/r2_xy/1,none,0.9966345100142133
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R1,4,probes/source/online_projector/velocity/r2_xy/1,none,0.9940315629382089
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,R1,5,probes/source/online_projector/velocity/r2_xy/1,none,0.9950110693359447
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S0,1,probes/source/online_projector/velocity/r2_xy/1,none,0.513798760845187
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S0,2,probes/source/online_projector/velocity/r2_xy/1,none,0.42883029807625306
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S0,3,probes/source/online_projector/velocity/r2_xy/1,none,0.5261460795262789
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S0,4,probes/source/online_projector/velocity/r2_xy/1,none,0.49546605997207926
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S0,5,probes/source/online_projector/velocity/r2_xy/1,none,0.5305981592735286
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S1,1,probes/source/online_projector/velocity/r2_xy/1,none,0.987479585754059
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S1,2,probes/source/online_projector/velocity/r2_xy/1,none,0.9955650002749135
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S1,3,probes/source/online_projector/velocity/r2_xy/1,none,0.9942732428444558
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S1,4,probes/source/online_projector/velocity/r2_xy/1,none,0.9904714439349991
+moving_mnist_representation_tradeoffs,(b) Source projector velocity $R^2$,$y$,moving_mnist,S1,5,probes/source/online_projector/velocity/r2_xy/1,none,0.9940584336446323
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R0,1,forecast_readout/r2_xy/0,none,0.9708433804984434
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R0,2,forecast_readout/r2_xy/0,none,0.9754437245226246
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R0,3,forecast_readout/r2_xy/0,none,0.9725926062709321
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R0,4,forecast_readout/r2_xy/0,none,0.9752961794835407
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R0,5,forecast_readout/r2_xy/0,none,0.9718953757402347
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R1,1,forecast_readout/r2_xy/0,none,0.9809788362455568
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R1,2,forecast_readout/r2_xy/0,none,0.974362463150315
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R1,3,forecast_readout/r2_xy/0,none,0.9814527900870965
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R1,4,forecast_readout/r2_xy/0,none,0.9807217842419109
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,R1,5,forecast_readout/r2_xy/0,none,0.9810419141261559
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S0,1,forecast_readout/r2_xy/0,none,0.11985137616944852
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S0,2,forecast_readout/r2_xy/0,none,0.1466112685345733
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S0,3,forecast_readout/r2_xy/0,none,0.1272816304172596
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S0,4,forecast_readout/r2_xy/0,none,0.16973647936514435
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S0,5,forecast_readout/r2_xy/0,none,0.16471372134750395
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S1,1,forecast_readout/r2_xy/0,none,0.5825153232673181
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S1,2,forecast_readout/r2_xy/0,none,0.9841305142727949
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S1,3,forecast_readout/r2_xy/0,none,0.9792723502571146
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S1,4,forecast_readout/r2_xy/0,none,0.9868132079709144
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$x$,moving_mnist,S1,5,forecast_readout/r2_xy/0,none,0.9862365180810583
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R0,1,forecast_readout/r2_xy/1,none,0.96914778378696
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R0,2,forecast_readout/r2_xy/1,none,0.9740659647926457
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R0,3,forecast_readout/r2_xy/1,none,0.969682063010378
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R0,4,forecast_readout/r2_xy/1,none,0.973425706531017
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R0,5,forecast_readout/r2_xy/1,none,0.9722302530169753
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R1,1,forecast_readout/r2_xy/1,none,0.9818464916576054
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R1,2,forecast_readout/r2_xy/1,none,0.969739512416626
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R1,3,forecast_readout/r2_xy/1,none,0.9795856251118135
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R1,4,forecast_readout/r2_xy/1,none,0.9729231645679062
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,R1,5,forecast_readout/r2_xy/1,none,0.9744756529266719
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S0,1,forecast_readout/r2_xy/1,none,0.17702004512185587
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S0,2,forecast_readout/r2_xy/1,none,0.11581313513676228
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S0,3,forecast_readout/r2_xy/1,none,0.1387025996956479
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S0,4,forecast_readout/r2_xy/1,none,0.19475323577215753
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S0,5,forecast_readout/r2_xy/1,none,0.18652091704198093
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S1,1,forecast_readout/r2_xy/1,none,0.9703370642642706
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S1,2,forecast_readout/r2_xy/1,none,0.9799556376195961
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S1,3,forecast_readout/r2_xy/1,none,0.9717044507425954
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S1,4,forecast_readout/r2_xy/1,none,0.9738410933188216
+moving_mnist_representation_tradeoffs,(c) Forecast readout velocity $R^2$,$y$,moving_mnist,S1,5,forecast_readout/r2_xy/1,none,0.983836667116317

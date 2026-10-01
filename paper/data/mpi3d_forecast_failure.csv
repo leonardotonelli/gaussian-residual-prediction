@@ -1,0 +1,61 @@
+figure,panel,series,dataset,role,replication,metric_key,transformation,value
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R0,1,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,2.309631741997185
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R0,2,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,1.515998373561172
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R0,3,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,1.515295733152989
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R0,4,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,1.779526472500692
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R0,5,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,2.361112272709284
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R1,1,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.72936089387919
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R1,2,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,1.012243159414172
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R1,3,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.586626445875241
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R1,4,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.5861105634053956
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,R1,5,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.9946637624203452
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S0,1,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.5118259606794773
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S0,2,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.3195176758623277
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S0,3,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.402301092728925
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S0,4,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.2774239896166355
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S0,5,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.4554725012382892
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S1,1,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.3030753219483654
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S1,2,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.24223419122056356
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S1,3,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.41294762127283446
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S1,4,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.19257913145797856
+mpi3d_forecast_failure,a,prior_minus_persistence,mpi3d,S1,5,forecasts/metrics/latent/prior/normalized_energy_score/mean minus forecasts/metrics/latent/persistence/normalized_energy_score/mean,difference,0.10012603141268783
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R0,1,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,1406.946471211661
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R0,2,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,4020.8119858001974
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R0,3,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,57766.27925930482
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R0,4,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,6321.678904496485
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R0,5,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,4763.69324328473
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R1,1,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,83.11993716350138
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R1,2,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,227.46472790619922
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R1,3,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,229.43244536493728
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R1,4,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,122.82253035197606
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,R1,5,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,178.18564172198498
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S0,1,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.858061060530084
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S0,2,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.8578241835957809
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S0,3,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.930510476301268
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S0,4,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.8424517167289953
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S0,5,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.8333249169650105
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S1,1,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.8287874693502392
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S1,2,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.8195050724305517
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S1,3,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.7929996510360322
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S1,4,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.7843882045474433
+mpi3d_forecast_failure,b,predicted_norm_ratio,mpi3d,S1,5,forecasts/predicted_feature_support/prior/standardized_norm_p99 / readout fit p99,ratio,0.7309451788178593
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R0,1,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.8356539311648074
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R0,2,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.8946888710884658
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R0,3,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.8706843658840359
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R0,4,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.8729089668200385
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R0,5,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.8333383360258669
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R1,1,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.7916707248136317
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R1,2,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.9525727223225391
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R1,3,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.9749254393167592
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R1,4,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.0058841692336122
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,R1,5,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.984545592273717
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S0,1,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.065271985664949
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S0,2,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.9810167982470296
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S0,3,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.0774147710208932
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S0,4,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.9279588107344384
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S0,5,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.987751014397076
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S1,1,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.0778713929050996
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S1,2,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.0173689423111794
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S1,3,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.0128276977706532
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S1,4,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,1.0427913611039754
+mpi3d_forecast_failure,b,real_target_norm_ratio,mpi3d,S1,5,forecasts/predicted_feature_support/encode_decode_oracle/standardized_norm_p99 / readout fit p99,ratio,0.8890111094854579

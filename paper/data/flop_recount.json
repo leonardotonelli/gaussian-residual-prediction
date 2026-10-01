@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "host_platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "device": "cpu",
+    "status": "post hoc analytic recount on synthetic tensors; not campaign evidence of accuracy",
+    "scope": "FlopCounterMode matmul/convolution/attention-matmul FLOPs; excludes elementwise, normalization, optimizer, EMA and SIGReg characteristic-function work",
+    "mpi3d_note": "math_attention_backend forces countable attention matmuls in every pass; default_backend reproduces results/compute_cost/benchmark_local_cpu_flops.json"
+  },
+  "rows": [
+    {
+      "dataset": "moving_mnist",
+      "role": "R0",
+      "batch_size": 128,
+      "train_flops_per_update": 134159007744,
+      "train_flops_by_operator": {
+        "aten.convolution": 65682800640,
+        "aten.mm": 3019898880,
+        "aten.convolution_backward": 65456308224
+      },
+      "saved_activation_bytes_per_update": 413872640,
+      "inference_encoder_flops_per_source": 260505600.0,
+      "inference_prior_flops_per_source": 0.0,
+      "inference_predictor_flops_per_draw": 2621440.0
+    },
+    {
+      "dataset": "mpi3d",
+      "role": "R0",
+      "batch_size": 64,
+      "default_backend": {
+        "train_flops_per_update": 105529868288,
+        "train_flops_by_operator": {
+          "aten.convolution": 805306368,
+          "aten.mm": 62429200384,
+          "aten.addmm": 32229031936,
+          "aten.bmm": 9663676416,
+          "aten.convolution_backward": 402653184
+        },
+        "saved_activation_bytes_per_update": 312938496
+      },
+      "math_attention_backend": {
+        "train_flops_per_update": 111972319232,
+        "train_flops_by_operator": {
+          "aten.convolution": 805306368,
+          "aten.mm": 62429200384,
+          "aten.bmm": 16106127360,
+          "aten.addmm": 32229031936,
+          "aten.convolution_backward": 402653184
+        },
+        "saved_activation_bytes_per_update": 412815360
+      },
+      "inference_encoder_flops_per_source": 436994048.0,
+      "inference_prior_flops_per_source": 0.0,
+      "inference_predictor_flops_per_draw": 2627584.0
+    },
+    {
+      "dataset": "moving_mnist",
+      "role": "R1",
+      "batch_size": 128,
+      "train_flops_per_update": 234276519936,
+      "train_flops_by_operator": {
+        "aten.convolution": 98524200960,
+        "aten.mm": 4837605376,
+        "aten.addmm": 2097152,
+        "aten.convolution_backward": 130912616448
+      },
+      "saved_activation_bytes_per_update": 827733248,
+      "inference_encoder_flops_per_source": 260505600.0,
+      "inference_prior_flops_per_source": 270336.0,
+      "inference_predictor_flops_per_draw": 2625536.0
+    },
+    {
+      "dataset": "mpi3d",
+      "role": "R1",
+      "batch_size": 64,
+      "default_backend": {
+        "train_flops_per_update": 184352374784,
+        "train_flops_by_operator": {
+          "aten.convolution": 1207959552,
+          "aten.mm": 124339748864,
+          "aten.addmm": 48335683584,
+          "aten.bmm": 9663676416,
+          "aten.convolution_backward": 805306368
+        },
+        "saved_activation_bytes_per_update": 625862144
+      },
+      "math_attention_backend": {
+        "train_flops_per_update": 195626663936,
+        "train_flops_by_operator": {
+          "aten.convolution": 1207959552,
+          "aten.mm": 124339748864,
+          "aten.bmm": 20937965568,
+          "aten.addmm": 48335683584,
+          "aten.convolution_backward": 805306368
+        },
+        "saved_activation_bytes_per_update": 825615872
+      },
+      "inference_encoder_flops_per_source": 436994048.0,
+      "inference_prior_flops_per_source": 270336.0,
+      "inference_predictor_flops_per_draw": 2627584.0
+    },
+    {
+      "dataset": "moving_mnist",
+      "role": "S0",
+      "batch_size": 128,
+      "train_flops_per_update": 200638726144,
+      "train_flops_by_operator": {
+        "aten.convolution": 65682800640,
+        "aten.mm": 4026531840,
+        "aten.bmm": 16777216,
+        "aten.convolution_backward": 130912616448
+      },
+      "saved_activation_bytes_per_update": 828053904,
+      "inference_encoder_flops_per_source": 260505600.0,
+      "inference_prior_flops_per_source": 0.0,
+      "inference_predictor_flops_per_draw": 2621440.0
+    },
+    {
+      "dataset": "mpi3d",
+      "role": "S0",
+      "batch_size": 64,
+      "default_backend": {
+        "train_flops_per_update": 157849616384,
+        "train_flops_by_operator": {
+          "aten.convolution": 805306368,
+          "aten.mm": 124001583104,
+          "aten.addmm": 32229031936,
+          "aten.bmm": 8388608,
+          "aten.convolution_backward": 805306368
+        },
+        "saved_activation_bytes_per_update": 626058896
+      },
+      "math_attention_backend": {
+        "train_flops_per_update": 167513292800,
+        "train_flops_by_operator": {
+          "aten.convolution": 805306368,
+          "aten.mm": 124001583104,
+          "aten.bmm": 9672065024,
+          "aten.addmm": 32229031936,
+          "aten.convolution_backward": 805306368
+        },
+        "saved_activation_bytes_per_update": 825812624
+      },
+      "inference_encoder_flops_per_source": 436994048.0,
+      "inference_prior_flops_per_source": 0.0,
+      "inference_predictor_flops_per_draw": 2627584.0
+    },
+    {
+      "dataset": "moving_mnist",
+      "role": "S1",
+      "batch_size": 128,
+      "train_flops_per_update": 300756238336,
+      "train_flops_by_operator": {
+        "aten.convolution": 98524200960,
+        "aten.mm": 5844238336,
+        "aten.addmm": 2097152,
+        "aten.bmm": 16777216,
+        "aten.convolution_backward": 196368924672
+      },
+      "saved_activation_bytes_per_update": 1241914512,
+      "inference_encoder_flops_per_source": 260505600.0,
+      "inference_prior_flops_per_source": 270336.0,
+      "inference_predictor_flops_per_draw": 2625536.0
+    },
+    {
+      "dataset": "mpi3d",
+      "role": "S1",
+      "batch_size": 64,
+      "default_backend": {
+        "train_flops_per_update": 158003757056,
+        "train_flops_by_operator": {
+          "aten.convolution": 805306368,
+          "aten.mm": 124155199488,
+          "aten.addmm": 32229556224,
+          "aten.bmm": 8388608,
+          "aten.convolution_backward": 805306368
+        },
+        "saved_activation_bytes_per_update": 627241872
+      },
+      "math_attention_backend": {
+        "train_flops_per_update": 167667433472,
+        "train_flops_by_operator": {
+          "aten.convolution": 805306368,
+          "aten.mm": 124155199488,
+          "aten.bmm": 9672065024,
+          "aten.addmm": 32229556224,
+          "aten.convolution_backward": 805306368
+        },
+        "saved_activation_bytes_per_update": 826995600
+      },
+      "inference_encoder_flops_per_source": 436994048.0,
+      "inference_prior_flops_per_source": 270336.0,
+      "inference_predictor_flops_per_draw": 2627584.0
+    }
+  ]
+}

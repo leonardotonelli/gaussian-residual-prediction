@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Measurement & \emadet{} & \emavar{} & \shdet{} & \shvar{} \\
+\midrule
+Source backbone, digit accuracy $\uparrow$ & 0.851 & \best{0.891} & 0.878 & 0.843 \\
+Source projector, digit accuracy $\uparrow$ & 0.706 & \best{0.852} & 0.621 & 0.517 \\
+Source backbone, velocity $R^2$ ($x$ / $y$) $\uparrow$ & 0.974 / 0.969 & 0.984 / 0.985 & 0.986 / 0.986 & \best{0.991} / \best{0.990} \\
+Source projector, velocity $R^2$ ($x$ / $y$) $\uparrow$ & 0.988 / 0.987 & \best{0.992} / \best{0.995} & 0.383 / 0.499 & 0.920 / 0.992 \\
+Forecast readout, velocity $R^2$ ($x$ / $y$) $\uparrow$ & 0.973 / 0.972 & \best{0.980} / \best{0.976} & 0.146 / 0.163 & 0.904 / \best{0.976} \\
+Encode--decode velocity RMSE (px/frame) $\downarrow$ & 0.264 & \best{0.229} & 1.540 & 0.333 \\
+Predicted features above fit 99th percentile (fraction) $\downarrow$ & 0.352 & \best{0.000} & 0.117 & 0.016 \\
+Selected readout transform  & raw & raw & unit & raw \\
+\bottomrule
+\end{tabular}

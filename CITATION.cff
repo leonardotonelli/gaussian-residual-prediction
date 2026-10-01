@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying preprint when using this code."
+type: software
+title: "Gaussian Residual Prediction without an EMA Target Network"
+authors:
+  - family-names: Tonelli
+    given-names: Leonardo
+  - family-names: Yamada
+    given-names: Makoto
+repository-code: "https://github.com/leonardotonelli/gaussian-residual-prediction"
+license: MIT
+version: 0.1.0
+date-released: 2026-10-01

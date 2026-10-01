@@ -1,0 +1,14 @@
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.34\linewidth}>{\raggedright\arraybackslash}p{0.38\linewidth}@{}}
+\toprule
+ & Moving-MNIST & MPI3D \\
+\midrule
+Encoder; projector & 3D CNN, 5 layers, 768-d pooled; 768$\to$1024$\to$1024$\to$128 & ViT (patch 8, width 256, depth 6, 8 heads), mean-pooled; 256$\to$1024$\to$1024$\to$128 \\
+Predictor input; residual & $z_x$ or $[z_x, r]$; $d_r{=}2$, softplus std & $[z_x, a, r]$ ($r{=}0$ for Det models); $d_r{=}1$, clamped log-std \\
+Stored parameters (M), BYOL reference / AdaSSL reference / Shared-Det / Shared-Var & 6.03 / 6.44 / 3.67 / 4.08 & 10.70 / 11.11 / 6.01 / 6.42 \\
+Batch; updates & 128; 75,000 & 64 (4 GPUs); 102,400 \\
+AdamW learning rate & 0.0001, cosine to 0 & 0.001, 10-epoch warm-up, cosine over 1.25$\times$ budget \\
+Weight decay & 0.0001, all parameters & 0.04$\to$0.4; no decay on norms and most biases (App.~\ref{app:optim}) \\
+EMA momentum (EMA models) & 0.996, constant & 0.996$\to$1, cosine \\
+$\beta$ (Var models); $\lambda$ (Shared models) & 0.001; 0.1 (128 directions, 17 knots, $[0.2,4]$) & same \\
+\bottomrule
+\end{tabular}
